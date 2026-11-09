@@ -19,7 +19,7 @@ export default function SubcontractorsPage() {
             {"Bid with us. "}
             <span className="r-steel">{"Get paid on time."}</span>
           </h1>
-          <p className="v-lede">{"We award work to qualified subcontractors across Maryland, DC, Virginia, Boston and Central Florida. Prequalify once, then get invited to bid through BuildingConnected."}</p>
+          <p className="v-lede">{"We award work to qualified subcontractors across Maryland, DC, Virginia, North Carolina, Boston and Florida. Prequalify once, then get invited to bid through BuildingConnected."}</p>
           <div className="v-actions">
             <button type="button" className="v-btn" data-scroll="#prequal">
               {"Start prequalification "}
@@ -160,8 +160,24 @@ export default function SubcontractorsPage() {
                   <span>{"Boston"}</span>
                 </label>
                 <label className="v-check">
-                  <input type="checkbox" name="regions" value="Central Florida" />
-                  <span>{"Central Florida"}</span>
+                  <input type="checkbox" name="regions" value="North Carolina" />
+                  <span>{"North Carolina"}</span>
+                </label>
+                <label className="v-check">
+                  <input type="checkbox" name="regions" value="Florida: Tampa Bay" />
+                  <span>{"Florida: Tampa Bay"}</span>
+                </label>
+                <label className="v-check">
+                  <input type="checkbox" name="regions" value="Florida: Central" />
+                  <span>{"Florida: Central"}</span>
+                </label>
+                <label className="v-check">
+                  <input type="checkbox" name="regions" value="Florida: South" />
+                  <span>{"Florida: South"}</span>
+                </label>
+                <label className="v-check">
+                  <input type="checkbox" name="regions" value="Florida: North" />
+                  <span>{"Florida: North"}</span>
                 </label>
               </div>
             </fieldset>

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: '%s | SP Construction Group',
   },
   description:
-    'Commercial general contractor for healthcare, office, retail and hospitality buildouts and renovations across Maryland, DC, Virginia, Boston and Central Florida.',
+    'Commercial general contractor for healthcare, office, retail and hospitality buildouts and renovations across Maryland, DC, Virginia, North Carolina, Boston and Florida.',
   robots: noindex ? { index: false, follow: false } : undefined,
   openGraph: {
     title: 'SP Construction Group',

@@ -174,7 +174,7 @@ export default function BudgetPage() {
             <span className="v-small-label">{"PREFER TO TALK?"}</span>
             <span style={{ fontSize: "15px", fontWeight: "600", userSelect: "all" }}>{"Bids@SPConstructionGroup.com"}</span>
             <span style={{ fontSize: "15px", fontWeight: "600", userSelect: "all" }}>{"(443) 300-0338"}</span>
-            <span className="v-muted" style={{ fontSize: "13px" }}>{"Privately held · Bonded and insured · Licensed in MD, VA and FL"}</span>
+            <span className="v-muted" style={{ fontSize: "13px" }}>{"Privately held · Bonded and insured"}</span>
           </div>
         </aside>
       </section>

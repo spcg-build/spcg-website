@@ -16,31 +16,31 @@ export default function Team() {
         </a>
       </div>
       <div className="r-leadgrid" style={{ marginTop: "48px", display: "grid", gridTemplateColumns: "2fr 3fr 2fr", gap: "16px", alignItems: "stretch" }}>
-        <div data-block="" className="cx-band" style={{ borderRadius: "28px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
+        <div data-block="" style={{ background: "linear-gradient(180deg, #F6F6F4 0%, #FFFFFF 100%)", border: "1px solid #E4E5E6", borderRadius: "28px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-            <span style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#D9DADB" }}>
+            <span style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#0A0A0B" }}>
               <span style={{ width: "7px", height: "7px", borderRadius: "999px", background: "#D9773A" }}></span>
               {"Leadership"}
             </span>
-            <span style={{ fontSize: "13px", color: "#A9ABAE" }}>{"Construction, finance and business strategy"}</span>
+            <span style={{ fontSize: "13px", color: "#55585C" }}>{"Construction, finance and business strategy"}</span>
           </div>
           <div className="r-people" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "16px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
-              <div className="cx-steel" data-photo="AL" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.35), inset 0 0 0 1px rgba(255,255,255,0.12)" }}>
+              <div className="cx-steel" data-photo="AL" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
                 <span style={{ fontSize: "44px", fontWeight: "300", background: "linear-gradient(180deg, #FFFFFF 15%, #C9CBCE 60%, #8E9195 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"AL"}</span>
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#ffffff" }}>{"Anthony Lauro"}</span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#A9ABAE" }}>{"VP, Construction"}</span>
+                <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Anthony Lauro"}</span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"VP, Construction"}</span>
               </span>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
-              <div className="cx-steel" data-photo="JD" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.35), inset 0 0 0 1px rgba(255,255,255,0.12)" }}>
+              <div className="cx-steel" data-photo="JD" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
                 <span style={{ fontSize: "44px", fontWeight: "300", background: "linear-gradient(180deg, #FFFFFF 15%, #C9CBCE 60%, #8E9195 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"JD"}</span>
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#ffffff" }}>{"Justin Diaz"}</span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#A9ABAE" }}>{"VP, Finance & Business Strategy"}</span>
+                <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Justin Diaz"}</span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"VP, Finance & Business Strategy"}</span>
               </span>
             </div>
           </div>

@@ -54,7 +54,7 @@ export default function Footer() {
       </div>
       <div className="r-legal" style={{ margin: "44px 120px 0 120px", display: "flex", justifyContent: "space-between", gap: "16px", borderTop: "1px solid rgba(255,255,255,0.08)", paddingTop: "20px", fontSize: "11px", letterSpacing: "0.12em", color: "#8C8F93" }}>
         <span>{"© 2026 SP CONSTRUCTION GROUP · PRIVATELY HELD"}</span>
-        <span>{"BONDED & INSURED · LICENSED IN MD · VA · FL"}</span>
+        <span>{"BONDED & INSURED"}</span>
       </div>
       <div className="r-tagline" aria-hidden="true" style={{ marginTop: "28px", height: "112px", overflow: "hidden", display: "flex", justifyContent: "center" }}>
         <span style={{ fontSize: "142px", fontWeight: "300", letterSpacing: "-0.055em", lineHeight: "1", whiteSpace: "nowrap", background: "linear-gradient(180deg, #FFFFFF 0%, #A9ABAE 45%, rgba(110,113,117,0.15) 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"Building What Matters."}</span>
