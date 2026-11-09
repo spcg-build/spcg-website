@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Smith;Bobby
+FN:Bobby Smith
+ORG:SP Construction Group
+TITLE:Senior Superintendent
+TEL;TYPE=WORK:+14433000338
+TEL;TYPE=CELL:+12408780611
+EMAIL:bsmith@spconstructiongroup.com
+URL:https://spconstructiongroup.com
+END:VCARD
