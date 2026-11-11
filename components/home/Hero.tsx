@@ -10,7 +10,7 @@ export default function Hero() {
         </div>
         <h1 className="r-h1" style={{ filter: "drop-shadow(0 10px 14px rgba(0,0,0,0.6)) drop-shadow(0 2px 2px rgba(0,0,0,0.45))", margin: "28px 0 0 0", fontSize: "96px", fontWeight: "300", lineHeight: "0.98", letterSpacing: "-0.045em", color: "#ffffff", maxWidth: "1180px" }}>
           {"Healthcare and commercial spaces, "}
-          <span style={{ background: "linear-gradient(180deg, #FFFFFF 15%, #D3D5D7 55%, #9EA1A5 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"built right and reported clearly."}</span>
+          <span style={{ background: "linear-gradient(180deg, #FFFFFF 15%, #D3D5D7 55%, #9EA1A5 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"built right and delivered on time."}</span>
         </h1>
       </div>
       <div className="r-herosub" style={{ position: "relative", display: "flex", justifyContent: "flex-end", padding: "36px 120px 56px 120px" }}>
