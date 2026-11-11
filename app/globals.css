@@ -80,7 +80,7 @@ body.menu-open .r-head{background:transparent!important;backdrop-filter:none!imp
 
 :root{--tex:url(/images/concrete-texture.jpg);color-scheme:light}
 html{scroll-behavior:smooth;background:#ffffff}
-body{background:#ffffff;color:#0A0A0B;margin:0}
+body{background:#ffffff;color:#0A0A0B;margin:0;font-family:'Inter','Helvetica Neue',Arial,sans-serif}
 .r-root{min-height:100vh}
 button:focus-visible,a:focus-visible{outline:2px solid #D9773A;outline-offset:3px}
 .r-hero{padding-top:106px}
