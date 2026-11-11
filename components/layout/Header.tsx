@@ -4,7 +4,7 @@ export default function Header() {
     <>
       <header className="r-head" style={{ position: "relative", display: "flex", alignItems: "center", justifyContent: "space-between", gap: "24px", padding: "22px 56px" }}>
         <a href="/" aria-label="SP Construction Group home">
-          <img src="/images/spcg-logo.png" alt="SP Construction Group" style={{ height: "62px", width: "auto", display: "block" }} />
+          <img src="/images/spcg-wordmark-v2-chrome.png" alt="SP Construction Group" style={{ height: "40px", width: "auto", display: "block" }} />
         </a>
         <nav className="r-nav" aria-label="Main" style={{ display: "flex", gap: "4px", alignItems: "center", fontSize: "14px", padding: "6px", borderRadius: "999px", background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.08)" }}>
           <a href="/#work" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Work"}</a>

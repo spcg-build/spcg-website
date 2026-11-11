@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="r-heroin" style={{ position: "relative", padding: "64px 56px 0 120px" }}>
         <div style={{ display: "inline-flex", alignItems: "center", gap: "10px", height: "32px", padding: "0 14px", borderRadius: "999px", background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#D9DADB" }}>
           <span style={{ width: "7px", height: "7px", borderRadius: "999px", background: "#D9773A", boxShadow: "0 0 10px rgba(217,119,58,0.8)" }}></span>
-          {"Commercial GC · MD · DC · VA · MA · FL"}
+          {"Commercial GC · MD · DC · VA · NC · MA · FL"}
         </div>
         <h1 className="r-h1" style={{ filter: "drop-shadow(0 10px 14px rgba(0,0,0,0.6)) drop-shadow(0 2px 2px rgba(0,0,0,0.45))", margin: "28px 0 0 0", fontSize: "96px", fontWeight: "300", lineHeight: "0.98", letterSpacing: "-0.045em", color: "#ffffff", maxWidth: "1180px" }}>
           {"Healthcare and commercial spaces, "}
