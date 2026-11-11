@@ -31,9 +31,9 @@ export default function Footer() {
         <div style={{ flex: "1 1 320px", display: "flex", flexDirection: "column", gap: "16px" }}>
           <img src="/images/spcg-wordmark-v2-chrome.png" alt="SP Construction Group" style={{ height: "48px", width: "auto", alignSelf: "flex-start" }} />
           <span style={{ fontSize: "13px", lineHeight: "1.6", color: "#C9CACC" }}>
-            {"Bids@SPConstructionGroup.com"}
+            <a href="mailto:bids@spconstructiongroup.com" style={{ color: "inherit" }}>{"Bids@SPConstructionGroup.com"}</a>
             <br />
-            {"(443) 300-0338"}
+            <a href="tel:+14433000338" style={{ color: "inherit" }}>{"(443) 300-0338"}</a>
           </span>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: "10px", fontSize: "13px", minWidth: "150px" }}>

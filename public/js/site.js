@@ -41,7 +41,7 @@ document.querySelectorAll('form[data-form]').forEach(function(f){f.addEventListe
  if(!ep||ep.indexOf('YOUR_FORM_ID')>-1){done.textContent='This form is not connected yet. Add the Formspree form ID in content/site.ts.';done.hidden=false;return;}
  if(btn)btn.disabled=true;
  fetch(ep,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}}).then(function(r){if(!r.ok)throw new Error('send failed');done.hidden=false;f.reset();})
- .catch(function(){err.textContent='Something went wrong sending this form. Please email Bids@SPConstructionGroup.com or call (443) 300-0338.';err.hidden=false;})
+ .catch(function(){err.innerHTML='Something went wrong sending this form. Please email <a href="mailto:bids@spconstructiongroup.com">Bids@SPConstructionGroup.com</a> or call <a href="tel:+14433000338">(443) 300-0338</a>.';err.hidden=false;})
  .then(function(){if(btn)btn.disabled=false;});
 });});
 var head=document.querySelector('.r-head');

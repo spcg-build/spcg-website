@@ -64,12 +64,19 @@ export default function FeaturedWork() {
           <span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"Howard University Wellness Center"}</span>
           <span style={{ fontSize: "13px", color: "#C9CACC" }}>{"Washington, DC · 7,500 SF · via CBRE"}</span>
         </a>
-        <a href="/#work" className="lift" data-card="" style={{ scrollSnapAlign: "start", flex: "0 0 300px", height: "440px", borderRadius: "28px", border: "1px solid #E4E5E6", background: "linear-gradient(180deg, #F6F6F4, #FFFFFF)", display: "flex", flexDirection: "column", justifyContent: "space-between", padding: "28px", boxSizing: "border-box" }}>
-          <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.14em", color: "#8C8F93" }}>{"ALL PROJECTS"}</span>
-          <span style={{ fontSize: "30px", fontWeight: "300", lineHeight: "1.15" }}>
-            {"See every space we've built "}
-            <span style={{ color: "#B5541C" }}>{"→"}</span>
-          </span>
+        <a href="/#work" className="cx-blue lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 420px", height: "440px", borderRadius: "28px", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "28px", gap: "8px", boxSizing: "border-box" }}>
+          <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.85)" }}>{"07"}</span>
+          <span style={{ position: "absolute", top: "34px", right: "26px", fontSize: "11px", color: "#8C8F93" }}>{"Photo to come"}</span>
+          <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.12em", color: "#9DB8D3" }}>{"MULTIFAMILY · CORRIDOR REFRESH"}</span>
+          <span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"Via Seaport Boston"}</span>
+          <span style={{ fontSize: "13px", color: "#C9CACC" }}>{"Boston, MA · 37,520 SF · Common corridors and elevator lobbies"}</span>
+        </a>
+        <a href="/#work" className="cx-blue lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 420px", height: "440px", borderRadius: "28px", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "28px", gap: "8px", boxSizing: "border-box" }}>
+          <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.85)" }}>{"08"}</span>
+          <span style={{ position: "absolute", top: "34px", right: "26px", fontSize: "11px", color: "#8C8F93" }}>{"Photo to come"}</span>
+          <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.12em", color: "#9DB8D3" }}>{"MULTIFAMILY · CORRIDOR REFRESH"}</span>
+          <span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"Berkshire Ballantyne Apartments"}</span>
+          <span style={{ fontSize: "13px", color: "#C9CACC" }}>{"Charlotte, NC · 41,000 SF · Common corridors and elevator lobbies"}</span>
         </a>
       </div>
       <div className="r-progress" style={{ margin: "18px 120px 0 120px", height: "2px", background: "#ECECEA", borderRadius: "2px" }}>

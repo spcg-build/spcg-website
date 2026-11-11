@@ -172,8 +172,8 @@ export default function BudgetPage() {
           </div>
           <div className="v-asidecard">
             <span className="v-small-label">{"PREFER TO TALK?"}</span>
-            <span style={{ fontSize: "15px", fontWeight: "600", userSelect: "all" }}>{"Bids@SPConstructionGroup.com"}</span>
-            <span style={{ fontSize: "15px", fontWeight: "600", userSelect: "all" }}>{"(443) 300-0338"}</span>
+            <a href="mailto:bids@spconstructiongroup.com" style={{ fontSize: "15px", fontWeight: "600" }}>{"Bids@SPConstructionGroup.com"}</a>
+            <a href="tel:+14433000338" style={{ fontSize: "15px", fontWeight: "600" }}>{"(443) 300-0338"}</a>
             <span className="v-muted" style={{ fontSize: "13px" }}>{"Privately held · Bonded and insured"}</span>
           </div>
         </aside>

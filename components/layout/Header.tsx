@@ -44,7 +44,7 @@ export default function Header() {
           {"Request a budget "}
           <span aria-hidden="true">{"→"}</span>
         </a>
-        <span className="r-menufoot">{"Bids@SPConstructionGroup.com · (443) 300-0338"}</span>
+        <span className="r-menufoot"><a href="mailto:bids@spconstructiongroup.com" style={{ color: "inherit" }}>{"Bids@SPConstructionGroup.com"}</a>{" · "}<a href="tel:+14433000338" style={{ color: "inherit" }}>{"(443) 300-0338"}</a></span>
       </div>
     </>
   );

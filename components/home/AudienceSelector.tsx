@@ -10,6 +10,7 @@ export default function AudienceSelector() {
             <button type="button" className="r-pill" data-aud="office" aria-pressed="false">{"Corporate office"}</button>
             <button type="button" className="r-pill" data-aud="retail" aria-pressed="false">{"Retail & restaurant"}</button>
             <button type="button" className="r-pill" data-aud="hosp" aria-pressed="false">{"Hospitality"}</button>
+            <button type="button" className="r-pill" data-aud="mf" aria-pressed="false">{"Multifamily"}</button>
           </div>
         </div>
         <div className="r-selrow">

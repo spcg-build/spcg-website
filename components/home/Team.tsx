@@ -27,21 +27,29 @@ export default function Team() {
           <div className="r-people" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "16px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
               <div className="cx-steel" data-photo="AL" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
-                <span style={{ fontSize: "44px", fontWeight: "300", background: "linear-gradient(180deg, #FFFFFF 15%, #C9CBCE 60%, #8E9195 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"AL"}</span>
+                <img src="/images/team/anthony-lauro.jpg" alt="Anthony Lauro" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Anthony Lauro"}</span>
                 <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"VP, Construction"}</span>
               </span>
+              <details className="r-bio">
+                <summary>{"Read bio"}</summary>
+                <p data-name="Anthony Lauro">{"Anthony has more than 25 years in commercial construction, leading medical and clinical facilities, retail, corporate office and multifamily projects, from small tenant improvements to large, complex renovations. He has built in Florida, Nevada, Virginia, Maryland and the D.C. metro area, each with its own permitting, inspection and compliance demands. Owners know him for clear communication, hands-on leadership and a disciplined focus on finishing on schedule and on budget."}</p>
+              </details>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
               <div className="cx-steel" data-photo="JD" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
-                <span style={{ fontSize: "44px", fontWeight: "300", background: "linear-gradient(180deg, #FFFFFF 15%, #C9CBCE 60%, #8E9195 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"JD"}</span>
+                <img src="/images/team/justin-diaz.jpg" alt="Justin Diaz" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Justin Diaz"}</span>
                 <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"VP, Finance & Business Strategy"}</span>
               </span>
+              <details className="r-bio">
+                <summary>{"Read bio"}</summary>
+                <p data-name="Justin Diaz">{"Justin is a U.S. Navy and Army combat veteran with more than 15 years in finance across commercial real estate, medical office and hospitality. He brings analytical rigor and steady leadership to SPCG’s finances, systems and growth, turning project data into clear decisions for our clients and our team."}</p>
+              </details>
             </div>
           </div>
         </div>
@@ -56,30 +64,42 @@ export default function Team() {
           <div className="r-people" style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: "16px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
               <div className="cx-steel" data-photo="TG" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
-                <span style={{ fontSize: "44px", fontWeight: "300", background: "linear-gradient(180deg, #FFFFFF 15%, #C9CBCE 60%, #8E9195 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"TG"}</span>
+                <img src="/images/team/tom-gilchrist.jpg" alt="Tom Gilchrist" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Tom Gilchrist"}</span>
                 <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"Preconstruction · Senior Estimator"}</span>
               </span>
+              <details className="r-bio">
+                <summary>{"Read bio"}</summary>
+                <p data-name="Tom Gilchrist">{"Tom has more than a decade in commercial construction. As Senior Estimator he pairs technical depth with practical clarity, building budgets owners can rely on and leading with open communication, personal accountability and a real investment in every partner’s success."}</p>
+              </details>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
               <div className="cx-steel" data-photo="BS" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
-                <span style={{ fontSize: "44px", fontWeight: "300", background: "linear-gradient(180deg, #FFFFFF 15%, #C9CBCE 60%, #8E9195 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"BS"}</span>
+                <img src="/images/team/bobby-smith.jpg" alt="Bobby Smith" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Bobby Smith"}</span>
                 <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"Field Operations & Safety · Senior Superintendent"}</span>
               </span>
+              <details className="r-bio">
+                <summary>{"Read bio"}</summary>
+                <p data-name="Bobby Smith">{"Bobby brings decades of field experience to every job site. He runs daily operations, coordinates subcontractors and keeps projects safe, on schedule and on budget. A proud U.S. Army veteran, he leads with discipline and a problem-solver’s focus."}</p>
+              </details>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
               <div className="cx-steel" data-photo="KT" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
-                <span style={{ fontSize: "44px", fontWeight: "300", background: "linear-gradient(180deg, #FFFFFF 15%, #C9CBCE 60%, #8E9195 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"KT"}</span>
+                <img src="/images/team/kyle-thompson.jpg" alt="Kyle Thompson" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Kyle Thompson"}</span>
                 <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"Project Management"}</span>
               </span>
+              <details className="r-bio">
+                <summary>{"Read bio"}</summary>
+                <p data-name="Kyle Thompson">{"Kyle has more than a decade in commercial construction across Maryland, Virginia, D.C. and West Virginia, on projects from $100K to $20M: base building, education, corporate interiors, restaurants and retail. On ground-up work above $10M, owners count on his straightforward reporting and steady hand in the field. On tenant fit-outs he hits fixed lease-commencement dates while keeping landlords and property managers aligned in occupied buildings, from preconstruction through closeout."}</p>
+              </details>
             </div>
           </div>
         </div>

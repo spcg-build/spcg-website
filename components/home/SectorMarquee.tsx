@@ -9,6 +9,8 @@ export default function SectorMarquee() {
         <span style={{ width: "14px", height: "14px", borderRadius: "999px", background: "#D9773A" }}></span>
         <span style={{ color: "#0A0A0B", WebkitTextStroke: "0" }}>{"Healthcare"}</span>
         <span style={{ width: "14px", height: "14px", borderRadius: "999px", background: "#D9773A" }}></span>
+        <span style={{ color: "#0A0A0B", WebkitTextStroke: "0" }}>{"Multifamily"}</span>
+        <span style={{ width: "14px", height: "14px", borderRadius: "999px", background: "#D9773A" }}></span>
         <span>{"Veterinary"}</span>
         <span style={{ width: "14px", height: "14px", borderRadius: "999px", background: "#D9773A" }}></span>
         <span>{"Higher ed"}</span>
@@ -26,6 +28,8 @@ export default function SectorMarquee() {
         <span>{"Medical office"}</span>
         <span style={{ width: "14px", height: "14px", borderRadius: "999px", background: "#D9773A" }}></span>
         <span style={{ color: "#0A0A0B", WebkitTextStroke: "0" }}>{"Healthcare"}</span>
+        <span style={{ width: "14px", height: "14px", borderRadius: "999px", background: "#D9773A" }}></span>
+        <span style={{ color: "#0A0A0B", WebkitTextStroke: "0" }}>{"Multifamily"}</span>
         <span style={{ width: "14px", height: "14px", borderRadius: "999px", background: "#D9773A" }}></span>
         <span>{"Veterinary"}</span>
         <span style={{ width: "14px", height: "14px", borderRadius: "999px", background: "#D9773A" }}></span>
