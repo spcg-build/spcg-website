@@ -19,7 +19,7 @@ export default function BudgetPage() {
             {"Send us the basics. "}
             <span className="r-steel">{"Get a real number back."}</span>
           </h1>
-          <p className="v-lede">{"Share what you know today: a test fit, drawings or just a square footage. A senior estimator reviews every request and replies within [48 hours] with a budget and the assumptions behind it."}</p>
+          <p className="v-lede">{"Share what you know today: a test fit, drawings or just a square footage. A senior estimator reviews every request, and we turn budgets around quickly to fit your timeline, with the assumptions behind every number."}</p>
         </div>
       </section>
       <section className="v-wrap v-sec v-split" style={{ paddingTop: "64px" }}>
@@ -167,7 +167,7 @@ export default function BudgetPage() {
             </div>
             <div className="v-asiderow">
               <b>{"3 · Your budget"}</b>
-              <span>{"A number within [48 hours], with the assumptions and allowances behind it."}</span>
+              <span>{"A fast turnaround on your timeline, with the assumptions and allowances behind the number."}</span>
             </div>
           </div>
           <div className="v-asidecard">

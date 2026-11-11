@@ -38,15 +38,27 @@ export default function FeaturedWork() {
           <span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"Soar Autism Center"}</span>
           <span style={{ fontSize: "13px", color: "#C9CACC" }}>{"Greenbelt, MD · 9,236 SF"}</span>
         </a>
-        <a href="/#work" className="cx-brass lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 520px", height: "540px", borderRadius: "28px", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "28px", gap: "8px", boxSizing: "border-box" }}>
+        <a href="/#work" className="cx-blue lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 420px", height: "440px", borderRadius: "28px", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "28px", gap: "8px", boxSizing: "border-box" }}>
           <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.85)" }}>{"03"}</span>
+          <span style={{ position: "absolute", top: "34px", right: "26px", fontSize: "11px", color: "#8C8F93" }}>{"Photo to come"}</span>
+          <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.12em", color: "#9DB8D3" }}>{"HEALTHCARE · CLINICAL"}</span>
+          <span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"Cohen Clinic"}</span>
+        </a>
+        <a href="/#work" className="cx-amber lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 420px", height: "440px", borderRadius: "28px", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "28px", gap: "8px", boxSizing: "border-box" }}>
+          <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.85)" }}>{"04"}</span>
+          <span style={{ position: "absolute", top: "34px", right: "26px", fontSize: "11px", color: "#8C8F93" }}>{"Photo to come"}</span>
+          <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.12em", color: "#E9A27A" }}>{"OFFICE · COWORKING"}</span>
+          <span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"HoCo Coworking"}</span>
+        </a>
+        <a href="/#work" className="cx-brass lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 520px", height: "540px", borderRadius: "28px", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "28px", gap: "8px", boxSizing: "border-box" }}>
+          <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.85)" }}>{"05"}</span>
           <span style={{ position: "absolute", top: "34px", right: "26px", fontSize: "11px", color: "#8C8F93" }}>{"Photo to come"}</span>
           <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.12em", color: "#E9C39A" }}>{"HOSPITALITY · WITH WHITING-TURNER"}</span>
           <span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"JW Marriott Washington DC"}</span>
           <span style={{ fontSize: "13px", color: "#C9CACC" }}>{"Washington, DC · Restaurant, bar and private dining"}</span>
         </a>
         <a href="/#work" className="cx-amber lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 420px", height: "440px", borderRadius: "28px", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "28px", gap: "8px", boxSizing: "border-box" }}>
-          <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.85)" }}>{"04"}</span>
+          <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.85)" }}>{"06"}</span>
           <span style={{ position: "absolute", top: "34px", right: "26px", fontSize: "11px", color: "#8C8F93" }}>{"Photo to come"}</span>
           <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.12em", color: "#E9A27A" }}>{"HIGHER ED · WELLNESS"}</span>
           <span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"Howard University Wellness Center"}</span>

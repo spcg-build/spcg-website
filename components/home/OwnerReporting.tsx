@@ -11,7 +11,7 @@ export default function OwnerReporting() {
           {"See exactly what you'll get "}
           <span style={{ background: "linear-gradient(180deg, #FFFFFF 15%, #C9CBCE 60%, #8E9195 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"every week."}</span>
         </h2>
-        <p style={{ margin: "0", fontSize: "16px", fontWeight: "300", lineHeight: "1.6", color: "#C9CACC" }}>{"Schedule, budget, decisions due and the next two weeks, pulled from the same systems our team runs the job on."}</p>
+        <p style={{ margin: "0", fontSize: "16px", fontWeight: "300", lineHeight: "1.6", color: "#C9CACC" }}>{"Schedule, budget, decisions due and the next two weeks, pulled straight from the advanced systems our team runs every job on."}</p>
         <a href="mailto:bids@spconstructiongroup.com?subject=Sample%20owner%20reporting%20packet%20request" style={{ alignSelf: "flex-start", display: "inline-flex", alignItems: "center", height: "50px", padding: "0 22px", borderRadius: "12px", background: "linear-gradient(180deg, #FFFFFF 0%, #E1E2E4 55%, #C3C5C8 100%)", color: "#0A0A0B", fontWeight: "600", fontSize: "14px" }}>{"Request a sample packet"}</a>
       </div>
       <div className="r-paycard" style={{ position: "absolute", left: "1010px", top: "120px", width: "330px", transform: "rotate(6deg)", borderRadius: "22px", background: "#F6F6F4", border: "1px solid #E4E5E6", boxShadow: "0 30px 60px rgba(0,0,0,0.35)", padding: "24px", display: "flex", flexDirection: "column", gap: "14px" }}>

@@ -3,7 +3,6 @@ import StatsIntro from '@/components/home/StatsIntro';
 import AudienceSelector from '@/components/home/AudienceSelector';
 import ForYouPanel from '@/components/home/ForYouPanel';
 import SectorMarquee from '@/components/home/SectorMarquee';
-import Commitments from '@/components/home/Commitments';
 import FeaturedWork from '@/components/home/FeaturedWork';
 import OwnerReporting from '@/components/home/OwnerReporting';
 import Process from '@/components/home/Process';
@@ -21,7 +20,6 @@ export default function HomePage() {
       <AudienceSelector />
       <ForYouPanel />
       <SectorMarquee />
-      <Commitments />
       <FeaturedWork />
       <OwnerReporting />
       <Process />
