@@ -39,6 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         {children}
         <Footer />
+        <Script src="/js/consent.js" strategy="afterInteractive" />
         <Script src="/js/audiences.js" strategy="afterInteractive" />
         <Script src="/js/site.js" strategy="lazyOnload" />
       </body>

@@ -289,3 +289,12 @@ a{text-decoration:none}
 .hb-1{animation-name:hb1}
 @keyframes hb1{0%{opacity:1;transform:scale(1)}33%{opacity:1}40%{opacity:0;transform:scale(1.06)}94%{opacity:0;transform:scale(1)}100%{opacity:1}}
 @media (prefers-reduced-motion: reduce){.hb-s{animation:none}.hb-2,.hb-3{display:none}}
+.ck{position:fixed;left:16px;right:16px;bottom:16px;z-index:1000;max-width:760px;margin:0 auto;display:flex;gap:18px;align-items:center;padding:18px 20px;background:#141516;color:#D9DADB;border:1px solid rgba(255,255,255,.1);border-radius:18px;box-shadow:0 20px 50px rgba(0,0,0,.4);font-size:13.5px;line-height:1.55}
+.ck[hidden]{display:none}
+.ck-t{margin:0;flex:1}.ck-t a{color:#E9A27A;text-decoration:underline}
+.ck-b{display:flex;gap:10px;flex:none}
+.ck button{font:inherit;font-weight:600;cursor:pointer;height:42px;padding:0 16px;border-radius:12px;white-space:nowrap}
+.ck-no{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.25)}
+.ck-yes{border:0;color:#0A0A0B;background:linear-gradient(180deg,#FFFFFF 0%,#E1E2E4 55%,#C3C5C8 100%)}
+@media (max-width:640px){.ck{flex-direction:column;align-items:stretch}.ck-b button{flex:1}}
+.r-legal a,.r-legal button{color:#8C8F93;background:none;border:0;padding:0;font:inherit;letter-spacing:inherit;cursor:pointer}
