@@ -15,7 +15,7 @@ export default function Hero() {
       </div>
       <div className="r-herosub" style={{ position: "relative", display: "flex", justifyContent: "flex-end", padding: "36px 120px 56px 120px" }}>
         <div className="r-w100" style={{ width: "470px", display: "flex", flexDirection: "column", gap: "22px", paddingLeft: "28px", borderLeft: "1px solid rgba(217,119,58,0.6)" }}>
-          <p style={{ margin: "0", fontSize: "18px", fontWeight: "300", lineHeight: "1.6", color: "#C9CACC" }}>{"Interior buildouts and renovations from $1M to $5M, led by senior builders and run on real-time project and financial data."}</p>
+          <p style={{ margin: "0", fontSize: "18px", fontWeight: "300", lineHeight: "1.6", color: "#C9CACC" }}>{"Commercial buildouts and renovations, led by senior builders and run on real-time project and financial data."}</p>
           <div style={{ display: "flex", gap: "12px" }}>
             <a href="/request-a-budget/" style={{ display: "inline-flex", alignItems: "center", gap: "10px", height: "54px", padding: "0 26px", borderRadius: "14px", background: "linear-gradient(180deg, #FFFFFF 0%, #E1E2E4 55%, #C3C5C8 100%)", color: "#0A0A0B", fontWeight: "600", fontSize: "15px" }}>
               {"Request a budget "}
