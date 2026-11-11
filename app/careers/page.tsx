@@ -1,19 +1,29 @@
 import type { Metadata } from 'next';
 import { FORMS } from '@/content/site';
+import { JOBS } from '@/content/jobs';
 
 export const metadata: Metadata = {
   title: "Careers",
-  description: "Join SP Construction Group. Open field and office roles in commercial construction.",
+  description: "Join SP Construction Group. Hiring project managers and superintendents in Central Florida and a traveling superintendent across the East Coast.",
 };
 
+const Label = ({ children }: { children: string }) => (
+  <div className="v-label">
+    <span className="v-rule"></span>
+    <h2>{children}</h2>
+  </div>
+);
+
 export default function CareersPage() {
+  const fl = JOBS.filter((j) => j.region === 'fl').length;
+  const tr = JOBS.filter((j) => j.region === 'travel').length;
   return (
     <main className="v-page">
       <section className="cx-hero v-hero">
         <div className="v-wrap v-hero-in">
           <span className="v-eyebrow" style={{ color: "#D9DADB" }}>
             <span className="v-dot"></span>
-            {"Careers · now hiring"}
+            {"Careers · now hiring in Central Florida"}
           </span>
           <h1 className="v-h1">
             {"Help build a general contractor "}
@@ -29,12 +39,34 @@ export default function CareersPage() {
           </div>
         </div>
       </section>
+
       <section className="v-wrap v-sec">
         <div className="v-sechead">
-          <div className="v-label">
-            <span className="v-rule"></span>
-            <h2>{"Why SPCG"}</h2>
+          <Label>{"Where we're hiring"}</Label>
+          <p className="v-h2">{"Growing in Florida, building up and down the East Coast."}</p>
+        </div>
+        <div className="c-where">
+          <div className="c-place c-place-hot">
+            <span className="c-pill">{fl + (fl === 1 ? " open role" : " open roles")}</span>
+            <span className="c-place-t">{"Central Florida"}</span>
+            <span className="c-place-d">{"Orlando and Tampa Bay. Our newest market, with healthcare, office and retail work and a team we're building now."}</span>
           </div>
+          <div className="c-place">
+            <span className="c-pill">{tr + (tr === 1 ? " open role" : " open roles")}</span>
+            <span className="c-place-t">{"Traveling · East Coast"}</span>
+            <span className="c-place-d">{"Maryland, DC, Virginia, North Carolina, Boston and Florida, wherever our clients need us."}</span>
+          </div>
+          <div className="c-place">
+            <span className="c-pill c-pill-soft">{"General applications"}</span>
+            <span className="c-place-t">{"Maryland, DC and Virginia"}</span>
+            <span className="c-place-d">{"Our home region. We're always glad to meet strong project managers and superintendents."}</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="v-wrap v-sec">
+        <div className="v-sechead">
+          <Label>{"Why SPCG"}</Label>
           <p className="v-h2">{"A small team where your work is visible."}</p>
         </div>
         <div className="v-grid4">
@@ -44,15 +76,15 @@ export default function CareersPage() {
           </div>
           <div className="v-card">
             <span className="v-card-t">{"Senior mentors"}</span>
-            <span className="v-card-d">{"Learn from leaders with decades of experience in interior and occupied-building work."}</span>
+            <span className="v-card-d">{"Learn from leaders with decades of experience in commercial and occupied-building work."}</span>
           </div>
           <div className="v-card">
             <span className="v-card-t">{"Modern tools"}</span>
             <span className="v-card-d">{"Procore, BuildingConnected and real-time job data. Less paperwork, more building."}</span>
           </div>
           <div className="v-card">
-            <span className="v-card-t">{"Flexible by design"}</span>
-            <span className="v-card-d">{"Office roles work remotely. Field roles stay close to home in your region."}</span>
+            <span className="v-card-t">{"Close to home"}</span>
+            <span className="v-card-d">{"Office roles work remotely. Field roles stay in their region unless they choose to travel."}</span>
           </div>
         </div>
         <div className="v-benefits">
@@ -66,58 +98,103 @@ export default function CareersPage() {
           </div>
         </div>
       </section>
+
+      <section className="v-wrap v-sec">
+        <div className="v-sechead">
+          <Label>{"Career paths"}</Label>
+          <p className="v-h2">{"Two ways up. Both lead to leadership."}</p>
+        </div>
+        <div className="c-paths">
+          <div className="c-path">
+            <span className="c-path-t">{"Field"}</span>
+            <ol className="c-steps">
+              <li>{"Assistant Superintendent"}</li>
+              <li>{"Superintendent"}</li>
+              <li>{"Senior Superintendent"}</li>
+              <li>{"Field Operations Leader"}</li>
+            </ol>
+          </div>
+          <div className="c-path">
+            <span className="c-path-t">{"Project management"}</span>
+            <ol className="c-steps">
+              <li>{"Assistant Project Manager"}</li>
+              <li>{"Project Manager"}</li>
+              <li>{"Senior Project Manager"}</li>
+              <li>{"Operations Leader"}</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
       <section id="roles" className="v-wrap v-sec">
         <div className="v-sechead">
-          <div className="v-label">
-            <span className="v-rule"></span>
-            <h2>{"Open roles"}</h2>
-          </div>
+          <Label>{"Open roles"}</Label>
           <p className="v-h2">{"Find where you fit."}</p>
         </div>
         <div className="v-filter" role="group" aria-label="Filter roles">
           <button type="button" className="v-fbtn" data-filter="all" aria-pressed="true">{"All"}</button>
-          <button type="button" className="v-fbtn" data-filter="field" aria-pressed="false">{"Field"}</button>
-          <button type="button" className="v-fbtn" data-filter="office" aria-pressed="false">{"Office"}</button>
+          <button type="button" className="v-fbtn" data-filter="fl" aria-pressed="false">{"Central Florida"}</button>
+          <button type="button" className="v-fbtn" data-filter="travel" aria-pressed="false">{"Traveling"}</button>
         </div>
-        <div className="v-roles">
-          <div className="v-role" data-kind="field">
-            <span className="v-role-name">{"Superintendent"}</span>
-            <span className="v-role-meta">{"Field · Maryland and DC"}</span>
-            <button type="button" className="v-btn-sm" data-apply="Superintendent">{"Apply"}</button>
-          </div>
-          <div className="v-role" data-kind="office">
-            <span className="v-role-name">{"Project Manager"}</span>
-            <span className="v-role-meta">{"Office and field · Maryland and DC"}</span>
-            <button type="button" className="v-btn-sm" data-apply="Project Manager">{"Apply"}</button>
-          </div>
-          <div className="v-role" data-kind="office">
-            <span className="v-role-name">{"Preconstruction Assistant"}</span>
-            <span className="v-role-meta">{"Office · Remote"}</span>
-            <button type="button" className="v-btn-sm" data-apply="Preconstruction Assistant">{"Apply"}</button>
-          </div>
-          <div className="v-role" data-kind="office">
-            <span className="v-role-name">{"Construction Accountant"}</span>
-            <span className="v-role-meta">{"Office · Remote"}</span>
-            <button type="button" className="v-btn-sm" data-apply="Construction Accountant">{"Apply"}</button>
-          </div>
-          <div className="v-role" data-kind="field">
-            <span className="v-role-name">{"Superintendent"}</span>
-            <span className="v-role-meta">{"Field · Central Florida"}</span>
-            <button type="button" className="v-btn-sm" data-apply="Superintendent">{"Apply"}</button>
-          </div>
+        <div className="c-jobs">
+          {JOBS.map((j) => (
+            <details key={j.id} id={j.id} className="v-role c-job" data-kind={j.region}>
+              <summary className="c-job-sum">
+                <span className="c-job-name">{j.title}</span>
+                <span className="c-job-meta">{j.location}</span>
+                <span className="c-job-type">{j.type}</span>
+                <span className="c-job-open" aria-hidden="true"></span>
+              </summary>
+              <div className="c-job-body">
+                <p className="c-job-lede">{j.summary}</p>
+                <div className="c-job-cols">
+                  <div>
+                    <h3>{"What you'll do"}</h3>
+                    <ul>{j.doList.map((x) => <li key={x}>{x}</li>)}</ul>
+                  </div>
+                  <div>
+                    <h3>{"What you bring"}</h3>
+                    <ul>{j.bring.map((x) => <li key={x}>{x}</li>)}</ul>
+                    <h3>{"Nice to have"}</h3>
+                    <ul>{j.plus.map((x) => <li key={x}>{x}</li>)}</ul>
+                  </div>
+                </div>
+                <div className="c-job-foot">
+                  <span><strong>{"Pay: "}</strong>{j.pay}</span>
+                  {j.extra ? <span><strong>{"Travel: "}</strong>{j.extra}</span> : null}
+                  <button type="button" className="v-btn-dark" data-apply={`${j.title} · ${j.location.split(' · ')[0]}`}>
+                    {"Apply for this role "}
+                    <span aria-hidden="true">{"→"}</span>
+                  </button>
+                </div>
+              </div>
+            </details>
+          ))}
+        </div>
+        <p className="c-note">{"Don't check every box? Apply anyway. We hire for judgment, ownership and how you treat people, and we'll teach the rest."}</p>
+      </section>
+
+      <section className="v-wrap v-sec">
+        <div className="v-sechead">
+          <Label>{"How we hire"}</Label>
+          <p className="v-h2">{"Quick, direct and respectful of your time."}</p>
+        </div>
+        <div className="c-proc">
+          <div className="c-proc-s"><span className="c-proc-n">{"01"}</span><span className="c-proc-t">{"Apply"}</span><span className="c-proc-d">{"Send your resume below. It goes straight to our leadership team, not a portal."}</span></div>
+          <div className="c-proc-s"><span className="c-proc-n">{"02"}</span><span className="c-proc-t">{"Intro call"}</span><span className="c-proc-d">{"A short call to talk through your experience and what you want next."}</span></div>
+          <div className="c-proc-s"><span className="c-proc-n">{"03"}</span><span className="c-proc-t">{"Meet the team"}</span><span className="c-proc-d">{"Sit down with the leaders you'd work with, and walk a job site if you're in the field."}</span></div>
+          <div className="c-proc-s"><span className="c-proc-n">{"04"}</span><span className="c-proc-t">{"Offer"}</span><span className="c-proc-d">{"A clear offer with pay, benefits and a start plan. No drawn-out back and forth."}</span></div>
         </div>
       </section>
+
       <section id="apply" className="v-wrap v-sec">
         <div className="v-formcard">
           <div className="v-formhead">
             <div className="v-sechead">
-              <div className="v-label">
-                <span className="v-rule"></span>
-                <h2>{"Apply"}</h2>
-              </div>
+              <Label>{"Apply"}</Label>
               <p className="v-h2">{"Tell us what you build."}</p>
             </div>
-            <p className="v-muted">{"Don't see your role? Send a general application and we'll reach out when something fits."}</p>
+            <p className="v-muted">{"Don't see your role? Send a general application and we'll reach out when something fits. You can also email "}<a href="mailto:careers@spconstructiongroup.com">{"careers@spconstructiongroup.com"}</a>{"."}</p>
           </div>
           <form className="v-form" data-form="careers" noValidate action={FORMS.careers} method="POST" encType="multipart/form-data">
             <div className="v-row2">
@@ -137,7 +214,11 @@ export default function CareersPage() {
               </div>
               <div className="v-field">
                 <label htmlFor="c-role">{"Role"}</label>
-                <input id="c-role" name="role" placeholder="General application" />
+                <input id="c-role" name="role" placeholder="General application" list="c-roles" />
+                <datalist id="c-roles">
+                  {JOBS.map((j) => <option key={j.id} value={`${j.title} · ${j.location.split(' · ')[0]}`} />)}
+                  <option value="General application" />
+                </datalist>
               </div>
             </div>
             <div className="v-field">
@@ -158,6 +239,7 @@ export default function CareersPage() {
             <p className="v-done" role="status" hidden>{"Thanks. Your application is in, and our team will be in touch."}</p>
           </form>
         </div>
+        <p className="c-eeo">{"SP Construction Group is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status or any other protected status."}</p>
       </section>
     </main>
   );
