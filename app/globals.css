@@ -345,3 +345,4 @@ a{text-decoration:none}
 @media (max-width:900px){.c-where,.c-paths,.c-job-cols{grid-template-columns:1fr}.c-proc{grid-template-columns:1fr 1fr}.c-job-sum{grid-template-columns:minmax(0,1fr) 40px}.c-job-meta,.c-job-type{grid-column:1}.c-job-open{grid-row:1/span 3;grid-column:2}}
 @media (max-width:640px){.c-proc{grid-template-columns:1fr}.c-job-foot .v-btn-dark{margin-left:0;width:100%;justify-content:center}}
 @media (max-width:640px){.r-bio p{font-size:13.5px;line-height:1.55;padding:20px 20px 16px;border-radius:16px;width:calc(100vw - 40px)}.r-bio p::before{font-size:16px}.r-bio p::after{margin-top:12px;font-size:11px}}
+@media (max-width:640px){.r-platlist>span{flex-wrap:wrap;row-gap:2px}.r-platlist>span>span:first-child{font-size:24px!important}.r-platlist>span>span:last-child{white-space:normal!important}}

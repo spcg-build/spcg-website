@@ -2,28 +2,28 @@
 export default function Footer() {
   return (
     <footer id="footer" className="r-foot" style={{ position: "relative", overflow: "hidden", background: "linear-gradient(180deg, #17181A 0%, #1F2022 100%)", padding: "0 0 0 0" }}>
-      <div className="r-pad r-plat" style={{ padding: "34px 120px", display: "flex", alignItems: "center", gap: "48px", borderBottom: "1px solid rgba(255,255,255,0.07)" }}>
-        <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.18em", color: "#8C8F93", whiteSpace: "nowrap" }}>{"BUILT ON"}</span>
-        <div className="r-platlist" style={{ flex: "1", display: "flex", flexWrap: "wrap", justifyContent: "flex-start", alignItems: "baseline", columnGap: "48px", rowGap: "14px" }}>
+      <div className="r-pad r-plat" style={{ padding: "48px 120px", display: "flex", alignItems: "center", gap: "56px", borderBottom: "1px solid rgba(255,255,255,0.07)" }}>
+        <span style={{ fontSize: "12px", fontWeight: "600", letterSpacing: "0.18em", color: "#8C8F93", whiteSpace: "nowrap" }}>{"BUILT ON"}</span>
+        <div className="r-platlist" style={{ flex: "1", display: "flex", flexWrap: "wrap", justifyContent: "flex-start", alignItems: "baseline", columnGap: "56px", rowGap: "20px" }}>
           <span style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
-            <span style={{ fontSize: "22px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#E6E7E8" }}>{"SPCG Systems"}</span>
-            <span style={{ fontSize: "11.5px", color: "#8C8F93", whiteSpace: "nowrap" }}>{"Proprietary, built in-house"}</span>
+            <span style={{ fontSize: "28px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"SPCG Systems"}</span>
+            <span style={{ fontSize: "13px", color: "#7E8185", whiteSpace: "nowrap" }}>{"Proprietary, built in-house"}</span>
           </span>
           <span style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
-            <span style={{ fontSize: "22px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"Procore"}</span>
-            <span style={{ fontSize: "11.5px", color: "#6E7175", whiteSpace: "nowrap" }}>{"Project management"}</span>
+            <span style={{ fontSize: "28px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"Procore"}</span>
+            <span style={{ fontSize: "13px", color: "#7E8185", whiteSpace: "nowrap" }}>{"Project management"}</span>
           </span>
           <span style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
-            <span style={{ fontSize: "22px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"Sage"}</span>
-            <span style={{ fontSize: "11.5px", color: "#6E7175", whiteSpace: "nowrap" }}>{"Job-cost accounting"}</span>
+            <span style={{ fontSize: "28px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"Sage"}</span>
+            <span style={{ fontSize: "13px", color: "#7E8185", whiteSpace: "nowrap" }}>{"Job-cost accounting"}</span>
           </span>
           <span style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
-            <span style={{ fontSize: "22px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"BuildingConnected"}</span>
-            <span style={{ fontSize: "11.5px", color: "#6E7175", whiteSpace: "nowrap" }}>{"Bid management"}</span>
+            <span style={{ fontSize: "28px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"BuildingConnected"}</span>
+            <span style={{ fontSize: "13px", color: "#7E8185", whiteSpace: "nowrap" }}>{"Bid management"}</span>
           </span>
           <span style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
-            <span style={{ fontSize: "22px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"Buildr"}</span>
-            <span style={{ fontSize: "11.5px", color: "#6E7175", whiteSpace: "nowrap" }}>{"Client relationships"}</span>
+            <span style={{ fontSize: "28px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"Buildr"}</span>
+            <span style={{ fontSize: "13px", color: "#7E8185", whiteSpace: "nowrap" }}>{"Client relationships"}</span>
           </span>
         </div>
       </div>
