@@ -8,7 +8,7 @@ export default function WhereWeBuild() {
           <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", color: "#8C8F93", paddingBottom: "18px" }}>{"WHERE WE BUILD"}</span>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", padding: "14px 0", borderTop: "1px solid rgba(255,255,255,0.1)" }}>
             <span style={{ fontSize: "50px", fontWeight: "300", letterSpacing: "-0.03em", background: "linear-gradient(180deg, #FFFFFF 20%, #A9ABAE 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"Maryland"}</span>
-            <span style={{ fontSize: "12px", color: "#A9ABAE" }}>{"Headquarters"}</span>
+            <span style={{ fontSize: "12px", color: "#A9ABAE" }}>{"Active projects"}</span>
           </div>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", padding: "14px 0", borderTop: "1px solid rgba(255,255,255,0.1)" }}>
             <span style={{ fontSize: "50px", fontWeight: "300", letterSpacing: "-0.03em", background: "linear-gradient(180deg, #FFFFFF 20%, #A9ABAE 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"Washington, DC"}</span>
@@ -37,7 +37,7 @@ export default function WhereWeBuild() {
         </div>
       </div>
       <div className="r-aboutr" style={{ padding: "96px 120px 96px 80px", display: "flex", flexDirection: "column", justifyContent: "center", gap: "22px", background: "linear-gradient(180deg, #FFFFFF 0%, #F6F6F4 100%)" }}>
-        <p style={{ margin: "0", fontSize: "44px", fontWeight: "300", lineHeight: "1.08", letterSpacing: "-0.03em" }}>{"Rooted in Maryland. Building across the East Coast."}</p>
+        <p style={{ margin: "0", fontSize: "44px", fontWeight: "300", lineHeight: "1.08", letterSpacing: "-0.03em" }}>{"One team, building up and down the East Coast."}</p>
         <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.65", color: "#55585C" }}>{"A privately held commercial general contractor, licensed in several East Coast markets, with projects from Boston to Florida."}</p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "12px 24px", paddingTop: "10px" }}>
           <span style={{ display: "inline-flex", alignItems: "center", gap: "10px", fontSize: "14.5px", fontWeight: "600" }}>

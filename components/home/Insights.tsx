@@ -18,7 +18,7 @@ export default function Insights() {
             <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.14em", color: "#9DB8D3" }}>{"COST NOTE · Q4 2026"}</span>
           </div>
           <div style={{ padding: "24px 26px", display: "flex", flexDirection: "column", gap: "10px" }}>
-            <span style={{ fontSize: "23px", fontWeight: "400", lineHeight: "1.3" }}>{"What a medical office fit-out costs in Maryland right now"}</span>
+            <span style={{ fontSize: "23px", fontWeight: "400", lineHeight: "1.3" }}>{"What a medical office fit-out costs right now"}</span>
             <span style={{ fontSize: "13px", color: "#55585C" }}>{"For owners and brokers · 6 min read"}</span>
           </div>
         </a>

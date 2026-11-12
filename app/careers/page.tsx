@@ -59,7 +59,7 @@ export default function CareersPage() {
           <div className="c-place">
             <span className="c-pill c-pill-soft">{"General applications"}</span>
             <span className="c-place-t">{"Maryland, DC and Virginia"}</span>
-            <span className="c-place-d">{"Our home region. We're always glad to meet strong project managers and superintendents."}</span>
+            <span className="c-place-d">{"Where many of our current projects are. We're always glad to meet strong project managers and superintendents."}</span>
           </div>
         </div>
       </section>
