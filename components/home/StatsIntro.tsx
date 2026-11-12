@@ -2,7 +2,7 @@
 export default function StatsIntro() {
   return (
     <section className="r-overlap" style={{ position: "relative", display: "flex", justifyContent: "space-between", alignItems: "flex-start", padding: "0 0 0 120px" }}>
-      <div className="r-pills" style={{ paddingTop: "64px", width: "500px", display: "flex", flexDirection: "column", gap: "12px" }}>
+      <div id="serve" className="r-pills" style={{ paddingTop: "64px", width: "500px", display: "flex", flexDirection: "column", gap: "12px" }}>
         <span style={{ display: "inline-flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", color: "#45484C" }}>
           {"TAILOR THIS SITE"}
         </span>

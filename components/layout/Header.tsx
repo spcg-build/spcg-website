@@ -8,8 +8,8 @@ export default function Header() {
         </a>
         <nav className="r-nav" aria-label="Main" style={{ display: "flex", gap: "4px", alignItems: "center", fontSize: "14px", padding: "6px", borderRadius: "6px", background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.08)" }}>
           <a href="/#work" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Work"}</a>
-          <a href="/#about" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Services"}</a>
-          <a href="/#about" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Who we serve"}</a>
+          <a href="/#services" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Services"}</a>
+          <a href="/#serve" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Who we serve"}</a>
           <a href="/#approach" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Approach"}</a>
           <a href="/#leadership" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Leadership"}</a>
           <a href="/#insights" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Insights"}</a>
@@ -30,8 +30,8 @@ export default function Header() {
       <div id="menuPanel" className="r-menu cx-band" hidden>
         <nav aria-label="Mobile" className="r-menulinks">
           <a href="/#work">{"Work"}</a>
-          <a href="/#about">{"Services"}</a>
-          <a href="/#about">{"Who we serve"}</a>
+          <a href="/#services">{"Services"}</a>
+          <a href="/#serve">{"Who we serve"}</a>
           <a href="/#approach">{"Approach"}</a>
           <a href="/#leadership">{"Our team"}</a>
           <a href="/#insights">{"Insights"}</a>

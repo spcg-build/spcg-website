@@ -46,7 +46,7 @@ export default function Footer() {
         <div style={{ display: "flex", flexDirection: "column", gap: "10px", fontSize: "13px", minWidth: "150px" }}>
           <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.14em", color: "#8C8F93" }}>{"WORK"}</span>
           <a href="/#work" style={{ color: "#ECEDEE" }}>{"Projects"}</a>
-          <a href="/#about" style={{ color: "#ECEDEE" }}>{"Healthcare"}</a>
+          <a href="/#services" style={{ color: "#ECEDEE" }}>{"Services"}</a>
           <a href="/#insights" style={{ color: "#ECEDEE" }}>{"Insights"}</a>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: "10px", fontSize: "13px", minWidth: "150px" }}>
