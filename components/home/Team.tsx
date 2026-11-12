@@ -26,7 +26,7 @@ export default function Team() {
           <div className="r-people" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "16px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
               <div className="cx-steel" data-photo="AL" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "4px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
-                <img src="/images/team/anthony-lauro-v7.jpg" alt="Anthony Lauro" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 50%" }} />
+                <img src="/images/team/anthony-lauro-v8.jpg" alt="Anthony Lauro" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 50%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Anthony Lauro"}</span>
