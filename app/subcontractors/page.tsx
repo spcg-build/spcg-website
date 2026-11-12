@@ -11,7 +11,7 @@ export default function SubcontractorsPage() {
     <main className="v-page">
       <section className="cx-hero v-hero">
         <div className="v-wrap v-hero-in">
-          <span className="v-eyebrow" style={{ color: "#D9DADB" }}>
+          <span className="v-eyebrow" style={{ color: "#ECEDEE" }}>
             <span className="v-dot"></span>
             {"Trade partners"}
           </span>
@@ -267,7 +267,7 @@ export default function SubcontractorsPage() {
       <section id="getpaid" className="v-sec">
         <div className="cx-band v-band">
           <div className="v-wrap">
-            <span className="v-eyebrow" style={{ color: "#D9DADB" }}>
+            <span className="v-eyebrow" style={{ color: "#ECEDEE" }}>
               <span className="v-dot"></span>
               {"How to get paid"}
             </span>
@@ -276,17 +276,17 @@ export default function SubcontractorsPage() {
               <div className="v-paystep">
                 <span className="v-paywhen">{"BY THE [25TH]"}</span>
                 <span className="v-card-t" style={{ color: "#fff" }}>{"Submit your pay app"}</span>
-                <span className="v-card-d" style={{ color: "#C9CACC" }}>{"With a conditional lien waiver and a current COI."}</span>
+                <span className="v-card-d" style={{ color: "#E1E2E4" }}>{"With a conditional lien waiver and a current COI."}</span>
               </div>
               <div className="v-paystep">
                 <span className="v-paywhen">{"WITHIN [5] DAYS"}</span>
                 <span className="v-card-t" style={{ color: "#fff" }}>{"PM review"}</span>
-                <span className="v-card-d" style={{ color: "#C9CACC" }}>{"Percent complete confirmed against the field."}</span>
+                <span className="v-card-d" style={{ color: "#E1E2E4" }}>{"Percent complete confirmed against the field."}</span>
               </div>
               <div className="v-paystep">
                 <span className="v-paywhen">{"[NET X]"}</span>
                 <span className="v-card-t" style={{ color: "#fff" }}>{"Paid by ACH"}</span>
-                <span className="v-card-d" style={{ color: "#C9CACC" }}>{"Direct deposit with a remittance email."}</span>
+                <span className="v-card-d" style={{ color: "#E1E2E4" }}>{"Direct deposit with a remittance email."}</span>
               </div>
             </div>
           </div>

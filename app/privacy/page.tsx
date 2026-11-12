@@ -14,7 +14,7 @@ export default function PrivacyPage() {
     <main className="v-page">
       <section className="cx-hero v-hero">
         <div className="v-wrap v-hero-in">
-          <span className="v-eyebrow" style={{ color: "#D9DADB" }}>
+          <span className="v-eyebrow" style={{ color: "#ECEDEE" }}>
             <span className="v-dot"></span>
             {"Last updated November 2026"}
           </span>

@@ -17,7 +17,7 @@ export default function Process() {
             <span style={{ position: "absolute", left: "-56px", top: "0", width: "44px", height: "44px", borderRadius: "999px", background: "#0A0A0B", color: "#ffffff", fontSize: "13px", fontWeight: "600", display: "flex", alignItems: "center", justifyContent: "center", border: "4px solid #ffffff", boxSizing: "border-box" }}>{"01"}</span>
             <span style={{ fontSize: "24px", fontWeight: "400", paddingTop: "6px" }}>{"Preconstruction"}</span>
             <span style={{ display: "flex", flexDirection: "column", gap: "8px", paddingTop: "8px" }}>
-              <span style={{ fontSize: "15px", lineHeight: "1.55", color: "#55585C" }}>{"Site walk, drawing review and a budget built with you and your architect."}</span>
+              <span style={{ fontSize: "15px", lineHeight: "1.55", color: "#45484C" }}>{"Site walk, drawing review and a budget built with you and your architect."}</span>
               <span style={{ fontSize: "12px", fontWeight: "600", color: "#2C5A85" }}>{"You get: budget and assumptions"}</span>
             </span>
           </div>
@@ -25,7 +25,7 @@ export default function Process() {
             <span style={{ position: "absolute", left: "-56px", top: "0", width: "44px", height: "44px", borderRadius: "999px", background: "#16273A", color: "#ffffff", fontSize: "13px", fontWeight: "600", display: "flex", alignItems: "center", justifyContent: "center", border: "4px solid #ffffff", boxSizing: "border-box" }}>{"02"}</span>
             <span style={{ fontSize: "24px", fontWeight: "400", paddingTop: "6px" }}>{"Pricing and buyout"}</span>
             <span style={{ display: "flex", flexDirection: "column", gap: "8px", paddingTop: "8px" }}>
-              <span style={{ fontSize: "15px", lineHeight: "1.55", color: "#55585C" }}>{"Every trade bid by qualified subcontractors and leveled line by line."}</span>
+              <span style={{ fontSize: "15px", lineHeight: "1.55", color: "#45484C" }}>{"Every trade bid by qualified subcontractors and leveled line by line."}</span>
               <span style={{ fontSize: "12px", fontWeight: "600", color: "#2C5A85" }}>{"You get: bid comparison"}</span>
             </span>
           </div>
@@ -33,15 +33,15 @@ export default function Process() {
             <span style={{ position: "absolute", left: "-56px", top: "0", width: "44px", height: "44px", borderRadius: "999px", background: "#22405F", color: "#ffffff", fontSize: "13px", fontWeight: "600", display: "flex", alignItems: "center", justifyContent: "center", border: "4px solid #ffffff", boxSizing: "border-box" }}>{"03"}</span>
             <span style={{ fontSize: "24px", fontWeight: "400", paddingTop: "6px" }}>{"Permits and orders"}</span>
             <span style={{ display: "flex", flexDirection: "column", gap: "8px", paddingTop: "8px" }}>
-              <span style={{ fontSize: "15px", lineHeight: "1.55", color: "#55585C" }}>{"Permit filing, long-lead procurement and a schedule tied to real dates."}</span>
+              <span style={{ fontSize: "15px", lineHeight: "1.55", color: "#45484C" }}>{"Permit filing, long-lead procurement and a schedule tied to real dates."}</span>
               <span style={{ fontSize: "12px", fontWeight: "600", color: "#2C5A85" }}>{"You get: baseline schedule"}</span>
             </span>
           </div>
-          <div data-step="" style={{ position: "relative", display: "grid", gridTemplateColumns: "220px minmax(0, 1fr)", gap: "24px", padding: "26px 28px", margin: "-26px -28px", borderRadius: "22px", background: "linear-gradient(90deg, #F6F6F4, #FFFFFF)" }}>
+          <div data-step="" style={{ position: "relative", display: "grid", gridTemplateColumns: "220px minmax(0, 1fr)", gap: "24px", padding: "26px 28px", margin: "-26px -28px", borderRadius: "10px", background: "linear-gradient(90deg, #F6F6F4, #FFFFFF)" }}>
             <span style={{ position: "absolute", left: "-28px", top: "26px", width: "44px", height: "44px", borderRadius: "999px", background: "#2C5A85", color: "#ffffff", fontSize: "13px", fontWeight: "600", display: "flex", alignItems: "center", justifyContent: "center", border: "4px solid #ffffff", boxSizing: "border-box", boxShadow: "0 0 0 6px rgba(44,90,133,0.15)" }}>{"04"}</span>
             <span style={{ fontSize: "24px", fontWeight: "400", paddingTop: "6px" }}>{"Build"}</span>
             <span style={{ display: "flex", flexDirection: "column", gap: "8px", paddingTop: "8px" }}>
-              <span style={{ fontSize: "15px", lineHeight: "1.55", color: "#55585C" }}>{"A superintendent on site every working day and weekly progress meetings."}</span>
+              <span style={{ fontSize: "15px", lineHeight: "1.55", color: "#45484C" }}>{"A superintendent on site every working day and weekly progress meetings."}</span>
               <span style={{ fontSize: "12px", fontWeight: "600", color: "#2C5A85" }}>{"You get: weekly packet and pay apps"}</span>
             </span>
           </div>
@@ -49,7 +49,7 @@ export default function Process() {
             <span style={{ position: "absolute", left: "-56px", top: "0", width: "44px", height: "44px", borderRadius: "999px", background: "linear-gradient(135deg, #B5541C, #D9773A)", color: "#ffffff", fontSize: "13px", fontWeight: "600", display: "flex", alignItems: "center", justifyContent: "center", border: "4px solid #ffffff", boxSizing: "border-box" }}>{"05"}</span>
             <span style={{ fontSize: "24px", fontWeight: "400", paddingTop: "6px" }}>{"Turnover"}</span>
             <span style={{ display: "flex", flexDirection: "column", gap: "8px", paddingTop: "8px" }}>
-              <span style={{ fontSize: "15px", lineHeight: "1.55", color: "#55585C" }}>{"Inspections, punch list and a closeout package ready on move-in day."}</span>
+              <span style={{ fontSize: "15px", lineHeight: "1.55", color: "#45484C" }}>{"Inspections, punch list and a closeout package ready on move-in day."}</span>
               <span style={{ fontSize: "12px", fontWeight: "600", color: "#B5541C" }}>{"You get: closeout package"}</span>
             </span>
           </div>

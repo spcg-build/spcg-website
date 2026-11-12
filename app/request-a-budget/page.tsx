@@ -11,7 +11,7 @@ export default function BudgetPage() {
     <main className="v-page">
       <section className="cx-hero v-hero">
         <div className="v-wrap v-hero-in">
-          <span className="v-eyebrow" style={{ color: "#D9DADB" }}>
+          <span className="v-eyebrow" style={{ color: "#ECEDEE" }}>
             <span className="v-dot"></span>
             {"Request a budget"}
           </span>

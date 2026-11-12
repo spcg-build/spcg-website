@@ -6,7 +6,7 @@ export default function Header() {
         <a href="/" aria-label="SP Construction Group home">
           <img src="/images/spcg-wordmark-v2-chrome.png" alt="SP Construction Group" style={{ height: "40px", width: "auto", display: "block" }} />
         </a>
-        <nav className="r-nav" aria-label="Main" style={{ display: "flex", gap: "4px", alignItems: "center", fontSize: "14px", padding: "6px", borderRadius: "999px", background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.08)" }}>
+        <nav className="r-nav" aria-label="Main" style={{ display: "flex", gap: "4px", alignItems: "center", fontSize: "14px", padding: "6px", borderRadius: "6px", background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.08)" }}>
           <a href="/#work" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Work"}</a>
           <a href="/#about" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Services"}</a>
           <a href="/#about" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Who we serve"}</a>
@@ -15,8 +15,8 @@ export default function Header() {
           <a href="/#insights" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Insights"}</a>
         </nav>
         <div className="r-headlinks" style={{ display: "flex", gap: "20px", alignItems: "center", fontSize: "13px" }}>
-          <a href="/careers/" style={{ color: "#C9CACC" }}>{"Careers"}</a>
-          <a href="/subcontractors/" style={{ color: "#C9CACC" }}>{"Subcontractors"}</a>
+          <a href="/careers/" style={{ color: "#E1E2E4" }}>{"Careers"}</a>
+          <a href="/subcontractors/" style={{ color: "#E1E2E4" }}>{"Subcontractors"}</a>
           <button type="button" id="menuBtn" className="r-menubtn" aria-expanded="false" aria-controls="menuPanel">
             <span className="r-burger" aria-hidden="true">
               <i></i>
@@ -24,7 +24,7 @@ export default function Header() {
             </span>
             {"Menu"}
           </button>
-          <a href="/request-a-budget/" style={{ display: "inline-flex", alignItems: "center", height: "44px", padding: "0 20px", borderRadius: "12px", background: "linear-gradient(180deg, #FFFFFF 0%, #E1E2E4 55%, #C3C5C8 100%)", color: "#0A0A0B", fontWeight: "600", fontSize: "14px" }}>{"Request a budget"}</a>
+          <a href="/request-a-budget/" style={{ display: "inline-flex", alignItems: "center", height: "44px", padding: "0 20px", borderRadius: "6px", background: "linear-gradient(180deg, #FFFFFF 0%, #E1E2E4 55%, #C3C5C8 100%)", color: "#0A0A0B", fontWeight: "600", fontSize: "14px" }}>{"Request a budget"}</a>
         </div>
       </header>
       <div id="menuPanel" className="r-menu cx-band" hidden>

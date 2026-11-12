@@ -19,7 +19,7 @@ export default function Commitments() {
             </svg>
           </span>
           <span style={{ fontSize: "26px", fontWeight: "400", lineHeight: "1.2", paddingTop: "10px" }}>{"A budget within [48 hours]"}</span>
-          <span style={{ fontSize: "15px", lineHeight: "1.6", color: "#55585C", padding: "12px 64px 0 0" }}>{"Send drawings or a test fit and get a real number back, with the assumptions behind it."}</span>
+          <span style={{ fontSize: "15px", lineHeight: "1.6", color: "#45484C", padding: "12px 64px 0 0" }}>{"Send drawings or a test fit and get a real number back, with the assumptions behind it."}</span>
         </div>
         <div className="r-crow" style={{ marginLeft: "48px", display: "grid", gridTemplateColumns: "64px 280px minmax(0, 1fr)", gap: "28px", alignItems: "start", padding: "30px 0", borderTop: "1px solid #E4E5E6" }}>
           <span className="cx-steel" style={{ width: "56px", height: "56px", borderRadius: "999px", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 10px 22px rgba(0,0,0,0.18)" }}>
@@ -29,7 +29,7 @@ export default function Commitments() {
             </svg>
           </span>
           <span style={{ fontSize: "26px", fontWeight: "400", lineHeight: "1.2", paddingTop: "10px" }}>{"Weekly progress, on the record"}</span>
-          <span style={{ fontSize: "15px", lineHeight: "1.6", color: "#55585C", padding: "12px 64px 0 0" }}>{"A progress meeting every week, with minutes, logs and a two-week look-ahead in Procore."}</span>
+          <span style={{ fontSize: "15px", lineHeight: "1.6", color: "#45484C", padding: "12px 64px 0 0" }}>{"A progress meeting every week, with minutes, logs and a two-week look-ahead in Procore."}</span>
         </div>
         <div className="r-crow" style={{ marginLeft: "96px", display: "grid", gridTemplateColumns: "64px 280px minmax(0, 1fr)", gap: "28px", alignItems: "start", padding: "30px 0", borderTop: "1px solid #E4E5E6", borderBottom: "1px solid #E4E5E6" }}>
           <span className="cx-steel" style={{ width: "56px", height: "56px", borderRadius: "999px", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 10px 22px rgba(0,0,0,0.18)" }}>
@@ -39,7 +39,7 @@ export default function Commitments() {
             </svg>
           </span>
           <span style={{ fontSize: "26px", fontWeight: "400", lineHeight: "1.2", paddingTop: "10px" }}>{"One accountable lead"}</span>
-          <span style={{ fontSize: "15px", lineHeight: "1.6", color: "#55585C", padding: "12px 64px 0 0" }}>{"A senior project lead owns your job from first budget to closeout. You always know who to call."}</span>
+          <span style={{ fontSize: "15px", lineHeight: "1.6", color: "#45484C", padding: "12px 64px 0 0" }}>{"A senior project lead owns your job from first budget to closeout. You always know who to call."}</span>
         </div>
       </div>
     </section>

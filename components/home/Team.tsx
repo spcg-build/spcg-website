@@ -16,22 +16,21 @@ export default function Team() {
         </a>
       </div>
       <div className="r-leadgrid" style={{ marginTop: "48px", display: "grid", gridTemplateColumns: "2fr 3fr 2fr", gap: "16px", alignItems: "stretch" }}>
-        <div data-block="" style={{ background: "linear-gradient(180deg, #F6F6F4 0%, #FFFFFF 100%)", border: "1px solid #E4E5E6", borderRadius: "28px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
+        <div data-block="" style={{ background: "#FFFFFF", border: "1px solid #E4E5E6", borderRadius: "10px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
             <span style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#0A0A0B" }}>
-              <span style={{ width: "7px", height: "7px", borderRadius: "999px", background: "#D9773A" }}></span>
               {"Leadership"}
             </span>
-            <span style={{ fontSize: "13px", color: "#55585C" }}>{"Construction, finance and business strategy"}</span>
+            <span style={{ fontSize: "13px", color: "#45484C" }}>{"Construction, finance and business strategy"}</span>
           </div>
           <div className="r-people" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "16px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
-              <div className="cx-steel" data-photo="AL" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
+              <div className="cx-steel" data-photo="AL" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "4px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
                 <img src="/images/team/anthony-lauro.jpg" alt="Anthony Lauro" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Anthony Lauro"}</span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"VP, Construction"}</span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"VP, Construction"}</span>
               </span>
               <details className="r-bio">
                 <summary>{"Read bio"}</summary>
@@ -39,12 +38,12 @@ export default function Team() {
               </details>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
-              <div className="cx-steel" data-photo="JD" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
+              <div className="cx-steel" data-photo="JD" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "4px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
                 <img src="/images/team/justin-diaz.jpg" alt="Justin Diaz" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Justin Diaz"}</span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"VP, Finance & Business Strategy"}</span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"VP, Finance & Business Strategy"}</span>
               </span>
               <details className="r-bio">
                 <summary>{"Read bio"}</summary>
@@ -53,22 +52,21 @@ export default function Team() {
             </div>
           </div>
         </div>
-        <div data-block="" style={{ background: "linear-gradient(180deg, #F6F6F4 0%, #FFFFFF 100%)", border: "1px solid #E4E5E6", borderRadius: "28px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
+        <div data-block="" style={{ background: "#FFFFFF", border: "1px solid #E4E5E6", borderRadius: "10px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
             <span style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#0A0A0B" }}>
-              <span style={{ width: "7px", height: "7px", borderRadius: "999px", background: "#D9773A" }}></span>
               {"Operations & preconstruction"}
             </span>
-            <span style={{ fontSize: "13px", color: "#55585C" }}>{"Estimating, field operations and project management"}</span>
+            <span style={{ fontSize: "13px", color: "#45484C" }}>{"Estimating, field operations and project management"}</span>
           </div>
           <div className="r-people" style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: "16px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
-              <div className="cx-steel" data-photo="TG" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
+              <div className="cx-steel" data-photo="TG" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "4px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
                 <img src="/images/team/tom-gilchrist.jpg" alt="Tom Gilchrist" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Tom Gilchrist"}</span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"Preconstruction · Senior Estimator"}</span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"Preconstruction · Senior Estimator"}</span>
               </span>
               <details className="r-bio">
                 <summary>{"Read bio"}</summary>
@@ -76,12 +74,12 @@ export default function Team() {
               </details>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
-              <div className="cx-steel" data-photo="BS" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
+              <div className="cx-steel" data-photo="BS" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "4px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
                 <img src="/images/team/bobby-smith.jpg" alt="Bobby Smith" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Bobby Smith"}</span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"Field Operations & Safety · Senior Superintendent"}</span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"Field Operations & Safety · Senior Superintendent"}</span>
               </span>
               <details className="r-bio">
                 <summary>{"Read bio"}</summary>
@@ -89,12 +87,12 @@ export default function Team() {
               </details>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
-              <div className="cx-steel" data-photo="KT" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
+              <div className="cx-steel" data-photo="KT" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "4px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
                 <img src="/images/team/kyle-thompson.jpg" alt="Kyle Thompson" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Kyle Thompson"}</span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"Project Management"}</span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"Project Management"}</span>
               </span>
               <details className="r-bio">
                 <summary>{"Read bio"}</summary>
@@ -103,31 +101,30 @@ export default function Team() {
             </div>
           </div>
         </div>
-        <div data-block="" style={{ background: "linear-gradient(180deg, #F6F6F4 0%, #FFFFFF 100%)", border: "1px solid #E4E5E6", borderRadius: "28px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
+        <div data-block="" style={{ background: "#FFFFFF", border: "1px solid #E4E5E6", borderRadius: "10px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
             <span style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#0A0A0B" }}>
-              <span style={{ width: "7px", height: "7px", borderRadius: "999px", background: "#D9773A" }}></span>
               {"Business development"}
             </span>
-            <span style={{ fontSize: "13px", color: "#55585C" }}>{"Your first call for a new project"}</span>
+            <span style={{ fontSize: "13px", color: "#45484C" }}>{"Your first call for a new project"}</span>
           </div>
           <div className="r-people" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "16px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
-              <div className="cx-steel" data-photo="SR" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
+              <div className="cx-steel" data-photo="SR" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "4px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
                 <span style={{ fontSize: "44px", fontWeight: "300", background: "linear-gradient(180deg, #FFFFFF 15%, #C9CBCE 60%, #8E9195 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"SR"}</span>
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Sarah Rineer"}</span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"Business Development Executive"}</span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"Business Development Executive"}</span>
               </span>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
-              <div className="cx-steel" data-photo="KP" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "18px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
+              <div className="cx-steel" data-photo="KP" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "4px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
                 <span style={{ fontSize: "44px", fontWeight: "300", background: "linear-gradient(180deg, #FFFFFF 15%, #C9CBCE 60%, #8E9195 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"KP"}</span>
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Karen Powell"}</span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#55585C" }}>{"Project Development Executive"}</span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"Project Development Executive"}</span>
               </span>
             </div>
           </div>

@@ -30,7 +30,7 @@ export default function Footer() {
       <div className="r-pad r-footcols" style={{ padding: "56px 120px 0 120px", display: "flex", gap: "40px", justifyContent: "space-between" }}>
         <div style={{ flex: "1 1 320px", display: "flex", flexDirection: "column", gap: "16px" }}>
           <img src="/images/spcg-wordmark-v2-chrome.png" alt="SP Construction Group" style={{ height: "48px", width: "auto", alignSelf: "flex-start" }} />
-          <span style={{ fontSize: "13px", lineHeight: "1.6", color: "#C9CACC" }}>
+          <span style={{ fontSize: "13px", lineHeight: "1.6", color: "#E1E2E4" }}>
             <a href="mailto:bids@spconstructiongroup.com" style={{ color: "inherit" }}>{"Bids@SPConstructionGroup.com"}</a>
             <br />
             <a href="tel:+14433000338" style={{ color: "inherit" }}>{"(443) 300-0338"}</a>
@@ -38,22 +38,22 @@ export default function Footer() {
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: "10px", fontSize: "13px", minWidth: "150px" }}>
           <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.14em", color: "#8C8F93" }}>{"COMPANY"}</span>
-          <a href="/#about" style={{ color: "#D9DADB" }}>{"About"}</a>
-          <a href="/#leadership" style={{ color: "#D9DADB" }}>{"Leadership"}</a>
-          <a href="/#approach" style={{ color: "#D9DADB" }}>{"Approach"}</a>
-          <a href="/careers/" style={{ color: "#D9DADB" }}>{"Careers"}</a>
+          <a href="/#about" style={{ color: "#ECEDEE" }}>{"About"}</a>
+          <a href="/#leadership" style={{ color: "#ECEDEE" }}>{"Leadership"}</a>
+          <a href="/#approach" style={{ color: "#ECEDEE" }}>{"Approach"}</a>
+          <a href="/careers/" style={{ color: "#ECEDEE" }}>{"Careers"}</a>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: "10px", fontSize: "13px", minWidth: "150px" }}>
           <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.14em", color: "#8C8F93" }}>{"WORK"}</span>
-          <a href="/#work" style={{ color: "#D9DADB" }}>{"Projects"}</a>
-          <a href="/#about" style={{ color: "#D9DADB" }}>{"Healthcare"}</a>
-          <a href="/#insights" style={{ color: "#D9DADB" }}>{"Insights"}</a>
+          <a href="/#work" style={{ color: "#ECEDEE" }}>{"Projects"}</a>
+          <a href="/#about" style={{ color: "#ECEDEE" }}>{"Healthcare"}</a>
+          <a href="/#insights" style={{ color: "#ECEDEE" }}>{"Insights"}</a>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: "10px", fontSize: "13px", minWidth: "150px" }}>
           <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.14em", color: "#8C8F93" }}>{"PARTNERS"}</span>
-          <a href="/subcontractors/" style={{ color: "#D9DADB" }}>{"Subcontractors"}</a>
-          <a href="/subcontractors/" style={{ color: "#D9DADB" }}>{"Prequalify"}</a>
-          <a href="/request-a-budget/" style={{ color: "#D9DADB" }}>{"Request a budget"}</a>
+          <a href="/subcontractors/" style={{ color: "#ECEDEE" }}>{"Subcontractors"}</a>
+          <a href="/subcontractors/" style={{ color: "#ECEDEE" }}>{"Prequalify"}</a>
+          <a href="/request-a-budget/" style={{ color: "#ECEDEE" }}>{"Request a budget"}</a>
         </div>
       </div>
       <div className="r-legal" style={{ margin: "44px 120px 0 120px", display: "flex", justifyContent: "space-between", gap: "16px", borderTop: "1px solid rgba(255,255,255,0.08)", paddingTop: "20px", fontSize: "11px", letterSpacing: "0.12em", color: "#8C8F93" }}>

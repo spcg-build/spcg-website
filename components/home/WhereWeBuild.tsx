@@ -33,12 +33,12 @@ export default function WhereWeBuild() {
               {"Now building statewide"}
             </span>
           </div>
-          <span style={{ paddingTop: "12px", fontSize: "12.5px", letterSpacing: "0.04em", color: "#C9CACC" }}>{"Tampa Bay · Central Florida · South Florida · North Florida"}</span>
+          <span style={{ paddingTop: "12px", fontSize: "12.5px", letterSpacing: "0.04em", color: "#E1E2E4" }}>{"Tampa Bay · Central Florida · South Florida · North Florida"}</span>
         </div>
       </div>
       <div className="r-aboutr" style={{ padding: "96px 120px 96px 80px", display: "flex", flexDirection: "column", justifyContent: "center", gap: "22px", background: "linear-gradient(180deg, #FFFFFF 0%, #F6F6F4 100%)" }}>
         <p style={{ margin: "0", fontSize: "44px", fontWeight: "300", lineHeight: "1.08", letterSpacing: "-0.03em" }}>{"One team, building up and down the East Coast."}</p>
-        <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.65", color: "#55585C" }}>{"A privately held commercial general contractor, licensed in several East Coast markets, with projects from Boston to Florida."}</p>
+        <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.65", color: "#45484C" }}>{"A privately held commercial general contractor, licensed in several East Coast markets, with projects from Boston to Florida."}</p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "12px 24px", paddingTop: "10px" }}>
           <span style={{ display: "inline-flex", alignItems: "center", gap: "10px", fontSize: "14.5px", fontWeight: "600" }}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2C5A85" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
