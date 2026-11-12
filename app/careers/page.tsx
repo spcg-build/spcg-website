@@ -4,7 +4,7 @@ import { JOBS } from '@/content/jobs';
 
 export const metadata: Metadata = {
   title: "Careers",
-  description: "Join SP Construction Group. Hiring project managers and superintendents in Central Florida and a traveling superintendent across the East Coast.",
+  description: "Join SP Construction Group. Hiring a project manager and superintendent in Central Florida, a traveling superintendent, and project and senior accountants.",
 };
 
 const Label = ({ children }: { children: string }) => (
@@ -17,13 +17,14 @@ const Label = ({ children }: { children: string }) => (
 export default function CareersPage() {
   const fl = JOBS.filter((j) => j.region === 'fl').length;
   const tr = JOBS.filter((j) => j.region === 'travel').length;
+  const fn = JOBS.filter((j) => j.region === 'fin').length;
   return (
     <main className="v-page">
       <section className="cx-hero v-hero">
         <div className="v-wrap v-hero-in">
           <span className="v-eyebrow" style={{ color: "#ECEDEE" }}>
             <span className="v-dot"></span>
-            {"Careers · now hiring in Central Florida"}
+            {"Careers · now hiring"}
           </span>
           <h1 className="v-h1">
             {"Help build a general contractor "}
@@ -57,9 +58,9 @@ export default function CareersPage() {
             <span className="c-place-d">{"Maryland, DC, Virginia, North Carolina, Boston and Florida, wherever our clients need us."}</span>
           </div>
           <div className="c-place">
-            <span className="c-pill c-pill-soft">{"General applications"}</span>
-            <span className="c-place-t">{"Maryland, DC and Virginia"}</span>
-            <span className="c-place-d">{"Where many of our current projects are. We're always glad to meet strong project managers and superintendents."}</span>
+            <span className="c-pill">{fn + (fn === 1 ? " open role" : " open roles")}</span>
+            <span className="c-place-t">{"Finance and accounting"}</span>
+            <span className="c-place-d">{"Remote, supporting projects across the East Coast. Help build the finance team of a growing GC."}</span>
           </div>
         </div>
       </section>
@@ -90,11 +91,10 @@ export default function CareersPage() {
         <div className="v-benefits">
           <span className="v-small-label">{"BENEFITS"}</span>
           <div className="v-chips">
-            <span className="v-chip">{"[Health coverage]"}</span>
-            <span className="v-chip">{"[Retirement]"}</span>
-            <span className="v-chip">{"[Paid time off]"}</span>
-            <span className="v-chip">{"[Vehicle or allowance for field roles]"}</span>
-            <span className="v-chip">{"[Training and certifications]"}</span>
+            <span className="v-chip">{"Healthcare options"}</span>
+            <span className="v-chip">{"401(k) retirement"}</span>
+            <span className="v-chip">{"Paid time off"}</span>
+            <span className="v-chip">{"Training and certifications"}</span>
           </div>
         </div>
       </section>
@@ -135,6 +135,7 @@ export default function CareersPage() {
           <button type="button" className="v-fbtn" data-filter="all" aria-pressed="true">{"All"}</button>
           <button type="button" className="v-fbtn" data-filter="fl" aria-pressed="false">{"Central Florida"}</button>
           <button type="button" className="v-fbtn" data-filter="travel" aria-pressed="false">{"Traveling"}</button>
+          <button type="button" className="v-fbtn" data-filter="fin" aria-pressed="false">{"Finance"}</button>
         </div>
         <div className="c-jobs">
           {JOBS.map((j) => (
@@ -160,7 +161,7 @@ export default function CareersPage() {
                   </div>
                 </div>
                 <div className="c-job-foot">
-                  <span><strong>{"Pay: "}</strong>{j.pay}</span>
+                  {j.pay ? <span><strong>{"Pay: "}</strong>{j.pay}</span> : null}
                   {j.extra ? <span><strong>{"Travel: "}</strong>{j.extra}</span> : null}
                   <button type="button" className="v-btn-dark" data-apply={`${j.title} · ${j.location.split(' · ')[0]}`}>
                     {"Apply for this role "}

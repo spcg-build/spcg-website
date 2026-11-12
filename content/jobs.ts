@@ -1,12 +1,12 @@
 // Open roles shown on /careers. Add, edit or remove a role here; the page builds from this list.
-// region must match one of the filter buttons on the careers page: 'fl' | 'travel' | 'mid'.
+// region must match one of the filter buttons on the careers page: 'fl' | 'travel' | 'fin'.
 export type Job = {
   id: string;
   title: string;
-  region: 'fl' | 'travel' | 'mid';
+  region: 'fl' | 'travel' | 'fin';
   location: string;
   type: string;
-  pay: string;
+  pay?: string;
   summary: string;
   doList: string[];
   bring: string[];
@@ -21,7 +21,6 @@ export const JOBS: Job[] = [
     region: 'fl',
     location: 'Central Florida · Orlando and Tampa Bay',
     type: 'Full-time · Office and field',
-    pay: '[Pay range to be added]',
     summary:
       'Lead commercial buildouts and renovations, typically $1M to $5M, from contract through closeout. You will be one of the first members of our Florida team, with a real hand in how we grow here.',
     doList: [
@@ -49,7 +48,6 @@ export const JOBS: Job[] = [
     region: 'fl',
     location: 'Central Florida · Orlando and Tampa Bay',
     type: 'Full-time · Field',
-    pay: '[Pay range to be added]',
     summary:
       'Run the job site day to day on commercial buildouts and renovations across Central Florida, often in occupied buildings where safety, cleanliness and communication matter as much as the schedule.',
     doList: [
@@ -78,7 +76,6 @@ export const JOBS: Job[] = [
     region: 'travel',
     location: 'East Coast · MD, DC, VA, NC, MA and FL',
     type: 'Full-time · Field · Regular travel',
-    pay: '[Pay range to be added]',
     summary:
       'Lead projects wherever we build, from multifamily corridor refreshes in Boston and Charlotte to healthcare and retail buildouts in the Mid-Atlantic and Florida. You mobilize fast, set up local trade partners and leave every job better than you found it.',
     doList: [
@@ -97,5 +94,55 @@ export const JOBS: Job[] = [
     ],
     plus: ['Experience in several states and jurisdictions', 'Occupied-building and after-hours work', 'Bilingual English and Spanish'],
     extra: '[Travel, lodging and per diem details to be added]',
+  },
+  {
+    id: 'project-accountant',
+    title: 'Project Accountant',
+    region: 'fin',
+    location: 'Remote · East Coast',
+    type: 'Full-time · Office',
+    summary:
+      'Keep the money side of our projects accurate and on time, from subcontractor invoices to owner billings. You will work closely with our project managers and report to our VP of Finance & Business Strategy.',
+    doList: [
+      'Process subcontractor and vendor invoices and code them to the right job and cost code',
+      'Prepare monthly owner pay applications (AIA G702/G703) and track retainage',
+      'Collect lien waivers and keep subcontractor insurance certificates and W-9s current',
+      'Reconcile job cost reports with project managers each month',
+      'Track change orders, commitments and billings through closeout',
+      'Help keep Sage 100 Contractor and Procore clean and in sync',
+    ],
+    bring: [
+      '2+ years in construction or project-based accounting',
+      'Experience with AIA billing, retainage and lien waivers',
+      'Sage 100 Contractor or a similar construction accounting system',
+      'Strong Excel and attention to detail',
+      'Clear communication with PMs and subcontractors',
+    ],
+    plus: ['Procore', 'Multi-state work', 'Degree in accounting or finance'],
+  },
+  {
+    id: 'senior-accountant',
+    title: 'Senior Accountant',
+    region: 'fin',
+    location: 'Remote · East Coast',
+    type: 'Full-time · Office',
+    summary:
+      'Own the monthly close and the reporting that owners, our bank and our surety rely on. You will help build the finance function of a fast-growing general contractor and report to our VP of Finance & Business Strategy.',
+    doList: [
+      'Run the month-end close: journal entries, accruals and account reconciliations',
+      'Reconcile bank and credit accounts and keep cash reporting current',
+      'Prepare the monthly WIP schedule, over and under billings, and percentage-of-completion revenue',
+      'Produce monthly financial statements and job profitability reporting',
+      'Support year-end, tax, audit or review, and surety and bank requests',
+      'Improve processes and controls, and mentor the project accounting team',
+    ],
+    bring: [
+      '5+ years in accounting, including construction or project-based work',
+      'Strong command of WIP, percentage-of-completion and revenue recognition',
+      'Sage 100 Contractor or a similar construction accounting system',
+      'Advanced Excel; comfortable working with data and reports',
+      'Degree in accounting or finance',
+    ],
+    plus: ['CPA or working toward it', 'CCIFP', 'Experience with surety and bank reporting', 'Power BI or similar reporting tools'],
   },
 ];
