@@ -29,7 +29,7 @@ export default function Team() {
                 <img src="/images/team/anthony-lauro-v5.jpg" alt="Anthony Lauro" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 50%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Anthony Lauro"}</span>
+                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Anthony Lauro"}<a className="r-li" href="https://www.linkedin.com/in/anthony-lauro-569aab3b4/" target="_blank" rel="noopener noreferrer" aria-label="Anthony Lauro on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
                 <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"VP, Construction"}</span>
               </span>
               <details className="r-bio">
@@ -42,7 +42,7 @@ export default function Team() {
                 <img src="/images/team/justin-diaz-v5.jpg" alt="Justin Diaz" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 50%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Justin Diaz"}</span>
+                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Justin Diaz"}<a className="r-li" href="https://www.linkedin.com/in/justin-m-diaz-8a859167/" target="_blank" rel="noopener noreferrer" aria-label="Justin Diaz on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
                 <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"VP, Finance & Business Strategy"}</span>
               </span>
               <details className="r-bio">
@@ -65,7 +65,7 @@ export default function Team() {
                 <img src="/images/team/tom-gilchrist-v5.jpg" alt="Tom Gilchrist" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 50%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Tom Gilchrist"}</span>
+                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Tom Gilchrist"}<a className="r-li" href="https://www.linkedin.com/in/tom-gilchrist-774b0836/" target="_blank" rel="noopener noreferrer" aria-label="Tom Gilchrist on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
                 <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"Preconstruction · Senior Estimator"}</span>
               </span>
               <details className="r-bio">
@@ -78,7 +78,7 @@ export default function Team() {
                 <img src="/images/team/bobby-smith-v3.jpg" alt="Bobby Smith" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Bobby Smith"}</span>
+                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Bobby Smith"}<a className="r-li" href="https://www.linkedin.com/in/bobby-smith-88b86951/" target="_blank" rel="noopener noreferrer" aria-label="Bobby Smith on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
                 <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"Field Operations & Safety · Senior Superintendent"}</span>
               </span>
               <details className="r-bio">
@@ -91,7 +91,7 @@ export default function Team() {
                 <img src="/images/team/kyle-thompson-orig.jpg" alt="Kyle Thompson" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Kyle Thompson"}</span>
+                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Kyle Thompson"}<a className="r-li" href="https://www.linkedin.com/in/kyle-thompson-950b53131/" target="_blank" rel="noopener noreferrer" aria-label="Kyle Thompson on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
                 <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"Project Management"}</span>
               </span>
               <details className="r-bio">

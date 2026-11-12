@@ -59,14 +59,14 @@ export default function WhereWeBuild() {
               <path d="M12 3l7 3v6c0 4.2-2.9 7.6-7 9-4.1-1.4-7-4.8-7-9V6l7-3z"></path>
               <path d="M8.8 12.2l2.2 2.2 4.2-4.4"></path>
             </svg>
-            {"[Association memberships]"}
+            {"CFMA member"}
           </span>
           <span style={{ display: "inline-flex", alignItems: "center", gap: "10px", fontSize: "14.5px", fontWeight: "600" }}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2C5A85" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M12 3l7 3v6c0 4.2-2.9 7.6-7 9-4.1-1.4-7-4.8-7-9V6l7-3z"></path>
               <path d="M8.8 12.2l2.2 2.2 4.2-4.4"></path>
             </svg>
-            {"[Certification]"}
+            {"FP&A Certified (FPAC)"}
           </span>
           <span style={{ display: "inline-flex", alignItems: "center", gap: "10px", fontSize: "14.5px", fontWeight: "600" }}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2C5A85" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
