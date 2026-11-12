@@ -88,7 +88,7 @@ export default function Team() {
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
               <div className="cx-steel" data-photo="KT" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "4px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
-                <img src="/images/team/kyle-thompson-v5.jpg" alt="Kyle Thompson" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 50%" }} />
+                <img src="/images/team/kyle-thompson-orig.jpg" alt="Kyle Thompson" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
                 <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Kyle Thompson"}</span>
