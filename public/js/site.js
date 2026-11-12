@@ -84,3 +84,14 @@ document.querySelectorAll('[data-count]').forEach(function(el){var t=+el.getAttr
 function sync(){var on=document.querySelector('.r-pill[aria-pressed="true"]');var k=on?on.getAttribute('data-aud'):'';sels.forEach(function(s){s.value=[].some.call(s.options,function(o){return o.value===k})?k:''})}
 sels.forEach(function(s){s.addEventListener('change',function(){var k=s.value;if(!k){var on=document.querySelector('.r-pill[aria-pressed="true"]');if(on)on.click();return}var b=document.querySelector('.r-pill[data-aud="'+k+'"]');if(b&&b.getAttribute('aria-pressed')!=='true')b.click();sync()})});
 new MutationObserver(sync).observe(document.querySelector('.r-selcard'),{subtree:true,attributes:true,attributeFilter:['aria-pressed']});})();
+// Service project pop-ups and photo galleries
+(function(){
+  document.addEventListener('click',function(e){
+    var o=e.target.closest&&e.target.closest('[data-open-dlg]');
+    if(o){var d=document.getElementById(o.getAttribute('data-open-dlg'));if(d&&d.showModal){d.showModal();d.scrollTop=0;}return;}
+    if(e.target.closest&&e.target.closest('[data-close-dlg]')){var dd=e.target.closest('dialog');if(dd)dd.close();return;}
+    if(e.target.tagName==='DIALOG'){e.target.close();return;}
+    var t=e.target.closest&&e.target.closest('.r-proj-th');
+    if(t){var g=t.closest('[data-gal]');var m=g.querySelector('.r-proj-main');m.src=t.getAttribute('data-src');m.alt=t.getAttribute('data-alt');g.querySelector('.r-proj-cap').textContent=t.getAttribute('data-alt');g.querySelectorAll('.r-proj-th').forEach(function(b){b.setAttribute('aria-pressed',b===t?'true':'false')});}
+  });
+})();
