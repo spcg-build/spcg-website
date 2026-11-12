@@ -115,12 +115,12 @@ export const JOBS: Job[] = [
     bring: [
       '2+ years in construction or project-based accounting',
       'Experience with AIA billing, retainage and lien waivers',
-      'Experience with a construction accounting system such as Sage',
+      'Experience with a construction accounting system such as Sage 100 Contractor or Sage Intacct',
       'Strong Excel and attention to detail',
       'Comfort with technology and an interest in using AI tools to work smarter',
       'Clear communication with PMs and subcontractors',
     ],
-    plus: ['Procore', 'Multi-state work', 'Degree in accounting or finance', 'Experience automating accounting workflows'],
+    plus: ['Procore', 'Multi-state work', 'Degree in accounting or finance', 'Experience automating accounting workflows', 'Working knowledge of a data warehouse such as Snowflake or SQL Server'],
   },
   {
     id: 'senior-accountant',
@@ -142,11 +142,11 @@ export const JOBS: Job[] = [
     bring: [
       '5+ years in accounting, including construction or project-based work',
       'Strong command of WIP, percentage-of-completion and revenue recognition',
-      'Experience with a construction accounting system such as Sage',
+      'Experience with a construction accounting system such as Sage 100 Contractor or Sage Intacct',
       'Advanced Excel; comfortable working with data and reports',
       'A strong affinity for technology and hands-on use of AI tools in your work',
       'Degree in accounting or finance',
     ],
-    plus: ['CPA or working toward it', 'CCIFP', 'Experience with surety and bank reporting', 'Power BI or similar reporting tools', 'Experience building automations or AI-assisted workflows'],
+    plus: ['CPA or working toward it', 'CCIFP', 'Experience with surety and bank reporting', 'Power BI or similar reporting tools', 'Experience with a data warehouse such as Snowflake or SQL Server', 'Experience building automations or AI-assisted workflows'],
   },
 ];
