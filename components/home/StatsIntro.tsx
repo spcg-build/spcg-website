@@ -6,7 +6,8 @@ export default function StatsIntro() {
         <span style={{ display: "inline-flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", color: "#45484C" }}>
           {"TAILOR THIS SITE"}
         </span>
-        <span style={{ fontSize: "24px", fontWeight: "300", lineHeight: "1.3", letterSpacing: "-0.01em" }}>{"Tell us what you’re building and who you are. We’ll show you what matters to you."}</span>
+        <span className="r-tailor-l" style={{ fontSize: "24px", fontWeight: "300", lineHeight: "1.3", letterSpacing: "-0.01em" }}>{"Tell us what you’re building and who you are. We’ll show you what matters to you."}</span>
+        <span className="r-tailor-s">{"Pick your project or role to see what matters to you."}</span>
       </div>
       <div className="r-stats" style={{ marginTop: "-84px", width: "600px", padding: "1px", borderRadius: "10px 0 0 10px", background: "linear-gradient(120deg, rgba(255,255,255,0.45), rgba(255,255,255,0.06) 45%, rgba(217,150,80,0.45))", boxShadow: "0 30px 60px rgba(0,0,0,0.28)" }}>
         <div className="r-statsgrid cx-band" style={{ borderRadius: "10px 0 0 10px", display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", padding: "30px 0 30px 12px" }}>

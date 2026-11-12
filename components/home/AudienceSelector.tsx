@@ -25,6 +25,31 @@ export default function AudienceSelector() {
           </div>
         </div>
       </div>
+      <div className="r-selm">
+        <label className="r-selm-f">
+          <span>{"Project"}</span>
+          <select data-selm="" defaultValue="">
+            <option value="">{"Choose"}</option>
+            <option value="health">{"Healthcare"}</option>
+            <option value="office">{"Corporate office"}</option>
+            <option value="retail">{"Retail & restaurant"}</option>
+            <option value="hosp">{"Hospitality"}</option>
+            <option value="mf">{"Multifamily"}</option>
+          </select>
+        </label>
+        <label className="r-selm-f">
+          <span>{"I’m a"}</span>
+          <select data-selm="" defaultValue="">
+            <option value="">{"Choose"}</option>
+            <option value="dev">{"Developer or owner"}</option>
+            <option value="tenant">{"Tenant or broker"}</option>
+            <option value="pm">{"Property manager"}</option>
+            <option value="arch">{"Architect"}</option>
+            <option value="sub">{"Subcontractor"}</option>
+            <option value="job">{"Job seeker"}</option>
+          </select>
+        </label>
+      </div>
     </section>
   );
 }

@@ -78,3 +78,9 @@ if(rep&&rep.getBoundingClientRect().top>innerHeight){rep.classList.add('stack');
 // count up
 document.querySelectorAll('[data-count]').forEach(function(el){var t=+el.getAttribute('data-count'),suf=el.getAttribute('data-suffix')||'';var io4=new IntersectionObserver(function(es){if(!es[0].isIntersecting)return;io4.disconnect();var st=null;function f(ts){if(!st)st=ts;var p=Math.min(1,(ts-st)/1200);el.textContent=Math.round(t*(1-Math.pow(1-p,3)))+suf;if(p<1)requestAnimationFrame(f);}requestAnimationFrame(f);});io4.observe(el);});
 })();
+
+// Phone: dropdowns drive the same audience buttons
+(function(){var sels=document.querySelectorAll('[data-selm]');if(!sels.length)return;
+function sync(){var on=document.querySelector('.r-pill[aria-pressed="true"]');var k=on?on.getAttribute('data-aud'):'';sels.forEach(function(s){s.value=[].some.call(s.options,function(o){return o.value===k})?k:''})}
+sels.forEach(function(s){s.addEventListener('change',function(){var k=s.value;if(!k){var on=document.querySelector('.r-pill[aria-pressed="true"]');if(on)on.click();return}var b=document.querySelector('.r-pill[data-aud="'+k+'"]');if(b&&b.getAttribute('aria-pressed')!=='true')b.click();sync()})});
+new MutationObserver(sync).observe(document.querySelector('.r-selcard'),{subtree:true,attributes:true,attributeFilter:['aria-pressed']});})();

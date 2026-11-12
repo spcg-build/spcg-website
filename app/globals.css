@@ -365,3 +365,16 @@ a{text-decoration:none}
 #services,#about,#work,#approach,#leadership,#insights,#reporting{scroll-margin-top:72px}#serve{scroll-margin-top:110px}
 @media (max-width:900px){.r-svc{padding:96px 24px 0}.r-svc-h2{font-size:32px}.r-svc-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:640px){.r-svc{padding:80px 20px 0}.r-svc-h2{font-size:28px}.r-svc-grid{grid-template-columns:1fr}.r-svc-card{min-height:0;padding:22px}}
+
+.r-selm,.r-tailor-s{display:none}
+@media (max-width:640px){
+ .r-tailor-l{display:none}
+ .r-tailor-s{display:block;font-size:16px;line-height:1.45;color:#2B2D30}
+ .r-pills{padding-top:28px!important;gap:6px!important}
+ .r-selector{padding-top:16px!important}
+ .r-selcard{display:none!important}
+ .r-selm{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 max(24px,env(safe-area-inset-right,0px)) 0 max(24px,env(safe-area-inset-left,0px))}
+ .r-selm-f{display:flex;flex-direction:column;gap:6px}
+ .r-selm-f span{font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#45484C}
+ .r-selm-f select{-webkit-appearance:none;appearance:none;width:100%;height:46px;padding:0 34px 0 14px;border:1px solid #D9DADB;border-radius:6px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%230A0A0B' stroke-width='1.6' fill='none'/%3E%3C/svg%3E") no-repeat right 12px center;font:inherit;font-size:15px;color:#0A0A0B}
+}
