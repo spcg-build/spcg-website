@@ -18,12 +18,24 @@ export default function Footer() {
             <span style={{ fontSize: "13px", color: "#7E8185", whiteSpace: "nowrap" }}>{"Job-cost accounting"}</span>
           </span>
           <span style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
+            <span style={{ fontSize: "28px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"Togal.AI"}</span>
+            <span style={{ fontSize: "13px", color: "#7E8185", whiteSpace: "nowrap" }}>{"AI takeoffs"}</span>
+          </span>
+          <span style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
+            <span style={{ fontSize: "28px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"Bluebeam"}</span>
+            <span style={{ fontSize: "13px", color: "#7E8185", whiteSpace: "nowrap" }}>{"Plan review"}</span>
+          </span>
+          <span style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
             <span style={{ fontSize: "28px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"BuildingConnected"}</span>
             <span style={{ fontSize: "13px", color: "#7E8185", whiteSpace: "nowrap" }}>{"Bid management"}</span>
           </span>
           <span style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
             <span style={{ fontSize: "28px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"Buildr"}</span>
             <span style={{ fontSize: "13px", color: "#7E8185", whiteSpace: "nowrap" }}>{"Client relationships"}</span>
+          </span>
+          <span style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
+            <span style={{ fontSize: "28px", fontWeight: "600", letterSpacing: "-0.01em", whiteSpace: "nowrap", color: "#B9BBBE" }}>{"Snowflake"}</span>
+            <span style={{ fontSize: "13px", color: "#7E8185", whiteSpace: "nowrap" }}>{"Data warehouse"}</span>
           </span>
         </div>
       </div>
