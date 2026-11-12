@@ -4,7 +4,7 @@ import { JOBS } from '@/content/jobs';
 
 export const metadata: Metadata = {
   title: "Careers",
-  description: "Join SP Construction Group. Hiring a project manager and superintendent in Central Florida, a traveling superintendent, and project and senior accountants.",
+  description: "Join SP Construction Group. Hiring a project manager and superintendent in Central Florida, a traveling superintendent, a preconstruction and estimating assistant, and project and senior accountants.",
 };
 
 const Label = ({ children }: { children: string }) => (
@@ -59,8 +59,8 @@ export default function CareersPage() {
           </div>
           <div className="c-place">
             <span className="c-pill">{fn + (fn === 1 ? " open role" : " open roles")}</span>
-            <span className="c-place-t">{"Finance and accounting"}</span>
-            <span className="c-place-d">{"Remote, supporting projects across the East Coast. Help build the finance team of a growing GC."}</span>
+            <span className="c-place-t">{"Office: preconstruction and finance"}</span>
+            <span className="c-place-d">{"Remote, supporting projects across the East Coast. Help build the estimating and finance teams of a growing GC."}</span>
           </div>
         </div>
       </section>
@@ -135,7 +135,7 @@ export default function CareersPage() {
           <button type="button" className="v-fbtn" data-filter="all" aria-pressed="true">{"All"}</button>
           <button type="button" className="v-fbtn" data-filter="fl" aria-pressed="false">{"Central Florida"}</button>
           <button type="button" className="v-fbtn" data-filter="travel" aria-pressed="false">{"Traveling"}</button>
-          <button type="button" className="v-fbtn" data-filter="fin" aria-pressed="false">{"Finance"}</button>
+          <button type="button" className="v-fbtn" data-filter="fin" aria-pressed="false">{"Office"}</button>
         </div>
         <div className="c-jobs">
           {JOBS.map((j) => (

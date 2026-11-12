@@ -96,6 +96,33 @@ export const JOBS: Job[] = [
     extra: '[Travel, lodging and per diem details to be added]',
   },
   {
+    id: 'precon-estimating-assistant',
+    title: 'Preconstruction & Estimating Assistant',
+    region: 'fin',
+    location: 'Remote · East Coast',
+    type: 'Full-time · Office',
+    summary:
+      'Help our preconstruction team turn drawings into budgets and bids that owners can rely on. You will work alongside our Senior Estimator on commercial buildouts, healthcare and renovation projects, and learn estimating from the ground up.',
+    doList: [
+      'Set up bids: download plans and specs, organize bid documents and track due dates',
+      'Run quantity takeoffs with Togal.AI and Bluebeam, and check them against the drawings',
+      'Send bid invitations through BuildingConnected and follow up with subcontractors for coverage',
+      'Level subcontractor proposals and flag scope gaps, exclusions and outliers',
+      'Build and update budget and bid spreadsheets with the estimating team',
+      'Keep historical cost and subcontractor data organized for future estimates',
+      'Help hand off awarded projects to the project team in Procore',
+    ],
+    bring: [
+      '1 to 2 years in construction estimating, project engineering or a related role, or a construction degree',
+      'Comfort reading commercial drawings and specifications',
+      'Strong Excel and attention to detail',
+      'Organized, reliable and able to juggle several bid deadlines at once',
+      'Clear, professional communication with subcontractors and vendors',
+      'Interest in technology and AI tools that make estimating faster and more accurate',
+    ],
+    plus: ['Togal.AI, Bluebeam or PlanSwift', 'BuildingConnected', 'Interior buildout or healthcare experience', 'An existing subcontractor network in MD, DC, VA or Florida'],
+  },
+  {
     id: 'project-accountant',
     title: 'Project Accountant',
     region: 'fin',
