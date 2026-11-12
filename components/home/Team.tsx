@@ -55,7 +55,7 @@ export default function Team() {
         <div data-block="" style={{ background: "#FFFFFF", border: "1px solid #E4E5E6", borderRadius: "10px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
             <span style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#0A0A0B" }}>
-              {"Operations & preconstruction"}
+              {"Preconstruction & operations"}
             </span>
             <span style={{ fontSize: "13px", color: "#45484C" }}>{"Estimating, field operations and project management"}</span>
           </div>
