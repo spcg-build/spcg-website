@@ -95,3 +95,21 @@ new MutationObserver(sync).observe(document.querySelector('.r-selcard'),{subtree
     if(t){var g=t.closest('[data-gal]');var m=g.querySelector('.r-proj-main');m.src=t.getAttribute('data-src');m.alt=t.getAttribute('data-alt');g.querySelector('.r-proj-cap').textContent=t.getAttribute('data-alt');g.querySelectorAll('.r-proj-th').forEach(function(b){b.setAttribute('aria-pressed',b===t?'true':'false')});}
   });
 })();
+
+// Click tracking (Vercel Web Analytics custom events). Anonymous: records which link was clicked and on which page.
+(function(){
+  window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};
+  function send(name,data){try{data.page=location.pathname;window.va('event',{name:name,data:data});}catch(e){}}
+  document.addEventListener('click',function(e){
+    var el=e.target.closest&&e.target.closest('a,button');if(!el)return;
+    if(el.matches('[data-apply]'))return send('Apply click',{role:el.getAttribute('data-apply')});
+    var h=el.getAttribute('href')||'';
+    if(!h)return;
+    if(/linkedin\.com\/company/.test(h))return send('LinkedIn click',{target:'Company page'});
+    if(/linkedin\.com\/in\//.test(h))return send('LinkedIn click',{target:(el.getAttribute('aria-label')||'Team member').replace(' on LinkedIn','')});
+    if(h.indexOf('mailto:')===0)return send('Email click',{to:h.slice(7).split('?')[0]});
+    if(h.indexOf('tel:')===0)return send('Phone click',{to:h.slice(4)});
+    if(/request-a-budget/.test(h))return send('Request a budget click',{from:el.closest('header')?'Header':el.closest('footer')?'Footer':'Page'});
+    if(/^https?:/.test(h)&&h.indexOf(location.host)<0)return send('Outbound click',{to:h.replace(/^https?:\/\//,'').split('/')[0]});
+  },true);
+})();

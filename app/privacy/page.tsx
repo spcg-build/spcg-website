@@ -30,8 +30,9 @@ export default function PrivacyPage() {
         <p style={p}>{"Cookies are small files a website stores in your browser. We use two kinds:"}</p>
         <ul style={{ margin: "0 0 14px 0", paddingLeft: "22px" }}>
           <li style={li}><strong>{"Essential: "}</strong>{"needed for the site to work, such as remembering your cookie choice and the project type you picked in the “Tailor this site” selector. These are always on."}</li>
-          <li style={li}><strong>{"Analytics: "}</strong>{"help us understand how visitors use the site, such as which pages are viewed, how long people stay and what kind of device they use, so we can improve it. These are only used if you select “Accept all.” The information is reported in aggregate and is not used to identify you."}</li>
+          <li style={li}><strong>{"Analytics: "}</strong>{"help us understand how visitors use the site, such as which pages are viewed, how long people stay and what kind of device they use, so we can improve it. These are only used if you select “Accept all.” They may include Microsoft Clarity, which records anonymous clicks, scrolling and page movement to show us where the site is hard to use. The information is reported in aggregate and is not used to identify you."}</li>
         </ul>
+        <p style={p}>{"We also use Vercel Web Analytics, which counts page views and link clicks without cookies and without identifying you."}</p>
         <p style={p}>{"We do not use advertising cookies, and we do not sell or share your personal information for advertising."}</p>
 
         <h2 style={h3}>{"Your choices"}</h2>
