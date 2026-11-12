@@ -4,7 +4,7 @@ import { JOBS } from '@/content/jobs';
 
 export const metadata: Metadata = {
   title: "Careers",
-  description: "Join SP Construction Group. Hiring a project manager and superintendent in Central Florida, a traveling superintendent, a preconstruction and estimating assistant, and project and senior accountants.",
+  description: "Careers at SP Construction Group. Available and upcoming roles in project management, field operations, preconstruction and finance, in Central Florida and across the East Coast.",
 };
 
 const Label = ({ children }: { children: string }) => (
@@ -24,7 +24,7 @@ export default function CareersPage() {
         <div className="v-wrap v-hero-in">
           <span className="v-eyebrow" style={{ color: "#ECEDEE" }}>
             <span className="v-dot"></span>
-            {"Careers · now hiring"}
+            {"Careers"}
           </span>
           <h1 className="v-h1">
             {"Help build a general contractor "}
@@ -33,7 +33,7 @@ export default function CareersPage() {
           <p className="v-lede">{"We're a growing team of builders who want real responsibility, modern tools and leaders who answer the phone. Your work shapes the company, not just the job."}</p>
           <div className="v-actions">
             <button type="button" className="v-btn" data-scroll="#roles">
-              {"See open roles "}
+              {"See available roles "}
               <span aria-hidden="true">{"→"}</span>
             </button>
             <button type="button" className="v-btn-ghost" data-scroll="#apply">{"Send a general application"}</button>
@@ -43,22 +43,22 @@ export default function CareersPage() {
 
       <section className="v-wrap v-sec">
         <div className="v-sechead">
-          <Label>{"Where we're hiring"}</Label>
+          <Label>{"Where we're growing"}</Label>
           <p className="v-h2">{"Growing in Florida, building up and down the East Coast."}</p>
         </div>
         <div className="c-where">
           <div className="c-place c-place-hot">
-            <span className="c-pill">{fl + (fl === 1 ? " open role" : " open roles")}</span>
+            <span className="c-pill">{fl + (fl === 1 ? " role" : " roles")}</span>
             <span className="c-place-t">{"Central Florida"}</span>
             <span className="c-place-d">{"Orlando and Tampa Bay. Our newest market, with healthcare, office and retail work and a team we're building now."}</span>
           </div>
           <div className="c-place">
-            <span className="c-pill">{tr + (tr === 1 ? " open role" : " open roles")}</span>
+            <span className="c-pill">{tr + (tr === 1 ? " role" : " roles")}</span>
             <span className="c-place-t">{"Traveling · East Coast"}</span>
             <span className="c-place-d">{"Maryland, DC, Virginia, North Carolina, Boston and Florida, wherever our clients need us."}</span>
           </div>
           <div className="c-place">
-            <span className="c-pill">{fn + (fn === 1 ? " open role" : " open roles")}</span>
+            <span className="c-pill">{fn + (fn === 1 ? " role" : " roles")}</span>
             <span className="c-place-t">{"Office: preconstruction and finance"}</span>
             <span className="c-place-d">{"Remote, supporting projects across the East Coast. Help build the estimating and finance teams of a growing GC."}</span>
           </div>
@@ -128,8 +128,9 @@ export default function CareersPage() {
 
       <section id="roles" className="v-wrap v-sec">
         <div className="v-sechead">
-          <Label>{"Open roles"}</Label>
+          <Label>{"Available and upcoming roles"}</Label>
           <p className="v-h2">{"Find where you fit."}</p>
+          <p className="v-muted" style={{ marginTop: "10px", maxWidth: "640px" }}>{"Some of these roles are open now, and others we're planning for as we grow. Apply anytime and we'll reach out when the timing fits."}</p>
         </div>
         <div className="v-filter" role="group" aria-label="Filter roles">
           <button type="button" className="v-fbtn" data-filter="all" aria-pressed="true">{"All"}</button>
