@@ -113,3 +113,14 @@ new MutationObserver(sync).observe(document.querySelector('.r-selcard'),{subtree
     if(/^https?:/.test(h)&&h.indexOf(location.host)<0)return send('Outbound click',{to:h.replace(/^https?:\/\//,'').split('/')[0]});
   },true);
 })();
+
+// Back to top: floating button after scrolling, plus the footer link.
+(function(){
+  var b=document.createElement('button');b.type='button';b.className='r-totop';b.setAttribute('aria-label','Back to top');b.hidden=true;
+  b.innerHTML='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  document.body.appendChild(b);
+  function up(e){if(e)e.preventDefault();var rm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;window.scrollTo({top:0,behavior:rm?'auto':'smooth'});}
+  b.addEventListener('click',up);
+  document.addEventListener('click',function(e){var t=e.target.closest&&e.target.closest('[data-totop]');if(t)up(e);});
+  var ticking=false;window.addEventListener('scroll',function(){if(ticking)return;ticking=true;requestAnimationFrame(function(){b.hidden=window.scrollY<900;ticking=false;});},{passive:true});
+})();

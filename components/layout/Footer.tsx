@@ -69,12 +69,14 @@ export default function Footer() {
           <a href="/request-a-budget/" style={{ color: "#ECEDEE" }}>{"Request a budget"}</a>
         </div>
       </div>
-      <div className="r-legal" style={{ margin: "44px 120px 0 120px", display: "flex", justifyContent: "space-between", gap: "16px", borderTop: "1px solid rgba(255,255,255,0.08)", paddingTop: "20px", fontSize: "11px", letterSpacing: "0.12em", color: "#8C8F93" }}>
-        <span>{"© 2026 SP CONSTRUCTION GROUP · PRIVATELY HELD"}</span>
-        <span style={{ display: "flex", gap: "18px", flexWrap: "wrap" }}>
-          <a href="/privacy/">{"PRIVACY & COOKIES"}</a>
-          <button type="button" data-cookie-settings="">{"COOKIE SETTINGS"}</button>
-          <span>{"BONDED & INSURED"}</span>
+      <div className="r-legal" style={{ margin: "44px 120px 0 120px", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "16px", flexWrap: "wrap", borderTop: "1px solid rgba(255,255,255,0.08)", paddingTop: "20px", fontSize: "12px", letterSpacing: "0.02em", color: "#8C8F93" }}>
+        <span>{"© 2026 SP Construction Group. All rights reserved."}</span>
+        <span style={{ display: "flex", gap: "18px", flexWrap: "wrap", alignItems: "center" }}>
+          <a href="/privacy/">{"Privacy & cookies"}</a>
+          <button type="button" data-cookie-settings="">{"Cookie settings"}</button>
+          <a href="/accessibility/">{"Accessibility"}</a>
+          <a href="/site-map/">{"Site map"}</a>
+          <a href="#top" className="r-totop-link" data-totop="">{"Back to top ↑"}</a>
         </span>
       </div>
       <div className="r-tagline" aria-hidden="true" style={{ marginTop: "28px", height: "112px", overflow: "hidden", display: "flex", justifyContent: "center" }}>

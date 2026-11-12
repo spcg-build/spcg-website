@@ -11,8 +11,8 @@ const P: Record<string, Project[]> = {
       place: "Belcamp, MD",
       status: "Completed",
       photos: [
-        ["/images/projects/aspen-reception.jpg", "Reception and waiting area"],
         ["/images/projects/aspen-surgery.jpg", "Surgery suite with glass-walled viewing"],
+        ["/images/projects/aspen-reception.jpg", "Reception and waiting area"],
         ["/images/projects/aspen-treatment.jpg", "Treatment area"],
         ["/images/projects/aspen-corridor.jpg", "Clinical corridor"],
         ["/images/projects/aspen-progress-1.jpg", "During construction: framing and MEP rough-in"],

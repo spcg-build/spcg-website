@@ -1,4 +1,6 @@
 // HERO: concrete, oversized type, full-bleed banner
+// Moving banner: a slow drift on the lobby photo. To use real footage instead, drop a short muted MP4 (10–20s, under ~8 MB) in /public/videos and set HERO_VIDEO.
+const HERO_VIDEO = ""; // e.g. "/videos/hero.mp4"
 export default function Hero() {
   return (
     <section className="r-hero cx-hero" style={{ position: "relative" }}>
@@ -26,9 +28,10 @@ export default function Hero() {
       </div>
       <div className="r-banner" style={{ position: "relative", height: "470px" }}>
         <div id="banner" className="hb" style={{ willChange: "transform", position: "absolute", inset: "0" }}>
-          <img src="/images/hero-lobby.jpg" className="hb-s hb-1" alt="A finished commercial lobby" style={{ objectPosition: "50% 55%" }} />
-          <img src="/images/aspen-river-reception.jpg" className="hb-s hb-2" alt="Aspen River Veterinary Clinic reception" loading="lazy" />
-          <img src="/images/building-what-matters-wall.jpg" className="hb-s hb-3" alt="Building What Matters feature wall" loading="lazy" />
+          <img src="/images/hero-lobby.jpg" className="hb-s hb-1 hb-solo" alt="A finished commercial lobby" style={{ objectPosition: "50% 55%" }} />
+          {HERO_VIDEO ? (
+            <video className="hb-v" src={HERO_VIDEO} poster="/images/hero-lobby.jpg" autoPlay muted loop playsInline preload="metadata" aria-hidden="true"></video>
+          ) : null}
         </div>
         <div aria-hidden="true" style={{ position: "absolute", inset: "0", background: "linear-gradient(180deg, #1F2022 0%, rgba(31,32,34,0.55) 18%, rgba(31,32,34,0) 42%, rgba(10,10,11,0) 70%, rgba(10,10,11,0.35) 100%)" }}></div>
         <div className="r-bchip" style={{ position: "absolute", left: "120px", bottom: "120px", display: "flex", alignItems: "center", gap: "10px", height: "34px", padding: "0 14px", borderRadius: "6px", background: "rgba(10,10,11,0.45)", border: "1px solid rgba(255,255,255,0.18)", backdropFilter: "blur(10px)", color: "#E6E7E8", fontSize: "12px", letterSpacing: "0.04em" }}>

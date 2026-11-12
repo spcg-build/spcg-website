@@ -22,7 +22,7 @@ export default function FeaturedWork() {
       </div>
       <div className="r-strip hs" style={{ marginTop: "44px", overflowX: "auto", scrollSnapType: "x mandatory", scrollPaddingLeft: "120px", padding: "0 120px 20px 120px", display: "flex", gap: "20px", alignItems: "flex-end" }}>
         <a href="/#work" className="lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 660px", height: "540px", borderRadius: "4px", overflow: "hidden", display: "block" }}>
-          <img src="/images/aspen-river-reception.jpg" alt="Aspen River Veterinary Clinic" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+          <img src="/images/projects/aspen-surgery.jpg" alt="Aspen River Veterinary Clinic surgery suite" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
           <div aria-hidden="true" style={{ position: "absolute", inset: "0", background: "linear-gradient(180deg, rgba(10,10,11,0) 45%, rgba(10,10,11,0.88) 100%)" }}></div>
           <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.9)" }}>{"01"}</span>
           <div style={{ position: "absolute", left: "28px", right: "28px", bottom: "26px", display: "flex", flexDirection: "column", gap: "8px" }}>
