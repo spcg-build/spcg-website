@@ -66,11 +66,12 @@ export default function FeaturedWork() {
           <span style={{ fontSize: "13px", color: "#E1E2E4" }}>{"Washington, DC · 7,500 SF · via CBRE"}</span>
         </a>
         <a href="/#work" className="cx-blue lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 420px", height: "440px", borderRadius: "4px", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "28px", gap: "8px", boxSizing: "border-box" }}>
-          <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.85)" }}>{"07"}</span>
-          <span style={{ position: "absolute", top: "34px", right: "26px", fontSize: "11px", color: "#8C8F93" }}>{"Photo to come"}</span>
-          <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.12em", color: "#9DB8D3" }}>{"MULTIFAMILY · CORRIDOR REFRESH"}</span>
-          <span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"Via Seaport Boston"}</span>
-          <span style={{ fontSize: "13px", color: "#E1E2E4" }}>{"Boston, MA · 37,520 SF · Common corridors and elevator lobbies"}</span>
+          <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.9)", zIndex: "1" }}>{"07"}</span>
+          <img src="/images/projects/seaport-corridor-1.jpg" alt="Via Seaport finished corridor" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", zIndex: "0" }} />
+          <div aria-hidden="true" style={{ position: "absolute", inset: "0", zIndex: "0", background: "linear-gradient(180deg, rgba(10,10,11,0) 40%, rgba(10,10,11,0.88) 100%)" }}></div>
+          <span style={{ position: "relative", fontSize: "11px", fontWeight: "600", letterSpacing: "0.12em", color: "#9DB8D3" }}>{"MULTIFAMILY · CORRIDOR REFRESH"}</span>
+          <span style={{ position: "relative", fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"Via Seaport Boston"}</span>
+          <span style={{ position: "relative", fontSize: "13px", color: "#E1E2E4" }}>{"Boston, MA · 37,520 SF · Common corridors and elevator lobbies"}</span>
         </a>
         <a href="/#work" className="cx-blue lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 420px", height: "440px", borderRadius: "4px", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "28px", gap: "8px", boxSizing: "border-box" }}>
           <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.85)" }}>{"08"}</span>
@@ -78,6 +79,13 @@ export default function FeaturedWork() {
           <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.12em", color: "#9DB8D3" }}>{"MULTIFAMILY · CORRIDOR REFRESH"}</span>
           <span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"Berkshire Ballantyne Apartments"}</span>
           <span style={{ fontSize: "13px", color: "#E1E2E4" }}>{"Charlotte, NC · 41,000 SF · Common corridors and elevator lobbies"}</span>
+        </a>
+        <a href="/#work" className="cx-blue lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 420px", height: "440px", borderRadius: "4px", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "28px", gap: "8px", boxSizing: "border-box" }}>
+          <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.85)" }}>{"09"}</span>
+          <span style={{ position: "absolute", top: "34px", right: "26px", fontSize: "11px", color: "#8C8F93" }}>{"Photo to come"}</span>
+          <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.12em", color: "#9DB8D3" }}>{"HEALTHCARE · RENOVATION"}</span>
+          <span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"West End Plastic Surgery"}</span>
+          <span style={{ fontSize: "13px", color: "#E1E2E4" }}>{"[Location] · Phased finish renovation in an operating practice"}</span>
         </a>
       </div>
       <div className="r-progress" style={{ margin: "18px 120px 0 120px", height: "2px", background: "#ECECEA", borderRadius: "2px" }}>
