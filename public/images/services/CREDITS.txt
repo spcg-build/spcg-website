@@ -1,8 +1,9 @@
 Service card photos: Unsplash (unsplash.com/license, free for commercial use, no attribution required).
-preconstruction.jpg  photo-1705579611777-ed5eced0a9e9
+preconstruction-v2.jpg photo-1608303588026-884930af2559
 tenant-fit-outs.jpg  photo-1631193816258-28b44b21e78b
 healthcare.jpg       photo-1777269749032-d8d458ae594d
 renovations.jpg      photo-1698889670677-caac664cfce0
 multifamily.jpg      photo-1630699293470-83d8406ffd31
-exterior.jpg         photo-1515263487990-61b07816b324
+exterior-v2.jpg      photo-1786400963234-b59cfd51797b
 Replace with real SPCG project photos as they become available.
+client-walkthrough.jpg (in /images) photo-1692167457893-2c8ca89392ff

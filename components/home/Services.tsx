@@ -108,12 +108,12 @@ const P: Record<string, Project[]> = {
 };
 
 const SERVICES: [string, string, string, string?][] = [
-  ["Preconstruction", "Budgets, value engineering and schedules built with your architect before you commit.", "/images/services/preconstruction.jpg"],
+  ["Preconstruction", "Budgets, value engineering and schedules built with your architect before you commit.", "/images/services/preconstruction-v2.jpg"],
   ["Tenant fit-outs", "Interior buildouts for office, medical, retail and restaurant tenants, delivered to the lease date.", "/images/services/tenant-fit-outs.jpg", "fit"],
   ["Healthcare and clinical", "Surgery centers, medical office and clinical spaces built to pass inspection and open on time.", "/images/services/healthcare.jpg", "health"],
   ["Renovations and repositioning", "Upgrades in occupied buildings, phased so tenants, patients and residents keep running.", "/images/services/renovations.jpg"],
   ["Multifamily refreshes", "Corridors, lobbies, amenity spaces and unit turns, delivered floor by floor.", "/images/services/multifamily.jpg", "mf"],
-  ["Exterior improvements", "Storefronts, facades and site work that complete the project inside and out.", "/images/services/exterior.jpg"],
+  ["Exterior improvements", "Storefront, facade and site upgrades for retail centers and commercial buildings, phased so tenants stay open.", "/images/services/exterior-v2.jpg"],
 ];
 
 export default function Services() {
