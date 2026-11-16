@@ -30,8 +30,8 @@ export default function OwnerReporting() {
         <div style={{ height: "70px" }}></div>
       </div>
       <figure className="r-repimg" style={{ position: "absolute", right: "0", top: "0", width: "58%", height: "100%", margin: "0", overflow: "hidden", zIndex: "0" }}>
-        <picture><source media="(max-width: 1100px)" srcSet="/images/team-on-site-m-v2.jpg" /><img src="/images/team-on-site-v2.jpg" alt="SPCG project team reviewing the schedule on site" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 50%", display: "block" }} /></picture>
-        <figcaption className="r-repcap">{"Weekly review on site with the owner's construction manager, keeping an overseas client confident the project is moving."}</figcaption>
+        <picture><source media="(max-width: 1100px)" srcSet="/images/team-on-site-m-v3.jpg" /><img src="/images/team-on-site-v4.jpg" alt="SPCG project team reviewing the schedule on site" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "40% 30%", display: "block" }} /></picture>
+        <figcaption className="r-repcap">{"Weekly site review with the owner's rep for an overseas client"}</figcaption>
         <div aria-hidden="true" style={{ position: "absolute", inset: "0", background: "linear-gradient(90deg, rgba(23,24,26,1) 0%, rgba(23,24,26,0.55) 22%, rgba(23,24,26,0) 45%)" }}></div>
       </figure>
       <div className="r-weekcard" style={{ position: "absolute", left: "640px", top: "160px", width: "540px", padding: "1px", borderRadius: "10px", background: "linear-gradient(140deg, rgba(255,255,255,0.6), rgba(255,255,255,0.05) 50%, rgba(157,184,211,0.5))", transform: "rotate(-2.5deg)", boxShadow: "0 40px 80px rgba(0,0,0,0.38)" }}>
