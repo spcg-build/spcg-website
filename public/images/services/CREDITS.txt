@@ -6,4 +6,4 @@ renovations.jpg      photo-1698889670677-caac664cfce0
 multifamily.jpg      photo-1630699293470-83d8406ffd31
 exterior-v2.jpg      photo-1786400963234-b59cfd51797b
 Replace with real SPCG project photos as they become available.
-team-on-site.jpg (in /images) SPCG job photo, old shirt and cap logos removed
+client-walkthrough.jpg (in /images) photo-1692167457893-2c8ca89392ff
