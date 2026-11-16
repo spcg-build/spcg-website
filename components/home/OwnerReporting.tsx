@@ -29,8 +29,8 @@ export default function OwnerReporting() {
         </div>
         <div style={{ height: "70px" }}></div>
       </div>
-      <figure className="r-repimg" style={{ position: "absolute", right: "0", top: "0", width: "58%", height: "100%", margin: "0", overflow: "hidden", zIndex: "0" }}>
-        <picture><source media="(max-width: 1100px)" srcSet="/images/team-on-site-m-v3.jpg" /><img src="/images/team-on-site-v4.jpg" alt="SPCG project team reviewing the schedule on site" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "40% 30%", display: "block" }} /></picture>
+      <figure className="r-repimg" style={{ position: "absolute", right: "0", top: "0", width: "35%", height: "100%", margin: "0", overflow: "hidden", zIndex: "0" }}>
+        <picture><source media="(max-width: 1100px)" srcSet="/images/team-on-site-m-v4.jpg" /><img src="/images/team-on-site-v5.jpg" alt="SPCG project team reviewing the schedule on site" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 50%", display: "block" }} /></picture>
         <figcaption className="r-repcap">{"Weekly site review with the owner's rep for an overseas client"}</figcaption>
         <div aria-hidden="true" style={{ position: "absolute", inset: "0", background: "linear-gradient(90deg, rgba(23,24,26,1) 0%, rgba(23,24,26,0.55) 22%, rgba(23,24,26,0) 45%)" }}></div>
       </figure>
