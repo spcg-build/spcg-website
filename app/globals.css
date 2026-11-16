@@ -433,9 +433,11 @@ a{text-decoration:none}
 @media (max-width:1100px){.r-repimg{position:static!important;width:auto!important;height:300px!important;margin:0 calc(-1*max(24px,env(safe-area-inset-left,0px)))!important}.r-repimg>div{background:linear-gradient(180deg,rgba(23,24,26,1) 0%,rgba(23,24,26,0) 40%)!important}}
 .r-weekcard,.r-reporttext{z-index:1}
 .r-report .r-paycard{display:none!important}
-@media (min-width:1101px){.r-report .r-weekcard{left:auto!important;right:48px;top:auto!important;bottom:-60px;scale:.62;transform-origin:right bottom}}
+@media (min-width:1101px){.r-report .r-weekcard{display:none!important}}
 .r-repimg>div{display:none}
 .r-repimg img{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 38%);mask-image:linear-gradient(90deg,transparent 0,#000 38%)}
 @media (max-width:1100px){.r-repimg img{-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 30%);mask-image:linear-gradient(180deg,transparent 0,#000 30%)}}
 .r-repimg picture{display:block;width:100%;height:100%}
-@media (max-width:1100px){.r-repimg{height:auto!important}.r-repimg img{height:auto!important;aspect-ratio:1100/424}}
+@media (max-width:1100px){.r-repimg{height:auto!important}.r-repimg img{height:auto!important;aspect-ratio:1100/404}}
+.r-repcap{position:absolute;right:20px;bottom:18px;max-width:330px;padding:10px 14px;border-radius:6px;background:rgba(14,15,16,.72);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);font-size:12.5px;line-height:1.45;color:#ECEDEE}
+@media (max-width:1100px){.r-repimg{position:relative!important}.r-repcap{position:static;padding:10px max(24px,env(safe-area-inset-left,0px)) 0;max-width:none;color:#B9BBBE;background:none;backdrop-filter:none;-webkit-backdrop-filter:none;border-radius:0}}
