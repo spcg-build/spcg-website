@@ -79,6 +79,7 @@ export default function Footer() {
           <a href="#top" className="r-totop-link" data-totop="">{"Back to top ↑"}</a>
         </span>
       </div>
+      <p className="r-a11y-note" style={{ margin: "14px 120px 0 120px", fontSize: "12px", lineHeight: "1.5", color: "#A9ABAE" }}><strong style={{ color: "#ECEDEE", fontWeight: "600" }}>{"Accessibility: "}</strong>{"If you have trouble using any part of this website, call "}<a href="tel:+14433000338" style={{ color: "#ECEDEE" }}>{"(443) 300-0338"}</a>{" or email "}<a href="mailto:bids@spconstructiongroup.com" style={{ color: "#ECEDEE" }}>{"bids@spconstructiongroup.com"}</a>{" and we'll help."}</p>
       <div className="r-tagline" aria-hidden="true" style={{ marginTop: "28px", height: "112px", overflow: "hidden", display: "flex", justifyContent: "center" }}>
         <span style={{ fontSize: "142px", fontWeight: "300", letterSpacing: "-0.055em", lineHeight: "1", whiteSpace: "nowrap", background: "linear-gradient(180deg, #FFFFFF 0%, #A9ABAE 45%, rgba(110,113,117,0.15) 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"Building What Matters."}</span>
       </div>
