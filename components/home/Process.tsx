@@ -7,7 +7,7 @@ export default function Process() {
           <div style={{ width: "28px", height: "2px", borderRadius: "2px", background: "linear-gradient(90deg, #B5541C, #D9773A)" }}></div>
           <h2 style={{ margin: "0", fontSize: "12px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase" }}>{"How we run a job"}</h2>
         </div>
-        <p style={{ margin: "0", fontSize: "52px", fontWeight: "300", letterSpacing: "-0.03em", lineHeight: "1.05" }}>{"Five steps. You see what we see at every one."}</p>
+        <p style={{ margin: "0", fontSize: "52px", fontWeight: "300", letterSpacing: "-0.03em", lineHeight: "1.05" }}>{"The same five steps on every job, with a deliverable at each one."}</p>
         <span className="r-hide r-big05" aria-hidden="true" style={{ marginTop: "24px", fontSize: "220px", fontWeight: "300", letterSpacing: "-0.06em", lineHeight: "0.85", background: "linear-gradient(180deg, #E4E5E6 0%, #FFFFFF 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"05"}</span>
       </div>
       <div style={{ position: "relative", paddingLeft: "56px" }}>
