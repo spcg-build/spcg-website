@@ -1,7 +1,8 @@
 // Client updates: full-bleed concrete band, report cards break out of the bottom edge
 export default function OwnerReporting() {
   return (
-    <section id="reporting" className="r-report cx-band" style={{ position: "relative", marginTop: "120px", height: "500px" }}>
+    <>
+    <section id="reporting" className="r-report cx-band" style={{ position: "relative", zIndex: "2", marginTop: "120px", height: "500px" }}>
       <div className="r-reporttext" style={{ position: "absolute", left: "120px", top: "110px", width: "480px", display: "flex", flexDirection: "column", gap: "20px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#ECEDEE" }}>
           {"Keeping you informed"}
@@ -30,9 +31,6 @@ export default function OwnerReporting() {
         <div style={{ height: "70px" }}></div>
       </div>
       
-      <figure className="r-repimg r-repteam" style={{ position: "absolute", left: "950px", right: "0", top: "0", height: "100%", margin: "0", overflow: "hidden", zIndex: "0" }}>
-        <picture style={{ display: "block", width: "100%", height: "100%" }}><source media="(min-width: 1600px)" srcSet="/images/team-review-wide-v1.jpg" /><img src="/images/team-review-v3.jpg" alt="SPCG superintendents and project team reviewing the schedule with the client on site" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "80% 85%", display: "block", WebkitMaskImage: "linear-gradient(90deg, transparent 0, #000 160px)", maskImage: "linear-gradient(90deg, transparent 0, #000 160px)" }} /></picture>
-      </figure>
       <div className="r-weekcard" style={{ position: "absolute", left: "640px", top: "160px", width: "540px", padding: "1px", borderRadius: "10px", background: "linear-gradient(140deg, rgba(255,255,255,0.6), rgba(255,255,255,0.05) 50%, rgba(157,184,211,0.5))", transform: "rotate(-2.5deg)", boxShadow: "0 40px 80px rgba(0,0,0,0.38)" }}>
         <div style={{ background: "#ffffff", borderRadius: "10px", padding: "28px", display: "flex", flexDirection: "column", gap: "18px" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "12px" }}>
@@ -84,5 +82,9 @@ export default function OwnerReporting() {
         </div>
       </div>
     </section>
+    <figure className="r-teamstrip cx-band" aria-label="SPCG team on site" style={{ position: "relative", zIndex: "1", margin: "0", height: "clamp(360px, 32vw, 640px)", overflow: "hidden" }}>
+      <img src="/images/team-strip-v1.jpg" alt="SPCG superintendents and project team reviewing the schedule with the client on site" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 40%", display: "block", WebkitMaskImage: "linear-gradient(180deg, transparent 0, #000 32%)", maskImage: "linear-gradient(180deg, transparent 0, #000 32%)" }} />
+    </figure>
+    </>
   );
 }
