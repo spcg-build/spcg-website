@@ -113,7 +113,7 @@ const SERVICES: [string, string, string, string?][] = [
   ["Healthcare and clinical", "Surgery centers, medical office and clinical spaces built to pass inspection and open on time.", "/images/services/healthcare.jpg", "health"],
   ["Renovations and repositioning", "Upgrades in occupied buildings, phased so tenants, patients and residents keep running.", "/images/services/renovations.jpg"],
   ["Multifamily refreshes", "Corridors, lobbies, amenity spaces and unit turns, delivered floor by floor.", "/images/services/multifamily.jpg", "mf"],
-  ["Exterior improvements", "Storefront, facade and site upgrades for retail centers and commercial buildings, phased so tenants stay open.", "/images/services/exterior-v2.jpg"],
+  ["Exterior improvements", "Storefront, facade and site upgrades for retail centers and commercial buildings, phased so tenants stay open.", "https://images.unsplash.com/photo-1515263487990-61b07816b324?auto=format&fit=crop&w=1000&q=75"],
 ];
 
 export default function Services() {
