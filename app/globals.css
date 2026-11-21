@@ -436,8 +436,6 @@ a{text-decoration:none}
 
 @media (max-width:1100px){.r-aboutgrid{grid-template-columns:1fr!important;gap:18px!important}.r-aboutus p[style*="52px"]{font-size:36px!important}}
 
-@media (min-width:1101px){.r-report .r-weekcard{scale:.6!important;left:max(530px, calc(40% - 280px))!important;top:300px!important}}
 @media (max-width:1100px){.r-repteam{border-radius:0!important;box-shadow:none!important}}
 @media (max-width:1100px){.r-repteam img{-webkit-mask-image:none!important;mask-image:none!important}}
-@media (min-width:1700px){.r-report{height:620px!important}}
-@media (min-width:1700px){.r-report .r-weekcard{top:380px!important}}
+@media (min-width:1600px){.r-report{height:clamp(500px,30vw,760px)!important}.r-repteam img{object-position:50% 45%!important}}
