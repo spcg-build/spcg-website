@@ -11,7 +11,7 @@ export default function Header() {
           <a href="/#services" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Services"}</a>
           <a href="/#serve" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Who we serve"}</a>
           <a href="/#approach" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Approach"}</a>
-          <a href="/#leadership" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Leadership"}</a>
+          <a href="/#about" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"About"}</a>
           <a href="/#insights" style={{ color: "#E6E7E8", padding: "8px 14px" }}>{"Insights"}</a>
         </nav>
         <div className="r-headlinks" style={{ display: "flex", gap: "20px", alignItems: "center", fontSize: "13px" }}>
@@ -33,6 +33,7 @@ export default function Header() {
           <a href="/#services">{"Services"}</a>
           <a href="/#serve">{"Who we serve"}</a>
           <a href="/#approach">{"Approach"}</a>
+          <a href="/#about">{"About"}</a>
           <a href="/#leadership">{"Our team"}</a>
           <a href="/#insights">{"Insights"}</a>
         </nav>
