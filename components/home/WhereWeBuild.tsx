@@ -37,8 +37,11 @@ export default function WhereWeBuild() {
         </div>
       </div>
       <div className="r-aboutr" style={{ padding: "96px 120px 96px 80px", display: "flex", flexDirection: "column", justifyContent: "center", gap: "22px", background: "linear-gradient(180deg, #FFFFFF 0%, #F6F6F4 100%)" }}>
-        <p style={{ margin: "0", fontSize: "44px", fontWeight: "300", lineHeight: "1.08", letterSpacing: "-0.03em" }}>{"One team, building up and down the East Coast."}</p>
-        <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.65", color: "#45484C" }}>{"A privately held commercial general contractor, licensed in several East Coast markets, with projects from Boston to Florida."}</p>
+        <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", color: "#8C8F93" }}>{"ABOUT SPCG"}</span>
+        <p style={{ margin: "0", fontSize: "44px", fontWeight: "300", lineHeight: "1.08", letterSpacing: "-0.03em" }}>{"A team that has seen every side of the industry."}</p>
+        <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.65", color: "#45484C" }}>{"SP Construction Group was founded in 2023 and has grown quickly since, building commercial projects from Boston to Florida. Our leadership team comes from every corner of the industry: the field, preconstruction, project management and finance."}</p>
+        <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.65", color: "#45484C" }}>{"We look out for everyone on a job, from the client to our own people. We know what keeps a superintendent effective and a project manager on track, and that is what turns into results for our clients. Because our team has seen the business from every angle, we know where the gaps tend to be and close them before they cost you."}</p>
+        <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.65", color: "#45484C" }}>{"We run every job on modern construction technology. It keeps us lean and efficient, lets us price competitively and gives our clients a better experience from first budget to closeout."}</p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "12px 24px", paddingTop: "10px" }}>
           <span style={{ display: "inline-flex", alignItems: "center", gap: "10px", fontSize: "14.5px", fontWeight: "600" }}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2C5A85" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
