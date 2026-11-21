@@ -14,7 +14,7 @@ var orig={h1:hero.h1&&hero.h1.innerHTML,sub:hero.sub&&hero.sub.innerHTML,cta:her
 var fy=document.getElementById('foryou');
 function swap(el,html){if(!el)return;el.classList.add('out');setTimeout(function(){el.innerHTML=html;el.classList.remove('out');},reduce?0:250);}
 function choose(k,scroll){var pills=document.querySelectorAll('.r-pill');pills.forEach(function(p){p.setAttribute('aria-pressed',p.getAttribute('data-aud')===k?'true':'false')});
- try{if(k)localStorage.setItem('spcg-aud',k);else localStorage.removeItem('spcg-aud');}catch(e){}
+
  if(!k){fy.hidden=true;swap(hero.h1,orig.h1);swap(hero.sub,orig.sub);swap(hero.cta,orig.cta);return;}
  var a=AUD[k];
  swap(hero.h1,a.h1);swap(hero.sub,a.sub);swap(hero.cta,a.cta[0]+' <span aria-hidden="true" style="color: #B5541C">→</span>');if(hero.cta)hero.cta.setAttribute('href',a.cta[1]);
@@ -27,7 +27,7 @@ function choose(k,scroll){var pills=document.querySelectorAll('.r-pill');pills.f
 }
 document.querySelectorAll('.r-pill').forEach(function(p){p.addEventListener('click',function(){var k=p.getAttribute('data-aud');choose(p.getAttribute('aria-pressed')==='true'?null:k,true);});});
 document.getElementById('fyClear').addEventListener('click',function(){choose(null,false);});
-try{var saved=localStorage.getItem('spcg-aud');if(saved&&AUD[saved])choose(saved,false);}catch(e){}
+try{localStorage.removeItem('spcg-aud');}catch(e){}
 }
 
 
