@@ -7,7 +7,6 @@ import Services from '@/components/home/Services';
 import FeaturedWork from '@/components/home/FeaturedWork';
 import OwnerReporting from '@/components/home/OwnerReporting';
 import Process from '@/components/home/Process';
-import Testimonials from '@/components/home/Testimonials';
 import AboutUs from '@/components/home/AboutUs';
 import WhereWeBuild from '@/components/home/WhereWeBuild';
 import Team from '@/components/home/Team';
@@ -26,7 +25,6 @@ export default function HomePage() {
       <FeaturedWork />
       <OwnerReporting />
       <Process />
-      <Testimonials />
       <AboutUs />
       <WhereWeBuild />
       <Team />
