@@ -19,7 +19,8 @@ export default function Insights() {
           </div>
           <div style={{ padding: "24px 26px", display: "flex", flexDirection: "column", gap: "10px" }}>
             <span style={{ fontSize: "23px", fontWeight: "400", lineHeight: "1.3" }}>{"Construction costs keep rising into 2027, led by the South"}</span>
-            <span style={{ fontSize: "13px", color: "#45484C" }}>{"JLL · Nov 12, 2026 · Bids are forecast to rise 3–4% next year. Budget early, lock pricing sooner."}</span>
+            <span style={{ fontSize: "13px", color: "#45484C" }}>{"JLL \u00b7 Nov 12, 2026"}</span>
+            <span style={{ fontSize: "14px", lineHeight: "1.5", color: "#0A0A0B", borderLeft: "2px solid #D9773A", paddingLeft: "12px", marginTop: "4px" }}>{"\u201cPrice increases show up in bids three to six months later. Locking a budget early is the best hedge an owner has.\u201d"}<span style={{ display: "block", marginTop: "6px", fontSize: "12px", color: "#45484C" }}>{"\u2014 Justin Diaz, VP of Finance & Business Strategy"}</span></span>
           </div>
         </a>
         <a href="https://www.constructiondive.com/news/construction-ai-reshape-teams-replace-jobs/833612/" target="_blank" rel="noopener noreferrer" className="lift" style={{ marginTop: "64px", borderRadius: "4px", overflow: "hidden", border: "1px solid #E4E5E6", display: "flex", flexDirection: "column", color: "#0A0A0B" }}>
@@ -28,7 +29,8 @@ export default function Insights() {
           </div>
           <div style={{ padding: "22px 24px", display: "flex", flexDirection: "column", gap: "10px" }}>
             <span style={{ fontSize: "19px", fontWeight: "600", lineHeight: "1.35" }}>{"AI is reshaping construction teams more than it's cutting jobs"}</span>
-            <span style={{ fontSize: "13px", color: "#45484C" }}>{"Construction Dive · Oct 21, 2026 · Why we build on data and AI, with people accountable for every number."}</span>
+            <span style={{ fontSize: "13px", color: "#45484C" }}>{"Construction Dive \u00b7 Oct 21, 2026"}</span>
+            <span style={{ fontSize: "14px", lineHeight: "1.5", color: "#0A0A0B", borderLeft: "2px solid #D9773A", paddingLeft: "12px", marginTop: "4px" }}>{"\u201cWe use AI to move faster on the numbers, but a person signs off on every one of them.\u201d"}<span style={{ display: "block", marginTop: "6px", fontSize: "12px", color: "#45484C" }}>{"\u2014 Justin Diaz, VP of Finance & Business Strategy"}</span></span>
           </div>
         </a>
         <a href="https://www.cushmanwakefield.com/en/united-states/news/2026/06/strong-growth-and-tight-supply-in-us-medical-outpatient-building-sector" target="_blank" rel="noopener noreferrer" className="lift" style={{ marginTop: "24px", borderRadius: "4px", overflow: "hidden", border: "1px solid #E4E5E6", display: "flex", flexDirection: "column", color: "#0A0A0B" }}>
@@ -37,7 +39,8 @@ export default function Insights() {
           </div>
           <div style={{ padding: "22px 24px", display: "flex", flexDirection: "column", gap: "10px" }}>
             <span style={{ fontSize: "19px", fontWeight: "600", lineHeight: "1.35" }}>{"Outpatient medical space is 92% full and new supply is down"}</span>
-            <span style={{ fontSize: "13px", color: "#45484C" }}>{"Cushman & Wakefield · Jun 16, 2026 · More fit-outs and renovations of existing space for providers."}</span>
+            <span style={{ fontSize: "13px", color: "#45484C" }}>{"Cushman & Wakefield \u00b7 Jun 16, 2026"}</span>
+            <span style={{ fontSize: "14px", lineHeight: "1.5", color: "#0A0A0B", borderLeft: "2px solid #D9773A", paddingLeft: "12px", marginTop: "4px" }}>{"\u201cWith so little new outpatient space being built, providers are renovating what they already have. That's the work we're built for.\u201d"}<span style={{ display: "block", marginTop: "6px", fontSize: "12px", color: "#45484C" }}>{"\u2014 Anthony Lauro, VP of Construction"}</span></span>
           </div>
         </a>
       </div>
