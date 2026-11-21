@@ -14,8 +14,8 @@ export default function Insights() {
       </div>
       <div className="r-insgrid" style={{ marginTop: "32px", display: "grid", gridTemplateColumns: "1.3fr 1fr 1fr", gap: "20px", alignItems: "start" }}>
         <a href="https://www.jll.com/en-us/newsroom/south-is-set-to-lead-us-construction-growth-in-2027" target="_blank" rel="noopener noreferrer" className="lift" style={{ borderRadius: "4px", overflow: "hidden", border: "1px solid #E4E5E6", display: "flex", flexDirection: "column", color: "#0A0A0B" }}>
-          <div className="cx-blue" style={{ height: "260px", display: "flex", alignItems: "flex-end", padding: "22px 26px", boxSizing: "border-box" }}>
-            <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.14em", color: "#9DB8D3" }}>{"COSTS · NOV 2026"}</span>
+          <div style={{ backgroundImage: "linear-gradient(180deg, rgba(10,10,11,0) 45%, rgba(10,10,11,0.78) 100%), url(/images/projects/aspen-progress-2.jpg)", backgroundSize: "cover", backgroundPosition: "center", height: "260px", display: "flex", alignItems: "flex-end", padding: "22px 26px", boxSizing: "border-box" }}>
+            <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.14em", color: "#FFFFFF" }}>{"COSTS · NOV 2026"}</span>
           </div>
           <div style={{ padding: "24px 26px", display: "flex", flexDirection: "column", gap: "10px" }}>
             <span style={{ fontSize: "23px", fontWeight: "400", lineHeight: "1.3" }}>{"Construction costs keep rising into 2027, led by the South"}</span>
@@ -24,8 +24,8 @@ export default function Insights() {
           </div>
         </a>
         <a href="https://www.constructiondive.com/news/construction-ai-reshape-teams-replace-jobs/833612/" target="_blank" rel="noopener noreferrer" className="lift" style={{ marginTop: "64px", borderRadius: "4px", overflow: "hidden", border: "1px solid #E4E5E6", display: "flex", flexDirection: "column", color: "#0A0A0B" }}>
-          <div className="cx-amber" style={{ height: "180px", display: "flex", alignItems: "flex-end", padding: "20px 24px", boxSizing: "border-box" }}>
-            <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.14em", color: "#E9A27A" }}>{"TECHNOLOGY · OCT 2026"}</span>
+          <div style={{ backgroundImage: "linear-gradient(180deg, rgba(10,10,11,0) 45%, rgba(10,10,11,0.78) 100%), url(/images/projects/aspen-lobby.jpg)", backgroundSize: "cover", backgroundPosition: "center", height: "180px", display: "flex", alignItems: "flex-end", padding: "20px 24px", boxSizing: "border-box" }}>
+            <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.14em", color: "#FFFFFF" }}>{"TECHNOLOGY · OCT 2026"}</span>
           </div>
           <div style={{ padding: "22px 24px", display: "flex", flexDirection: "column", gap: "10px" }}>
             <span style={{ fontSize: "19px", fontWeight: "600", lineHeight: "1.35" }}>{"AI is reshaping construction teams more than it's cutting jobs"}</span>
@@ -34,7 +34,7 @@ export default function Insights() {
           </div>
         </a>
         <a href="https://www.cushmanwakefield.com/en/united-states/news/2026/06/strong-growth-and-tight-supply-in-us-medical-outpatient-building-sector" target="_blank" rel="noopener noreferrer" className="lift" style={{ marginTop: "24px", borderRadius: "4px", overflow: "hidden", border: "1px solid #E4E5E6", display: "flex", flexDirection: "column", color: "#0A0A0B" }}>
-          <div className="cx-steel" style={{ height: "180px", display: "flex", alignItems: "flex-end", padding: "20px 24px", boxSizing: "border-box" }}>
+          <div style={{ backgroundImage: "linear-gradient(180deg, rgba(10,10,11,0) 45%, rgba(10,10,11,0.78) 100%), url(/images/projects/aspen-treatment.jpg)", backgroundSize: "cover", backgroundPosition: "50% 12%", height: "180px", display: "flex", alignItems: "flex-end", padding: "20px 24px", boxSizing: "border-box" }}>
             <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.14em", color: "#ECEDEE" }}>{"HEALTHCARE · JUN 2026"}</span>
           </div>
           <div style={{ padding: "22px 24px", display: "flex", flexDirection: "column", gap: "10px" }}>
