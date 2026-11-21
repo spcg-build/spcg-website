@@ -36,7 +36,7 @@ const P: Record<string, Project[]> = {
       status: "Under construction",
       photos: [["/images/services/tenant-fit-outs.jpg", "Representative photo; project photos at completion"]],
       stats: [
-        ["18,875 SF", "Interior tenant fit-out"],
+        ["11,700 SF", "Interior tenant fit-out"],
         ["Coworking", "Private offices, meeting rooms and a café"],
         ["[Weeks]", "Planned duration"],
         ["2026", "Delivery"],
