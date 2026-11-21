@@ -60,11 +60,12 @@ export default function FeaturedWork() {
           <span style={{ position: "relative", fontSize: "13px", color: "#E1E2E4" }}>{"Washington, DC · Restaurant, bar and private dining"}</span>
         </a>
         <a href="/#work" className="cx-amber lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 420px", height: "440px", borderRadius: "4px", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "28px", gap: "8px", boxSizing: "border-box" }}>
-          <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.85)" }}>{"06"}</span>
-          <span style={{ position: "absolute", top: "34px", right: "26px", fontSize: "11px", color: "#8C8F93" }}>{"Photo to come"}</span>
-          <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.12em", color: "#E9A27A" }}>{"HIGHER ED · WELLNESS"}</span>
-          <span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"Howard University Wellness Center"}</span>
-          <span style={{ fontSize: "13px", color: "#E1E2E4" }}>{"Washington, DC · 7,500 SF · via CBRE"}</span>
+          <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.9)", zIndex: "1" }}>{"06"}</span>
+          <img src="/images/projects/howard-medicine-exterior.jpg" alt="Howard University College of Medicine building" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "58% 50%", zIndex: "0" }} />
+          <div aria-hidden="true" style={{ position: "absolute", inset: "0", zIndex: "0", background: "linear-gradient(180deg, rgba(10,10,11,0) 40%, rgba(10,10,11,0.88) 100%)" }}></div>
+          <span style={{ position: "relative", fontSize: "11px", fontWeight: "600", letterSpacing: "0.12em", color: "#E9A27A" }}>{"HIGHER ED · WELLNESS"}</span>
+          <span style={{ position: "relative", fontSize: "24px", fontWeight: "300", color: "#ffffff" }}>{"Howard University College of Medicine Wellness Center"}</span>
+          <span style={{ position: "relative", fontSize: "13px", color: "#E1E2E4" }}>{"Washington, DC · 7,500 SF · via CBRE"}</span>
         </a>
         <a href="/#work" className="cx-blue lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 420px", height: "440px", borderRadius: "4px", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "28px", gap: "8px", boxSizing: "border-box" }}>
           <span style={{ position: "absolute", top: "22px", left: "26px", fontSize: "64px", fontWeight: "300", letterSpacing: "-0.04em", color: "rgba(255,255,255,0.9)", zIndex: "1" }}>{"07"}</span>
