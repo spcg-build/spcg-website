@@ -435,3 +435,6 @@ a{text-decoration:none}
 .r-report .r-paycard{display:none!important}
 
 @media (max-width:1100px){.r-aboutgrid{grid-template-columns:1fr!important;gap:18px!important}.r-aboutus p[style*="52px"]{font-size:36px!important}}
+
+@media (min-width:1101px){.r-report .r-weekcard{scale:.6!important;left:560px!important;top:290px!important}}
+@media (max-width:1100px){.r-repteam{border-radius:0!important;box-shadow:none!important}}

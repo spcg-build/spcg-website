@@ -30,6 +30,9 @@ export default function OwnerReporting() {
         <div style={{ height: "70px" }}></div>
       </div>
       
+      <figure className="r-repimg r-repteam" style={{ position: "absolute", left: "660px", right: "120px", top: "56px", height: "388px", margin: "0", borderRadius: "6px", overflow: "hidden", zIndex: "0", boxShadow: "0 30px 60px rgba(0,0,0,0.35)" }}>
+        <img src="/images/team-review-v1.jpg" alt="SPCG superintendents and project team reviewing the schedule with the client on site" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 45%", display: "block" }} />
+      </figure>
       <div className="r-weekcard" style={{ position: "absolute", left: "640px", top: "160px", width: "540px", padding: "1px", borderRadius: "10px", background: "linear-gradient(140deg, rgba(255,255,255,0.6), rgba(255,255,255,0.05) 50%, rgba(157,184,211,0.5))", transform: "rotate(-2.5deg)", boxShadow: "0 40px 80px rgba(0,0,0,0.38)" }}>
         <div style={{ background: "#ffffff", borderRadius: "10px", padding: "28px", display: "flex", flexDirection: "column", gap: "18px" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "12px" }}>
