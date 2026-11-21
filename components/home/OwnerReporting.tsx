@@ -31,7 +31,16 @@ export default function OwnerReporting() {
         <div style={{ height: "70px" }}></div>
       </div>
       
-      <div className="r-weekcard" style={{ position: "absolute", left: "640px", top: "160px", width: "540px", padding: "1px", borderRadius: "10px", background: "linear-gradient(140deg, rgba(255,255,255,0.6), rgba(255,255,255,0.05) 50%, rgba(157,184,211,0.5))", transform: "rotate(-2.5deg)", boxShadow: "0 40px 80px rgba(0,0,0,0.38)" }}>
+      <figure className="r-friday" style={{ position: "absolute", left: "42%", right: "0", top: "0", bottom: "0", margin: "0", overflow: "hidden", zIndex: "0" }}>
+        <img src="/images/team-friday-v1.jpg" alt="SPCG superintendents and project team reviewing the weekly update with the client on site" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "55% 30%", display: "block", WebkitMaskImage: "linear-gradient(90deg, transparent 0, #000 22%)", maskImage: "linear-gradient(90deg, transparent 0, #000 22%)" }} />
+        <div className="r-fpanel" style={{ position: "absolute", left: "16%", right: "32px", bottom: "28px", padding: "16px 8px 14px 0", borderRadius: "10px", background: "rgba(14,15,16,0.78)", backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)", border: "1px solid rgba(255,255,255,0.12)", boxShadow: "0 20px 40px rgba(0,0,0,0.35)" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 0 12px 18px" }}><span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.14em", color: "#ECEDEE" }}>{"SAMPLE · FRIDAY UPDATE · WEEK [12]"}</span><span style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontSize: "12px", color: "#9DD3A8", paddingRight: "12px" }}><span style={{ width: "7px", height: "7px", borderRadius: "999px", background: "#5FBF77" }}></span>{"On schedule"}</span></div>
+          <div className="r-fgrid" style={{ display: "grid", gridTemplateColumns: "repeat(4, minmax(0, 1fr))" }}>
+            <div className="r-ftile" style={{ display: "flex", flexDirection: "column", gap: "4px", padding: "4px 18px", borderLeft: "1px solid rgba(255,255,255,0.12)" }}><span style={{ fontSize: "10.5px", fontWeight: "600", letterSpacing: "0.12em", color: "#A9ABAE" }}>{"COMPLETE"}</span><span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff", whiteSpace: "nowrap" }}>{"[62]%"}</span><span style={{ fontSize: "12px", color: "#C9CBCE" }}>{"Week [12] of [20]"}</span></div><div className="r-ftile" style={{ display: "flex", flexDirection: "column", gap: "4px", padding: "4px 18px", borderLeft: "1px solid rgba(255,255,255,0.12)" }}><span style={{ fontSize: "10.5px", fontWeight: "600", letterSpacing: "0.12em", color: "#A9ABAE" }}>{"BILLED"}</span><span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff", whiteSpace: "nowrap" }}>{"[$1.24M]"}</span><span style={{ fontSize: "12px", color: "#C9CBCE" }}>{"of [$2.0M] contract"}</span></div><div className="r-ftile" style={{ display: "flex", flexDirection: "column", gap: "4px", padding: "4px 18px", borderLeft: "1px solid rgba(255,255,255,0.12)" }}><span style={{ fontSize: "10.5px", fontWeight: "600", letterSpacing: "0.12em", color: "#A9ABAE" }}>{"DECISIONS DUE"}</span><span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff", whiteSpace: "nowrap" }}>{"[3]"}</span><span style={{ fontSize: "12px", color: "#C9CBCE" }}>{"Flooring due [Fri]"}</span></div><div className="r-ftile" style={{ display: "flex", flexDirection: "column", gap: "4px", padding: "4px 18px", borderLeft: "1px solid rgba(255,255,255,0.12)" }}><span style={{ fontSize: "10.5px", fontWeight: "600", letterSpacing: "0.12em", color: "#A9ABAE" }}>{"NEXT 2 WEEKS"}</span><span style={{ fontSize: "24px", fontWeight: "300", color: "#ffffff", whiteSpace: "nowrap" }}>{"[3] items"}</span><span style={{ fontSize: "12px", color: "#C9CBCE" }}>{"Ceiling grid, paint, inspection"}</span></div>
+          </div>
+        </div>
+      </figure>
+      <div className="r-weekcard r-oldcard" style={{ position: "absolute", left: "640px", top: "160px", width: "540px", padding: "1px", borderRadius: "10px", background: "linear-gradient(140deg, rgba(255,255,255,0.6), rgba(255,255,255,0.05) 50%, rgba(157,184,211,0.5))", transform: "rotate(-2.5deg)", boxShadow: "0 40px 80px rgba(0,0,0,0.38)" }}>
         <div style={{ background: "#ffffff", borderRadius: "10px", padding: "28px", display: "flex", flexDirection: "column", gap: "18px" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "12px" }}>
             <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.14em", color: "#45484C" }}>{"SAMPLE · WEEKLY PROGRESS · WEEK [12]"}</span>
@@ -82,9 +91,6 @@ export default function OwnerReporting() {
         </div>
       </div>
     </section>
-    <figure className="r-teamstrip cx-band" aria-label="SPCG team on site" style={{ position: "relative", zIndex: "1", margin: "0", height: "clamp(360px, 32vw, 640px)", overflow: "hidden" }}>
-      <img src="/images/team-strip-v1.jpg" alt="SPCG superintendents and project team reviewing the schedule with the client on site" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 40%", display: "block", WebkitMaskImage: "linear-gradient(180deg, transparent 0, #000 32%)", maskImage: "linear-gradient(180deg, transparent 0, #000 32%)" }} />
-    </figure>
     </>
   );
 }
