@@ -20,11 +20,6 @@ export default function Hero() {
               </a>
             </div>
           </div>
-          <ul className="r-proof" aria-label="At a glance">
-            <li><b>{"25+ years"}</b><span>{"of leadership experience"}</span></li>
-            <li><b>{"Boston to Florida"}</b><span>{"active East Coast markets"}</span></li>
-            <li><b>{"Weekly"}</b><span>{"owner reporting on every job"}</span></li>
-          </ul>
         </div>
         <div className="r-ht-stage">
             <img className="r-ht-img" data-type="surgery" data-slot="a" src="/images/hero-types/surgery.webp" alt="Illustrative visualization: operating room" loading="eager" />
@@ -38,7 +33,7 @@ export default function Hero() {
             <img className="r-ht-img" data-type="multifamily" src="/images/hero-types/multifamily.webp" alt="Illustrative visualization: apartment building lobby and corridor" loading="lazy" />
         </div>
       </div>
-      <div className="r-ht-rail" data-mode="project">
+      <div className="r-ht-rail" id="serve" data-mode="project">
         <div className="r-ht-cust">
         <span className="r-ht-custlab"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C96A1E" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"></path><circle cx="16" cy="6" r="2"></circle><circle cx="10" cy="12" r="2"></circle><circle cx="18" cy="18" r="2"></circle></svg>{"Customize this page"}</span>
         <div className="r-ht-modes" role="tablist" aria-label="Customize this page">

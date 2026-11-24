@@ -21,7 +21,7 @@ export default function CareersPage() {
   return (
     <main className="v-page">
       <section className="cx-hero v-hero v-hero-ph">
-        <figure className="v-hero-photo"><img src="/images/team-friday-v1.jpg" alt="SPCG team reviewing a project at the jobsite" /></figure>
+        <figure className="v-hero-photo"><img src="/images/careers-team-plans.jpg" alt="SPCG field team reviewing drawings on site" /></figure>
         <div className="v-wrap v-hero-in">
           <span className="v-eyebrow" style={{ color: "#FFFFFF" }}>
             <span className="v-dot"></span>

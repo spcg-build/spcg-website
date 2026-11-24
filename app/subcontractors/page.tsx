@@ -10,7 +10,7 @@ export default function SubcontractorsPage() {
   return (
     <main className="v-page">
       <section className="cx-hero v-hero v-hero-ph">
-        <figure className="v-hero-photo"><img src="/images/projects/aspen-progress-1.jpg" alt="Framing, ductwork and rough-in underway on an SPCG project" /></figure>
+        <figure className="v-hero-photo"><img src="/images/subs-hoco-framing-arch.jpg" alt="Steel stud framing and overhead MEP underway on an SPCG coworking buildout" /></figure>
         <div className="v-wrap v-hero-in">
           <span className="v-eyebrow" style={{ color: "#FFFFFF" }}>
             <span className="v-dot"></span>

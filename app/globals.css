@@ -683,3 +683,16 @@ footer{background:#161616!important;background-image:none!important}
 .r-p5-row.is-build .r-p5-d b{color:#111111}
 .r-p5-row.is-build .r-p5-prog{background:#E5E5E5}
 .r-p5-live{color:#A85514}
+
+/* Trust band v2: stats + credentials */
+.r-trust2{background:#161616;border-top:1px solid #2E2E2E;padding:40px 120px 44px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:32px 64px;align-items:center}
+.r-trust-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+.r-trust-s{display:flex;flex-direction:column;gap:6px;padding-left:18px;border-left:1px solid #2E2E2E}
+.r-trust-s b{font-size:28px;font-weight:300;letter-spacing:-0.02em;color:#FFFFFF}
+.r-trust-s span{font-size:13px;line-height:1.45;color:#C9C9C9;max-width:220px}
+.r-trust-creds{list-style:none;margin:0;padding:0 0 0 40px;border-left:1px solid #2E2E2E;display:grid;grid-template-columns:repeat(2,auto);gap:14px 28px}
+.r-trust-creds li{display:flex;align-items:center;gap:9px;font-size:13.5px;font-weight:600;color:#FFFFFF;white-space:nowrap}
+@media (max-width:1100px){.r-trust2{grid-template-columns:1fr;padding:32px 24px}.r-trust-stats{grid-template-columns:1fr;gap:18px}.r-trust-creds{padding:20px 0 0;border-left:0;border-top:1px solid #2E2E2E}}
+@media (max-width:640px){.r-trust-creds{grid-template-columns:1fr}}
+.v-hero-photo img{object-position:50% 25%}
+.v-hero-photo img{object-position:60% 8%}
