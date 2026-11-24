@@ -8,7 +8,7 @@ export default function Process() {
           <h2 style={{ margin: "0", fontSize: "12px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase" }}>{"How we run a job"}</h2>
         </div>
         <p style={{ margin: "0", fontSize: "52px", fontWeight: "300", letterSpacing: "-0.03em", lineHeight: "1.05" }}>{"The same five steps on every job, with a deliverable at each one."}</p>
-        <span className="r-hide r-big05" aria-hidden="true" style={{ marginTop: "24px", fontSize: "220px", fontWeight: "300", letterSpacing: "-0.06em", lineHeight: "0.85", color: "#E5E5E5" }}>{"05"}</span>
+        <img className="r-proc-art" src="/images/process-layers-v2.jpg" alt="Illustration: five layered drawing sheets from site survey and takeoff to permit set, framing and MEP, and the finished floor plan" style={{ marginTop: "32px", width: "100%", maxWidth: "400px", height: "auto", display: "block" }} />
       </div>
       <div style={{ position: "relative", paddingLeft: "56px" }}>
         <div aria-hidden="true" style={{ position: "absolute", left: "21px", top: "22px", bottom: "22px", width: "2px", borderRadius: "2px", background: "#161616" }}></div>

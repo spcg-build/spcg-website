@@ -1,8 +1,8 @@
-// HERO (Draft Revision v2): sticky scroll story. Left column pins; one illustrated room changes through 8 project types.
+// HERO (Draft Revision v2): copy left, exploded-building render right (render made with ChatGPT image model, no text in image).
 export default function Hero() {
   return (
-    <section className="r-hero r-story" style={{ position: "relative", background: "#161616" }}>
-      <div className="r-story-pin">
+    <section className="r-hero r-hero2" style={{ position: "relative", background: "#161616" }}>
+      <div className="r-hero2-grid">
         <div className="r-heroin r-story-l">
           <div style={{ display: "inline-flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#FFFFFF" }}>
             {"Commercial GC · MD · DC · VA · NC · MA · FL"}
@@ -25,47 +25,9 @@ export default function Hero() {
             <li><b>{"Weekly"}</b><span>{"owner reporting on every job"}</span></li>
           </ul>
         </div>
-        <div className="r-story-r">
-          <div className="r-stage-frame">
-          <figure className="r-stage" data-stage="0" style={{ margin: "0" }}>
-            <img src="/images/hero-scenes/scene-01.svg" alt="Illustration: medical clinic interior" loading="eager" />
-            <figcaption><span>{"01"}</span>{"Medical Clinic"}</figcaption>
-          </figure>
-          <figure className="r-stage" data-stage="1" style={{ margin: "0" }}>
-            <img src="/images/hero-scenes/scene-02.svg" alt="Illustration: surgery center interior" loading="lazy" />
-            <figcaption><span>{"02"}</span>{"Surgery Center"}</figcaption>
-          </figure>
-          <figure className="r-stage" data-stage="2" style={{ margin: "0" }}>
-            <img src="/images/hero-scenes/scene-03.svg" alt="Illustration: retail interior interior" loading="lazy" />
-            <figcaption><span>{"03"}</span>{"Retail Interior"}</figcaption>
-          </figure>
-          <figure className="r-stage" data-stage="3" style={{ margin: "0" }}>
-            <img src="/images/hero-scenes/scene-04.svg" alt="Illustration: corporate office interior" loading="lazy" />
-            <figcaption><span>{"04"}</span>{"Corporate Office"}</figcaption>
-          </figure>
-          <figure className="r-stage" data-stage="4" style={{ margin: "0" }}>
-            <img src="/images/hero-scenes/scene-05.svg" alt="Illustration: coworking interior" loading="lazy" />
-            <figcaption><span>{"05"}</span>{"Coworking"}</figcaption>
-          </figure>
-          <figure className="r-stage" data-stage="5" style={{ margin: "0" }}>
-            <img src="/images/hero-scenes/scene-06.svg" alt="Illustration: restaurant interior" loading="lazy" />
-            <figcaption><span>{"06"}</span>{"Restaurant"}</figcaption>
-          </figure>
-          <figure className="r-stage" data-stage="6" style={{ margin: "0" }}>
-            <img src="/images/hero-scenes/scene-07.svg" alt="Illustration: multifamily refresh interior" loading="lazy" />
-            <figcaption><span>{"07"}</span>{"Multifamily Refresh"}</figcaption>
-          </figure>
-          <figure className="r-stage" data-stage="7" style={{ margin: "0" }}>
-            <img src="/images/hero-scenes/scene-08.svg" alt="Illustration: renovated shopping center exterior at golden hour" loading="lazy" />
-            <figcaption><span>{"08"}</span>{"Shopping Center Exterior"}</figcaption>
-          </figure>
-          </div>
-          <div className="r-story-meta" aria-hidden="true">
-            <span className="r-story-now">{"01 · Medical Clinic"}</span>
-            <span className="r-story-count">{"01 / 08"}</span>
-          </div>
-          <div className="r-story-bar" aria-hidden="true"><span></span></div>
-        </div>
+        <figure className="r-hero2-art" style={{ margin: "0" }}>
+          <img src="/images/hero-stack-v1.jpg" alt="Illustration: an exploded building cutaway showing the spaces SPCG builds, from medical clinic and surgery center to retail, office, coworking, restaurant and multifamily" loading="eager" />
+        </figure>
       </div>
     </section>
   );

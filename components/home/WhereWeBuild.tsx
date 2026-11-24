@@ -20,7 +20,7 @@ export default function WhereWeBuild() {
           </div>
         </div>
         <div className="r-mkts-map" aria-hidden="false" style={{ position: "relative", perspective: "1400px", margin: "-40px -80px -40px 0" }}>
-          <img src="/images/markets-map-v1.svg" alt="Map of the East Coast showing SPCG markets: Massachusetts, Maryland, Washington DC, Virginia, North Carolina and Florida, with Florida highlighted" style={{ display: "block", width: "100%", height: "auto", transform: "rotateX(22deg) rotateZ(-4deg)", transformOrigin: "50% 60%" }} />
+          <img src="/images/markets-map-v2.jpg" alt="Map of the East Coast showing SPCG markets: Massachusetts, Maryland, Washington DC, Virginia, North Carolina and Florida, with Florida highlighted" style={{ display: "block", width: "100%", height: "auto", WebkitMaskImage: "radial-gradient(ellipse 52% 54% at 55% 50%, #000 70%, transparent 100%)", maskImage: "radial-gradient(ellipse 52% 54% at 55% 50%, #000 70%, transparent 100%)" }} />
         </div>
       </div>
       <div className="r-mkts-creds" style={{ marginTop: "48px", paddingTop: "28px", borderTop: "1px solid #2E2E2E", display: "flex", flexWrap: "wrap", gap: "14px 36px" }}>
