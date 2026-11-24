@@ -47,7 +47,7 @@ export default function Team() {
               </span>
               <details className="r-bio">
                 <summary>{"Read bio"}</summary>
-                <p data-name="Justin Diaz">{"Justin is a U.S. Navy and Army combat veteran with more than 15 years in finance across commercial real estate, medical office and hospitality. He brings analytical rigor and steady leadership to SPCG’s finances, systems and growth, turning project data into clear decisions for our clients and our team."}</p>
+                <p data-name="Justin Diaz">{"Justin is a U.S. Navy and Army combat veteran with more than 15 years in finance across commercial real estate, medical office and hospitality, and holds the FP&A Certified (FPAC) credential. He brings analytical rigor and steady leadership to SPCG’s finances, systems and growth, turning project data into clear decisions for our clients and our team."}</p>
               </details>
             </div>
           </div>

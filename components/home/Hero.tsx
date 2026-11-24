@@ -14,7 +14,7 @@ export default function Hero() {
           <div className="r-w100" style={{ marginTop: "28px", display: "flex", flexDirection: "column", gap: "24px", paddingLeft: "24px", borderLeft: "2px solid #2E2E2E" }}>
             <p id="htSub" style={{ margin: "0", fontSize: "17px", fontWeight: "300", lineHeight: "1.6", color: "#C9C9C9", minHeight: "3.2em" }}>{"Healthcare, retail, office, restaurant and multifamily spaces, managed with live schedules, weekly owner reporting and AI-assisted project controls."}</p>
             <div style={{ display: "flex", gap: "12px" }}>
-              <a id="htCta" href="/request-a-budget/" style={{ display: "inline-flex", alignItems: "center", gap: "10px", height: "54px", padding: "0 26px", borderRadius: "6px", background: "#FFFFFF", color: "#111111", fontWeight: "600", fontSize: "15px" }}>
+              <a id="htCta" className="r-cta-primary" href="/request-a-budget/" style={{ display: "inline-flex", alignItems: "center", gap: "10px", height: "54px", padding: "0 26px", borderRadius: "6px", background: "#FFFFFF", color: "#111111", fontWeight: "600", fontSize: "15px" }}>
                 <span id="htCtaText">{"Request a budget"}</span>{" "}
                 <span aria-hidden="true" style={{ color: "#C96A1E" }}>{"→"}</span>
               </a>
@@ -22,7 +22,7 @@ export default function Hero() {
           </div>
           <ul className="r-proof" aria-label="At a glance">
             <li><b>{"25+ years"}</b><span>{"of leadership experience"}</span></li>
-            <li><b>{"Bonded"}</b><span>{"privately held and insured"}</span></li>
+            <li><b>{"Boston to Florida"}</b><span>{"active East Coast markets"}</span></li>
             <li><b>{"Weekly"}</b><span>{"owner reporting on every job"}</span></li>
           </ul>
         </div>
@@ -36,13 +36,15 @@ export default function Hero() {
             <img className="r-ht-img" data-type="retail" src="/images/hero-types/retail.webp" alt="Illustrative visualization: mobile phone retail store" loading="lazy" />
             <img className="r-ht-img" data-type="exterior" src="/images/hero-types/exterior.webp" alt="Illustrative visualization: renovated shopping center storefronts" loading="lazy" />
             <img className="r-ht-img" data-type="multifamily" src="/images/hero-types/multifamily.webp" alt="Illustrative visualization: apartment building lobby and corridor" loading="lazy" />
-          <span className="r-ht-note">{"Illustrative visualizations"}</span>
         </div>
       </div>
       <div className="r-ht-rail" data-mode="project">
-        <div className="r-ht-modes" role="tablist" aria-label="Filter the hero">
+        <div className="r-ht-cust">
+        <span className="r-ht-custlab"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C96A1E" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"></path><circle cx="16" cy="6" r="2"></circle><circle cx="10" cy="12" r="2"></circle><circle cx="18" cy="18" r="2"></circle></svg>{"Customize this page"}</span>
+        <div className="r-ht-modes" role="tablist" aria-label="Customize this page">
           <button type="button" className="r-ht-mode is-on" data-mode="project" role="tab" aria-selected="true">{"By project"}</button>
           <button type="button" className="r-ht-mode" data-mode="role" role="tab" aria-selected="false">{"By role"}</button>
+        </div>
         </div>
         <div className="r-ht-tabs r-ht-tabs-p" role="radiogroup" aria-label="Project type">
             <button type="button" className="r-ht-tab r-ht-proj" data-type="all" data-cta="Request a budget" role="radio" aria-checked="true" tabIndex={0} data-h1="Commercial buildouts and renovations, run on modern systems and delivered on time." data-sub="Healthcare, retail, office, restaurant and multifamily spaces, managed with live schedules, weekly owner reporting and AI-assisted project controls.">{"All work"}</button>

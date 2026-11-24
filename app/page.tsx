@@ -1,5 +1,6 @@
 import Hero from '@/components/home/Hero';
 import ForYouPanel from '@/components/home/ForYouPanel';
+import TrustBand from '@/components/home/TrustBand';
 import Services from '@/components/home/Services';
 import FeaturedWork from '@/components/home/FeaturedWork';
 import OwnerReporting from '@/components/home/OwnerReporting';
@@ -14,6 +15,7 @@ export default function HomePage() {
   return (
     <div className="r-root" style={{ background: "#ffffff", fontFamily: "'Inter', 'Helvetica Neue', Arial, sans-serif", color: "#111111", fontVariantNumeric: "tabular-nums", overflowX: "clip" }}>
       <Hero />
+      <TrustBand />
       <ForYouPanel />
       <FeaturedWork />
       <Services />

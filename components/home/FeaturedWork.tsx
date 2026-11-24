@@ -1,7 +1,7 @@
 // Featured work: horizontal strip that runs off the right edge
 export default function FeaturedWork() {
   return (
-    <section id="work" className="r-work" style={{ paddingTop: "140px" }}>
+    <section id="work" className="r-work" style={{ paddingTop: "96px" }}>
       <div className="r-pad r-workhead" style={{ padding: "0 120px", display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: "16px" }}>
         <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>

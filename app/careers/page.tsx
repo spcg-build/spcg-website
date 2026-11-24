@@ -20,7 +20,8 @@ export default function CareersPage() {
   const fn = JOBS.filter((j) => j.region === 'fin').length;
   return (
     <main className="v-page">
-      <section className="cx-hero v-hero">
+      <section className="cx-hero v-hero v-hero-ph">
+        <figure className="v-hero-photo"><img src="/images/team-friday-v1.jpg" alt="SPCG team reviewing a project at the jobsite" /></figure>
         <div className="v-wrap v-hero-in">
           <span className="v-eyebrow" style={{ color: "#FFFFFF" }}>
             <span className="v-dot"></span>

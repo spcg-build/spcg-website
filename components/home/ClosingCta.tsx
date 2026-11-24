@@ -13,7 +13,7 @@ export default function ClosingCta() {
           <span style={{ color: "#FFFFFF" }}>{"Get a budget this week."}</span>
         </h2>
         <div style={{ display: "flex", gap: "12px" }}>
-          <a href="/request-a-budget/" style={{ display: "inline-flex", alignItems: "center", gap: "10px", height: "56px", padding: "0 28px", borderRadius: "6px", background: "#FFFFFF", color: "#111111", fontWeight: "600", fontSize: "15px" }}>
+          <a href="/request-a-budget/" className="r-cta-primary" style={{ display: "inline-flex", alignItems: "center", gap: "10px", height: "56px", padding: "0 28px", borderRadius: "6px", background: "#FFFFFF", color: "#111111", fontWeight: "600", fontSize: "15px" }}>
             {"Request a budget "}
             <span aria-hidden="true" style={{ color: "#C96A1E" }}>{"→"}</span>
           </a>
