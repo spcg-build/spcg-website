@@ -502,3 +502,29 @@ footer{background:#161616!important;background-image:none!important}
 .r-hero2-art img{height:100%;width:auto;max-width:100%;object-fit:contain;-webkit-mask-image:radial-gradient(ellipse 52% 56% at 50% 50%,#000 72%,transparent 100%);mask-image:radial-gradient(ellipse 52% 56% at 50% 50%,#000 72%,transparent 100%)}
 @media (max-width:1100px){.r-hero2-grid{grid-template-columns:1fr;padding:120px 24px 40px 24px;min-height:0}.r-hero2-art{height:auto;max-height:none}.r-hero2-art img{width:100%;height:auto;max-width:560px}}
 .r-proc-art{mix-blend-mode:multiply}
+
+/* Hero v4: project-type selector with floating cutout renders */
+.r-ht-grid{display:grid;grid-template-columns:0.9fr 1.1fr;align-items:center;gap:40px;padding:112px 56px 8px 120px;box-sizing:border-box}
+.r-ht-copy #htH1,.r-ht-copy #htSub{transition:opacity .18s ease}
+.r-ht.is-swapping #htH1,.r-ht.is-swapping #htSub{opacity:0}
+.r-ht-stage{position:relative;height:min(calc(100vh - 330px),600px);min-height:400px}
+.r-ht-img{position:absolute;opacity:0;pointer-events:none;height:auto;width:96%;left:2%;top:50%;transform:translateY(-46%);filter:drop-shadow(0 38px 42px rgba(0,0,0,.6)) drop-shadow(0 6px 10px rgba(0,0,0,.35));transition:opacity .35s ease,transform .35s ease}
+.r-ht[data-active="all"] .r-ht-img[data-slot]{opacity:1;transform:none}
+.r-ht[data-active="all"] .r-ht-img[data-slot="b"]{width:56%;left:auto;right:-2%;top:-2%;z-index:1}
+.r-ht[data-active="all"] .r-ht-img[data-slot="a"]{width:64%;left:-4%;top:20%;z-index:3}
+.r-ht[data-active="all"] .r-ht-img[data-slot="c"]{width:52%;left:auto;right:0;top:auto;bottom:-4%;z-index:2}
+.r-ht[data-active="surgery"] .r-ht-img[data-type="surgery"],.r-ht[data-active="clinic"] .r-ht-img[data-type="clinic"],.r-ht[data-active="dental"] .r-ht-img[data-type="dental"],.r-ht[data-active="office"] .r-ht-img[data-type="office"],.r-ht[data-active="coworking"] .r-ht-img[data-type="coworking"],.r-ht[data-active="restaurant"] .r-ht-img[data-type="restaurant"],.r-ht[data-active="retail"] .r-ht-img[data-type="retail"],.r-ht[data-active="exterior"] .r-ht-img[data-type="exterior"],.r-ht[data-active="multifamily"] .r-ht-img[data-type="multifamily"]{opacity:1;transform:translateY(-50%);z-index:4}
+.r-ht-note{position:absolute;right:0;bottom:-26px;font-size:11px;letter-spacing:.04em;color:#8A8A8A}
+.r-ht-rail{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:8px 28px;margin:18px 56px 110px 120px;padding:16px 0 18px;border-top:1px solid #2E2E2E}
+.r-ht-raillabel{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8A8A8A}
+.r-ht-tabs{display:flex;flex-wrap:wrap;gap:6px 26px}
+.r-ht-tab{appearance:none;background:none;border:0;padding:6px 0;font:inherit;font-size:14px;font-weight:600;color:#C9C9C9;cursor:pointer;border-bottom:2px solid transparent;transition:color .15s}
+.r-ht-tab:hover{color:#FFFFFF}
+.r-ht-tab.is-on,.r-ht-tab.r-pill[aria-pressed="true"]{color:#FFFFFF;border-bottom-color:#C96A1E}
+.r-ht-tab:focus-visible{outline:2px solid #FFFFFF;outline-offset:4px}
+@media (max-width:1100px){.r-ht-grid{grid-template-columns:1fr;padding:120px 24px 16px;min-height:0;gap:28px}.r-ht-stage{height:auto;min-height:0;aspect-ratio:4/3}.r-ht-rail{margin:16px 0 0;padding:16px 0 20px 24px;grid-template-columns:1fr;gap:6px}.r-ht-tabs{flex-wrap:nowrap;overflow-x:auto;width:100%;padding-right:24px;scrollbar-width:none}.r-ht-tabs::-webkit-scrollbar{display:none}.r-ht-tab{flex:none}
+.r-ht[data-active="all"] .r-ht-img[data-slot="c"]{display:none}.r-ht[data-active="all"] .r-ht-img[data-slot="a"]{width:78%;top:22%}.r-ht[data-active="all"] .r-ht-img[data-slot="b"]{width:66%}}
+@media (prefers-reduced-motion:reduce){.r-ht-img,.r-ht-copy #htH1,.r-ht-copy #htSub{transition:none}}
+.r-ht-tab.r-pill{height:auto;padding:6px 0;border:0;border-bottom:2px solid transparent;border-radius:0;background:none;box-shadow:none;color:#C9C9C9;font:600 14px Inter,"Helvetica Neue",Arial,sans-serif}
+.r-ht-tab.r-pill:hover{color:#FFFFFF;background:none}
+.r-ht-tab.r-pill[aria-pressed="true"]{color:#FFFFFF;background:none;border-color:transparent;border-bottom-color:#C96A1E}

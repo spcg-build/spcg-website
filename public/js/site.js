@@ -25,7 +25,7 @@ function choose(k,scroll){var pills=document.querySelectorAll('.r-pill');pills.f
  fy.hidden=false;var card=fy.firstElementChild;card.style.animation='none';void card.offsetWidth;card.style.animation='';
  if(scroll){var y=fy.getBoundingClientRect().top+scrollY-140;scrollTo({top:y,behavior:reduce?'auto':'smooth'});}
 }
-document.querySelectorAll('.r-pill').forEach(function(p){p.addEventListener('click',function(){var k=p.getAttribute('data-aud');choose(p.getAttribute('aria-pressed')==='true'?null:k,true);});});
+document.querySelectorAll('.r-pill').forEach(function(p){p.addEventListener('click',function(){var k=p.getAttribute('data-aud');choose(p.getAttribute('aria-pressed')==='true'?null:k,!p.closest('.r-ht'));});});
 document.getElementById('fyClear').addEventListener('click',function(){choose(null,false);});
 try{localStorage.removeItem('spcg-aud');}catch(e){}
 }

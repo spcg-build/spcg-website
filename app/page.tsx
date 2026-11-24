@@ -1,6 +1,5 @@
 import Hero from '@/components/home/Hero';
 import StatsIntro from '@/components/home/StatsIntro';
-import AudienceSelector from '@/components/home/AudienceSelector';
 import ForYouPanel from '@/components/home/ForYouPanel';
 import SectorMarquee from '@/components/home/SectorMarquee';
 import Services from '@/components/home/Services';
@@ -18,7 +17,6 @@ export default function HomePage() {
     <div className="r-root" style={{ background: "#ffffff", fontFamily: "'Inter', 'Helvetica Neue', Arial, sans-serif", color: "#111111", fontVariantNumeric: "tabular-nums", overflowX: "clip" }}>
       <Hero />
       <StatsIntro />
-      <AudienceSelector />
       <ForYouPanel />
       <SectorMarquee />
       <Services />
