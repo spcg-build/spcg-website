@@ -172,11 +172,11 @@ export default function Services() {
                 <span className="r-proj-place">{p.place}</span>
                 <p className="r-proj-note">{p.note}</p>
                 <div className="r-proj-stats">
-                  {p.stats.map(([v, l]) => (
+                  {p.stats.filter(([v]) => !v.startsWith("[")).map(([v, l]) => (
                     <div key={l} className={v.startsWith("[") ? "r-proj-stat is-tbd" : "r-proj-stat"}><span className="r-proj-v">{v}</span><span className="r-proj-l">{l}</span></div>
                   ))}
                 </div>
-                {p.quote ? (
+                {p.quote && !p.quote[0].startsWith("[") ? (
                   <figure className={p.quote[0].startsWith("[") ? "r-proj-q is-tbd" : "r-proj-q"}>
                     <blockquote>{p.quote[0]}</blockquote>
                     <figcaption>{p.quote[1]}</figcaption>

@@ -24,7 +24,7 @@ export default function Header() {
             </span>
             {"Menu"}
           </button>
-          <a href="/request-a-budget/" style={{ display: "inline-flex", alignItems: "center", height: "44px", padding: "0 20px", borderRadius: "6px", background: "#FFFFFF", color: "#111111", fontWeight: "600", fontSize: "14px" }}>{"Request a budget"}</a>
+          <a href="/request-a-budget/" style={{ display: "inline-flex", alignItems: "center", height: "44px", padding: "0 20px", borderRadius: "6px", background: "#FFFFFF", color: "#111111", fontWeight: "600", fontSize: "14px", whiteSpace: "nowrap" }}><span className="r-cta-long">{"Request a budget"}</span><span className="r-cta-short">{"Budget"}</span></a>
         </div>
       </header>
       <div id="menuPanel" className="r-menu cx-band" hidden>

@@ -10,7 +10,7 @@ export default function AboutUs() {
       <div className="r-aboutgrid" style={{ marginTop: "40px", display: "grid", gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)", gap: "64px" }}>
         <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
           <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#5A5A5A" }}>{"Founded in 2023, SPCG was built to bring a fresh approach to construction—one grounded in experienced leadership, strategic execution, and strong relationships."}</p>
-          <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#5A5A5A" }}>{"Our company is young. The experience behind it is not. Our leadership team brings together professionals who have seen the industry from multiple angles and understand what it takes to deliver. We know what our superintendents need to lead effectively, what keeps our project managers moving forward, and what our clients expect from a construction partner."}</p>
+          <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#5A5A5A" }}>{"SPCG is a new firm built on decades of experience. Our leadership team brings together professionals who have seen the industry from multiple angles and understand what it takes to deliver. We know what our superintendents need to lead effectively, what keeps our project managers moving forward, and what our clients expect from a construction partner."}</p>
           <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#5A5A5A" }}>{"That perspective helps us ask the right questions, anticipate challenges, and close gaps before they become costly problems. You don’t need to know every detail of construction. You need a team that knows what to look for, explains your options, and takes ownership of the path forward."}</p>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
@@ -19,7 +19,7 @@ export default function AboutUs() {
           <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#5A5A5A" }}>{"We believe great results begin with taking care of people. That means understanding our clients’ priorities, supporting our internal teams, and building strong relationships with the trade partners who help bring each project to life. When everyone has the information, resources, and respect they need, the project benefits."}</p>
         </div>
       </div>
-      <p style={{ margin: "40px 0 0 0", paddingLeft: "16px", borderLeft: "2px solid #161616", fontSize: "20px", fontWeight: "300", lineHeight: "1.5", color: "#111111", maxWidth: "900px" }}>{"At SPCG, we’re building our reputation through the commitments we keep, the relationships we earn, and work that speaks for itself."}</p>
+      <p style={{ margin: "40px 0 0 0", paddingLeft: "16px", borderLeft: "2px solid #161616", fontSize: "20px", fontWeight: "300", lineHeight: "1.5", color: "#111111", maxWidth: "900px" }}>{"At SPCG, our reputation rests on the commitments we keep, the relationships we earn, and work that speaks for itself."}</p>
     </section>
   );
 }

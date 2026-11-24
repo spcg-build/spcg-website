@@ -144,7 +144,7 @@ button:focus-visible,a:focus-visible{outline:2px solid #C96A1E;outline-offset:3p
  .r-tagline{height:auto!important;padding-bottom:0}
 }
 @media (max-width:640px){
- .r-headlinks>a:last-child{display:none!important}
+ .r-headlinks>a:last-child{height:38px!important;padding:0 14px!important;font-size:13px!important}
  .r-head img{height:46px!important}
  .r-hero{padding-top:90px}
  .r-heroin{padding-top:36px!important}
@@ -468,7 +468,7 @@ footer{background:#161616!important;background-image:none!important}
 .r-story-now{font-weight:500}
 .r-story-count{color:#C9C9C9;font-size:13px;letter-spacing:.08em;font-variant-numeric:tabular-nums}
 .r-story-bar{height:2px;background:#2E2E2E;border-radius:2px;overflow:hidden}
-.r-story-bar span{display:block;height:100%;width:12.5%;background:#C96A1E;transition:width .3s linear}
+.r-story-bar span{display:block;height:100%;width:12.5%;background:#FFFFFF;transition:width .3s linear}
 @media (max-width:1100px){
 .r-story{height:auto}
 .r-story-pin{position:static;height:auto;min-height:0;display:block;padding:120px max(24px,env(safe-area-inset-left,0px)) 64px}
@@ -483,3 +483,14 @@ footer{background:#161616!important;background-image:none!important}
 }
 @media (prefers-reduced-motion:reduce){.r-stage{transition:none}}
 @media (min-width:1101px){.r-story.r-hero{padding-top:0}.r-story-pin{padding:104px 72px 40px 120px}.r-stage-frame{max-height:calc(100vh - 230px);aspect-ratio:auto;height:min(calc(100vh - 230px),calc((100vw - 300px)*0.55*0.73))}}
+
+/* Hero proof strip */
+.r-proof{list-style:none;margin:36px 0 0 0;padding:22px 0 0 0;border-top:1px solid #2E2E2E;display:grid;grid-template-columns:repeat(3,auto);gap:28px;justify-content:start}
+.r-proof li{display:flex;flex-direction:column;gap:4px}
+.r-proof b{font-size:18px;font-weight:500;color:#FFFFFF;letter-spacing:-0.01em}
+.r-proof span{font-size:13px;color:#C9C9C9;line-height:1.4;max-width:150px}
+@media (max-width:640px){.r-proof{grid-template-columns:1fr 1fr 1fr;gap:14px}.r-proof b{font-size:16px}.r-proof span{font-size:12px}}
+
+.r-cta-short{display:none}
+@media (max-width:640px){.r-cta-long{display:none}.r-cta-short{display:inline}}
+@media (max-width:640px){.r-headlinks{gap:10px!important}.r-head img{height:38px!important}.r-head{gap:12px!important}}

@@ -8,10 +8,10 @@ export default function Hero() {
             {"Commercial GC · MD · DC · VA · NC · MA · FL"}
           </div>
           <h1 className="r-h1" style={{ margin: "26px 0 0 0", fontSize: "clamp(34px, 3.3vw, 50px)", fontWeight: "300", lineHeight: "1.06", letterSpacing: "-0.035em", color: "#FFFFFF" }}>
-            {"Healthcare, retail, office, coworking, restaurant, multifamily and shopping center spaces, built right and delivered on time."}
+            {"Commercial buildouts and renovations, run on modern systems and delivered on time."}
           </h1>
-          <div className="r-w100" style={{ marginTop: "28px", display: "flex", flexDirection: "column", gap: "24px", paddingLeft: "24px", borderLeft: "2px solid #C96A1E" }}>
-            <p style={{ margin: "0", fontSize: "17px", fontWeight: "300", lineHeight: "1.6", color: "#C9C9C9" }}>{"Medical clinics, surgery centers, retail, corporate office, coworking, restaurants, multifamily refresh and exterior shopping center renovation — interior buildouts and renovations."}</p>
+          <div className="r-w100" style={{ marginTop: "28px", display: "flex", flexDirection: "column", gap: "24px", paddingLeft: "24px", borderLeft: "2px solid #2E2E2E" }}>
+            <p style={{ margin: "0", fontSize: "17px", fontWeight: "300", lineHeight: "1.6", color: "#C9C9C9" }}>{"Healthcare, retail, office, restaurant and multifamily spaces, managed with live schedules, weekly owner reporting and AI-assisted project controls."}</p>
             <div style={{ display: "flex", gap: "12px" }}>
               <a href="/request-a-budget/" style={{ display: "inline-flex", alignItems: "center", gap: "10px", height: "54px", padding: "0 26px", borderRadius: "6px", background: "#FFFFFF", color: "#111111", fontWeight: "600", fontSize: "15px" }}>
                 {"Request a budget "}
@@ -19,6 +19,11 @@ export default function Hero() {
               </a>
             </div>
           </div>
+          <ul className="r-proof" aria-label="At a glance">
+            <li><b>{"25+ years"}</b><span>{"in commercial construction"}</span></li>
+            <li><b>{"Bonded"}</b><span>{"privately held and insured"}</span></li>
+            <li><b>{"Weekly"}</b><span>{"owner reporting on every job"}</span></li>
+          </ul>
         </div>
         <div className="r-story-r">
           <div className="r-stage-frame">
