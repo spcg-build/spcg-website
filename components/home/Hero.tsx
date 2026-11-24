@@ -1,42 +1,65 @@
-// HERO: concrete, oversized type, full-bleed banner
-// Moving banner: a slow drift on the lobby photo. To use real footage instead, drop a short muted MP4 (10–20s, under ~8 MB) in /public/videos and set HERO_VIDEO.
-const HERO_VIDEO = ""; // e.g. "/videos/hero.mp4"
+// HERO (Draft Revision v2): sticky scroll story. Left column pins; one illustrated room changes through 8 project types.
 export default function Hero() {
   return (
-    <section className="r-hero cx-hero" style={{ position: "relative" }}>
-      <div aria-hidden="true" className="bp-grid" style={{ position: "absolute", left: "0", top: "0", width: "520px", height: "640px", opacity: "0.6", WebkitMaskImage: "linear-gradient(135deg, #000 0%, transparent 70%)", maskImage: "linear-gradient(135deg, #000 0%, transparent 70%)" }}></div>
-      <div className="r-heroin" style={{ position: "relative", padding: "64px 56px 0 120px" }}>
-        <div style={{ display: "inline-flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#FFFFFF" }}>
-          {"Commercial GC · MD · DC · VA · NC · MA · FL"}
-        </div>
-        <h1 className="r-h1" style={{ filter: "drop-shadow(0 10px 14px rgba(0,0,0,0.6)) drop-shadow(0 2px 2px rgba(0,0,0,0.45))", margin: "28px 0 0 0", fontSize: "96px", fontWeight: "300", lineHeight: "0.98", letterSpacing: "-0.045em", color: "#ffffff", maxWidth: "1180px" }}>
-          {"Healthcare, commercial and multifamily spaces, "}
-          <span style={{ color: "#FFFFFF" }}>{"built right and delivered on time."}</span>
-        </h1>
-      </div>
-      <div className="r-herosub" style={{ position: "relative", display: "flex", justifyContent: "flex-end", padding: "36px 120px 56px 120px" }}>
-        <div className="r-w100" style={{ width: "470px", display: "flex", flexDirection: "column", gap: "22px", paddingLeft: "28px", borderLeft: "2px solid #C96A1E" }}>
-          <p style={{ margin: "0", fontSize: "18px", fontWeight: "300", lineHeight: "1.6", color: "#C9C9C9" }}>{"Commercial buildouts, multifamily refreshes and renovations, led by senior builders and built on the latest technology and advanced systems, for a better experience for our clients and our team."}</p>
-          <div style={{ display: "flex", gap: "12px" }}>
-            <a href="/request-a-budget/" style={{ display: "inline-flex", alignItems: "center", gap: "10px", height: "54px", padding: "0 26px", borderRadius: "6px", background: "#FFFFFF", color: "#111111", fontWeight: "600", fontSize: "15px" }}>
-              {"Request a budget "}
-              <span aria-hidden="true" style={{ color: "#C96A1E" }}>{"→"}</span>
-            </a>
-            <a href="/#work" style={{ display: "inline-flex", alignItems: "center", height: "54px", padding: "0 26px", borderRadius: "6px", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.18)", color: "#ffffff", fontSize: "15px" }}>{"See our work"}</a>
+    <section className="r-hero r-story" style={{ position: "relative", background: "#161616" }}>
+      <div className="r-story-pin">
+        <div className="r-heroin r-story-l">
+          <div style={{ display: "inline-flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#FFFFFF" }}>
+            {"Commercial GC · MD · DC · VA · NC · MA · FL"}
+          </div>
+          <h1 className="r-h1" style={{ margin: "26px 0 0 0", fontSize: "clamp(34px, 3.3vw, 50px)", fontWeight: "300", lineHeight: "1.06", letterSpacing: "-0.035em", color: "#FFFFFF" }}>
+            {"Healthcare, retail, office, coworking, restaurant, multifamily and shopping center spaces, built right and delivered on time."}
+          </h1>
+          <div className="r-w100" style={{ marginTop: "28px", display: "flex", flexDirection: "column", gap: "24px", paddingLeft: "24px", borderLeft: "2px solid #C96A1E" }}>
+            <p style={{ margin: "0", fontSize: "17px", fontWeight: "300", lineHeight: "1.6", color: "#C9C9C9" }}>{"Medical clinics, surgery centers, retail, corporate office, coworking, restaurants, multifamily refresh and exterior shopping center renovation — interior buildouts and renovations."}</p>
+            <div style={{ display: "flex", gap: "12px" }}>
+              <a href="/request-a-budget/" style={{ display: "inline-flex", alignItems: "center", gap: "10px", height: "54px", padding: "0 26px", borderRadius: "6px", background: "#FFFFFF", color: "#111111", fontWeight: "600", fontSize: "15px" }}>
+                {"Request a budget "}
+                <span aria-hidden="true" style={{ color: "#C96A1E" }}>{"→"}</span>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="r-banner" style={{ position: "relative", height: "470px" }}>
-        <div id="banner" className="hb" style={{ willChange: "transform", position: "absolute", inset: "0" }}>
-          <img src="/images/hero-lobby.jpg" className="hb-s hb-1 hb-solo" alt="A finished commercial lobby" style={{ objectPosition: "50% 55%" }} />
-          {HERO_VIDEO ? (
-            <video className="hb-v" src={HERO_VIDEO} poster="/images/hero-lobby.jpg" autoPlay muted loop playsInline preload="metadata" aria-hidden="true"></video>
-          ) : null}
-        </div>
-        <div aria-hidden="true" style={{ position: "absolute", inset: "0", background: "linear-gradient(180deg, #161616 0%, rgba(22,22,22,0.55) 18%, rgba(22,22,22,0) 42%, rgba(22,22,22,0) 70%, rgba(22,22,22,0.35) 100%)" }}></div>
-        <div className="r-bchip" style={{ position: "absolute", left: "120px", bottom: "120px", display: "flex", alignItems: "center", gap: "10px", height: "34px", padding: "0 14px", borderRadius: "6px", background: "rgba(22,22,22,0.45)", border: "1px solid rgba(255,255,255,0.18)", backdropFilter: "blur(10px)", color: "#FFFFFF", fontSize: "12px", letterSpacing: "0.04em" }}>
-          <span style={{ width: "18px", height: "1px", background: "#FFFFFF" }}></span>
-          {"From the drawing set to the day you open"}
+        <div className="r-story-r">
+          <div className="r-stage-frame">
+          <figure className="r-stage" data-stage="0" style={{ margin: "0" }}>
+            <img src="/images/hero-scenes/scene-01.svg" alt="Illustration: medical clinic interior" loading="eager" />
+            <figcaption><span>{"01"}</span>{"Medical Clinic"}</figcaption>
+          </figure>
+          <figure className="r-stage" data-stage="1" style={{ margin: "0" }}>
+            <img src="/images/hero-scenes/scene-02.svg" alt="Illustration: surgery center interior" loading="lazy" />
+            <figcaption><span>{"02"}</span>{"Surgery Center"}</figcaption>
+          </figure>
+          <figure className="r-stage" data-stage="2" style={{ margin: "0" }}>
+            <img src="/images/hero-scenes/scene-03.svg" alt="Illustration: retail interior interior" loading="lazy" />
+            <figcaption><span>{"03"}</span>{"Retail Interior"}</figcaption>
+          </figure>
+          <figure className="r-stage" data-stage="3" style={{ margin: "0" }}>
+            <img src="/images/hero-scenes/scene-04.svg" alt="Illustration: corporate office interior" loading="lazy" />
+            <figcaption><span>{"04"}</span>{"Corporate Office"}</figcaption>
+          </figure>
+          <figure className="r-stage" data-stage="4" style={{ margin: "0" }}>
+            <img src="/images/hero-scenes/scene-05.svg" alt="Illustration: coworking interior" loading="lazy" />
+            <figcaption><span>{"05"}</span>{"Coworking"}</figcaption>
+          </figure>
+          <figure className="r-stage" data-stage="5" style={{ margin: "0" }}>
+            <img src="/images/hero-scenes/scene-06.svg" alt="Illustration: restaurant interior" loading="lazy" />
+            <figcaption><span>{"06"}</span>{"Restaurant"}</figcaption>
+          </figure>
+          <figure className="r-stage" data-stage="6" style={{ margin: "0" }}>
+            <img src="/images/hero-scenes/scene-07.svg" alt="Illustration: multifamily refresh interior" loading="lazy" />
+            <figcaption><span>{"07"}</span>{"Multifamily Refresh"}</figcaption>
+          </figure>
+          <figure className="r-stage" data-stage="7" style={{ margin: "0" }}>
+            <img src="/images/hero-scenes/scene-08.svg" alt="Illustration: renovated shopping center exterior at golden hour" loading="lazy" />
+            <figcaption><span>{"08"}</span>{"Shopping Center Exterior"}</figcaption>
+          </figure>
+          </div>
+          <div className="r-story-meta" aria-hidden="true">
+            <span className="r-story-now">{"01 · Medical Clinic"}</span>
+            <span className="r-story-count">{"01 / 08"}</span>
+          </div>
+          <div className="r-story-bar" aria-hidden="true"><span></span></div>
         </div>
       </div>
     </section>
