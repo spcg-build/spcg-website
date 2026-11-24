@@ -23,11 +23,11 @@ export default function Hero() {
           </div>
         </div>
         <div className="r-ht-stage">
-          <div className="r-bs" role="img" aria-label="Illustration: one clinic buildout shown from blueprint to framing, rough-in and turnover">
-            <img className="r-bs-f" data-i="0" src="/images/build-seq/1-blueprint.webp" alt="" aria-hidden="true" loading="eager" />
-            <img className="r-bs-f" data-i="1" src="/images/build-seq/2-framing.webp" alt="" aria-hidden="true" loading="lazy" />
-            <img className="r-bs-f" data-i="2" src="/images/build-seq/3-roughin.webp" alt="" aria-hidden="true" loading="lazy" />
-            <img className="r-bs-f" data-i="3" src="/images/build-seq/4-finished.webp" alt="" aria-hidden="true" loading="eager" />
+          <div className="r-bs" role="img" aria-label="Film: a blueprint of a medical office suite builds itself, from framing and rough-in to the finished, lit space">
+            <video className="r-bs-v" muted playsInline preload="auto" poster="/images/hero-film/poster.jpg">
+              <source src="/images/hero-film/build.mp4" type="video/mp4" />
+              <source src="/images/hero-film/build.webm" type="video/webm" />
+            </video>
           </div>
           <ol className="r-bs-steps" aria-hidden="true">
             <li data-i="0"><span>{"01"}</span>{"Blueprint"}</li>
