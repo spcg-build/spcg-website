@@ -3,6 +3,7 @@
 export default function Hero() {
   return (
     <section className="r-hero r-ht" data-active="all" style={{ position: "relative", background: "#161616" }}>
+      <div className="r-ht-pin">
       <div className="r-ht-grid">
         <div className="r-heroin r-ht-copy">
           <div id="htEyebrow" style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#FFFFFF" }}>
@@ -22,6 +23,18 @@ export default function Hero() {
           </div>
         </div>
         <div className="r-ht-stage">
+          <div className="r-bs" role="img" aria-label="Illustration: one clinic buildout shown from blueprint to framing, rough-in and turnover">
+            <img className="r-bs-f" data-i="0" src="/images/build-seq/1-blueprint.webp" alt="" aria-hidden="true" loading="eager" />
+            <img className="r-bs-f" data-i="1" src="/images/build-seq/2-framing.webp" alt="" aria-hidden="true" loading="lazy" />
+            <img className="r-bs-f" data-i="2" src="/images/build-seq/3-roughin.webp" alt="" aria-hidden="true" loading="lazy" />
+            <img className="r-bs-f" data-i="3" src="/images/build-seq/4-finished.webp" alt="" aria-hidden="true" loading="eager" />
+          </div>
+          <ol className="r-bs-steps" aria-hidden="true">
+            <li data-i="0"><span>{"01"}</span>{"Blueprint"}</li>
+            <li data-i="1"><span>{"02"}</span>{"Framing"}</li>
+            <li data-i="2"><span>{"03"}</span>{"Rough-in"}</li>
+            <li data-i="3"><span>{"04"}</span>{"Turnover"}</li>
+          </ol>
             <img className="r-ht-img" data-type="surgery" data-slot="a" src="/images/hero-types/surgery.webp" alt="Illustrative visualization: operating room" loading="eager" />
             <img className="r-ht-img" data-type="clinic" src="/images/hero-types/clinic.webp" alt="Illustrative visualization: medical clinic with reception and exam rooms" loading="lazy" />
             <img className="r-ht-img" data-type="dental" src="/images/hero-types/dental.webp" alt="Illustrative visualization: dental office with treatment operatories" loading="lazy" />
@@ -60,6 +73,7 @@ export default function Hero() {
             <button type="button" className="r-ht-tab r-pill" data-aud="arch" data-show="clinic" aria-pressed="false">{"Architect"}</button>
         </div>
         <p className="r-sr" role="status" id="htStatus"></p>
+      </div>
       </div>
     </section>
   );

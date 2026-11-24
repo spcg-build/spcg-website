@@ -43,6 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Script src="/js/audiences.js" strategy="afterInteractive" />
         <Script src="/js/site.js" strategy="lazyOnload" />
         <Script src="/js/hero-types.js" strategy="afterInteractive" />
+        <Script src="/js/build-seq.js" strategy="afterInteractive" />
         <Script src="/_vercel/insights/script.js" strategy="afterInteractive" />
       </body>
     </html>
