@@ -8,14 +8,13 @@ export default function Process() {
             <div style={{ width: "28px", height: "2px", borderRadius: "2px", background: "currentColor" }}></div>
             <h2 style={{ margin: "0", fontSize: "12px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase" }}>{"Our process"}</h2>
           </div>
-          <p className="r-p5-h">{"Five steps. No surprises."}</p>
+          <p className="r-p5-h">{"How we keep your job on track."}</p>
         </div>
         <p className="r-p5-lede">{"Every job runs the same way, with a deliverable at each step, so you always know where things stand and what comes next."}</p>
       </div>
       <div className="r-p5-grid">
         <div className="r-p5-artwrap">
-          <img className="r-p5-art" src="/images/process-layers-v2.jpg" alt="Illustration: five layered drawing sheets, from site survey and takeoff to permit set, framing and MEP, and the finished floor plan" loading="lazy" />
-          <span className="r-p5-glow" aria-hidden="true"></span>
+          <img className="r-p5-art" src="/images/process-layers-v3.jpg" alt="Illustration: five layered sheets from site survey to finished floor plan, with the build stage shown as framing and ductwork rising off the fourth sheet" loading="lazy" />
         </div>
         <ol className="r-p5-list">
           <li className="r-p5-row">

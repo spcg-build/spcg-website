@@ -674,3 +674,12 @@ footer{background:#161616!important;background-image:none!important}
 @media (prefers-reduced-motion:reduce){.r-p5-glow,.r-p5-live::before,.r-p5-prog s{animation:none}.r-p5-prog s{left:35%}}
 @media (min-width:1101px){.r-p5-grid{align-items:start}.r-p5-artwrap{position:sticky;top:140px;height:auto}.r-p5-artwrap .r-p5-art{height:auto;max-height:none}}
 .r-p5-glow{top:51%;height:20%;left:6%;right:6%}
+
+/* Build row: lighter highlight, graphic carries the emphasis */
+.r-p5-row.is-build{background:#F7F5F2;color:#111111;box-shadow:none;border-left:3px solid #C96A1E;border-radius:8px}
+.r-p5-row.is-build .r-p5-t{color:#111111}
+.r-p5-row.is-build .r-p5-d{color:#5A5A5A}
+.r-p5-row.is-build .r-p5-d i{color:#111111}
+.r-p5-row.is-build .r-p5-d b{color:#111111}
+.r-p5-row.is-build .r-p5-prog{background:#E5E5E5}
+.r-p5-live{color:#A85514}
