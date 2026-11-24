@@ -27,6 +27,7 @@ function choose(k,scroll){var pills=document.querySelectorAll('.r-pill');pills.f
 }
 document.querySelectorAll('.r-pill').forEach(function(p){p.addEventListener('click',function(){var k=p.getAttribute('data-aud');choose(p.getAttribute('aria-pressed')==='true'?null:k,!p.closest('.r-ht'));});});
 document.getElementById('fyClear').addEventListener('click',function(){choose(null,false);});
+window.SPCG_clearAudience=function(){var on=document.querySelector('.r-pill[aria-pressed="true"]');if(!on)return;document.querySelectorAll('.r-pill').forEach(function(p){p.setAttribute('aria-pressed','false')});fy.hidden=true;};
 try{localStorage.removeItem('spcg-aud');}catch(e){}
 }
 

@@ -28,7 +28,7 @@ export default function FeaturedWork() {
           <div style={{ position: "absolute", left: "28px", right: "28px", bottom: "26px", display: "flex", flexDirection: "column", gap: "8px" }}>
             <span style={{ fontSize: "11px", fontWeight: "600", letterSpacing: "0.12em", color: "#C9C9C9" }}>{"HEALTHCARE · VETERINARY"}</span>
             <span style={{ fontSize: "30px", fontWeight: "300", color: "#ffffff" }}>{"Aspen River Veterinary Clinic"}</span>
-            <span style={{ fontSize: "13.5px", color: "#FFFFFF" }}>{"Belcamp, MD · 7,000 SF · [Value] · [Weeks]"}</span>
+            <span style={{ fontSize: "13.5px", color: "#FFFFFF" }}>{"Belcamp, MD · 7,000 SF"}</span>
           </div>
         </a>
         <a href="/#work" className="cx-blue lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 420px", height: "440px", borderRadius: "4px", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "28px", gap: "8px", boxSizing: "border-box" }}>
