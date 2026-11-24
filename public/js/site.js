@@ -17,7 +17,7 @@ function choose(k,scroll){var pills=document.querySelectorAll('.r-pill');pills.f
 
  if(!k){fy.hidden=true;swap(hero.h1,orig.h1);swap(hero.sub,orig.sub);swap(hero.cta,orig.cta);return;}
  var a=AUD[k];
- swap(hero.h1,a.h1);swap(hero.sub,a.sub);swap(hero.cta,a.cta[0]+' <span aria-hidden="true" style="color: #B5541C">→</span>');if(hero.cta)hero.cta.setAttribute('href',a.cta[1]);
+ swap(hero.h1,a.h1);swap(hero.sub,a.sub);swap(hero.cta,a.cta[0]+' <span aria-hidden="true" style="color: #C96A1E">→</span>');if(hero.cta)hero.cta.setAttribute('href',a.cta[1]);
  document.getElementById('fyEyebrow').textContent=a.eyebrow;document.getElementById('fyTitle').textContent=a.title;
  document.getElementById('fyPoints').innerHTML=a.pts.map(function(p){return '<div class="r-fy-pt"><b>'+p[0]+'</b><span>'+p[1]+'</span></div>'}).join('');
  var c=document.getElementById('fyCta');c.textContent=a.cta[0]+' ';c.setAttribute('href',a.cta[1]);

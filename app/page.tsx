@@ -15,7 +15,7 @@ import ClosingCta from '@/components/home/ClosingCta';
 
 export default function HomePage() {
   return (
-    <div className="r-root" style={{ background: "#ffffff", fontFamily: "'Inter', 'Helvetica Neue', Arial, sans-serif", color: "#0A0A0B", fontVariantNumeric: "tabular-nums", overflowX: "hidden" }}>
+    <div className="r-root" style={{ background: "#ffffff", fontFamily: "'Inter', 'Helvetica Neue', Arial, sans-serif", color: "#111111", fontVariantNumeric: "tabular-nums", overflowX: "hidden" }}>
       <Hero />
       <StatsIntro />
       <AudienceSelector />

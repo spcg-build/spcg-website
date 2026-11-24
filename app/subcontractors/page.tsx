@@ -11,7 +11,7 @@ export default function SubcontractorsPage() {
     <main className="v-page">
       <section className="cx-hero v-hero">
         <div className="v-wrap v-hero-in">
-          <span className="v-eyebrow" style={{ color: "#ECEDEE" }}>
+          <span className="v-eyebrow" style={{ color: "#FFFFFF" }}>
             <span className="v-dot"></span>
             {"Trade partners"}
           </span>
@@ -221,7 +221,7 @@ export default function SubcontractorsPage() {
           <div className="v-asidecard">
             <span className="v-small-label">{"DOCUMENT LIBRARY"}</span>
             <div className="v-doc">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2C5A85" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#161616" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M12 3l7 3v6c0 4.2-2.9 7.6-7 9-4.1-1.4-7-4.8-7-9V6l7-3z"></path>
                 <path d="M8.8 12.2l2.2 2.2 4.2-4.4"></path>
               </svg>
@@ -229,7 +229,7 @@ export default function SubcontractorsPage() {
               <span className="v-tag">{"PDF"}</span>
             </div>
             <div className="v-doc">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2C5A85" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#161616" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M12 3l7 3v6c0 4.2-2.9 7.6-7 9-4.1-1.4-7-4.8-7-9V6l7-3z"></path>
                 <path d="M8.8 12.2l2.2 2.2 4.2-4.4"></path>
               </svg>
@@ -237,7 +237,7 @@ export default function SubcontractorsPage() {
               <span className="v-tag">{"PDF"}</span>
             </div>
             <div className="v-doc">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2C5A85" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#161616" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M12 3l7 3v6c0 4.2-2.9 7.6-7 9-4.1-1.4-7-4.8-7-9V6l7-3z"></path>
                 <path d="M8.8 12.2l2.2 2.2 4.2-4.4"></path>
               </svg>
@@ -245,7 +245,7 @@ export default function SubcontractorsPage() {
               <span className="v-tag">{"XLSX"}</span>
             </div>
             <div className="v-doc">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2C5A85" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#161616" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M12 3l7 3v6c0 4.2-2.9 7.6-7 9-4.1-1.4-7-4.8-7-9V6l7-3z"></path>
                 <path d="M8.8 12.2l2.2 2.2 4.2-4.4"></path>
               </svg>
@@ -253,7 +253,7 @@ export default function SubcontractorsPage() {
               <span className="v-tag">{"PDF"}</span>
             </div>
             <div className="v-doc">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2C5A85" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#161616" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M12 3l7 3v6c0 4.2-2.9 7.6-7 9-4.1-1.4-7-4.8-7-9V6l7-3z"></path>
                 <path d="M8.8 12.2l2.2 2.2 4.2-4.4"></path>
               </svg>
@@ -267,7 +267,7 @@ export default function SubcontractorsPage() {
       <section id="getpaid" className="v-sec">
         <div className="cx-band v-band">
           <div className="v-wrap">
-            <span className="v-eyebrow" style={{ color: "#ECEDEE" }}>
+            <span className="v-eyebrow" style={{ color: "#FFFFFF" }}>
               <span className="v-dot"></span>
               {"How to get paid"}
             </span>
@@ -276,17 +276,17 @@ export default function SubcontractorsPage() {
               <div className="v-paystep">
                 <span className="v-paywhen">{"BY THE [25TH]"}</span>
                 <span className="v-card-t" style={{ color: "#fff" }}>{"Submit your pay app"}</span>
-                <span className="v-card-d" style={{ color: "#E1E2E4" }}>{"With a conditional lien waiver and a current COI."}</span>
+                <span className="v-card-d" style={{ color: "#C9C9C9" }}>{"With a conditional lien waiver and a current COI."}</span>
               </div>
               <div className="v-paystep">
                 <span className="v-paywhen">{"WITHIN [5] DAYS"}</span>
                 <span className="v-card-t" style={{ color: "#fff" }}>{"PM review"}</span>
-                <span className="v-card-d" style={{ color: "#E1E2E4" }}>{"Percent complete confirmed against the field."}</span>
+                <span className="v-card-d" style={{ color: "#C9C9C9" }}>{"Percent complete confirmed against the field."}</span>
               </div>
               <div className="v-paystep">
                 <span className="v-paywhen">{"[NET X]"}</span>
                 <span className="v-card-t" style={{ color: "#fff" }}>{"Paid by ACH"}</span>
-                <span className="v-card-d" style={{ color: "#E1E2E4" }}>{"Direct deposit with a remittance email."}</span>
+                <span className="v-card-d" style={{ color: "#C9C9C9" }}>{"Direct deposit with a remittance email."}</span>
               </div>
             </div>
           </div>

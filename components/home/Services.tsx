@@ -121,7 +121,7 @@ export default function Services() {
     <section id="services" className="r-svc" aria-labelledby="svc-h">
       <div className="r-svc-head">
         <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-          <div style={{ width: "28px", height: "2px", borderRadius: "2px", background: "linear-gradient(90deg, #B5541C, #D9773A)" }}></div>
+          <div style={{ width: "28px", height: "2px", borderRadius: "2px", background: "currentColor" }}></div>
           <h2 id="svc-h" style={{ margin: "0", fontSize: "12px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase" }}>{"Services"}</h2>
         </div>
         <p className="r-svc-h2">{"General contracting for commercial spaces, from first budget to final punch."}</p>

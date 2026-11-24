@@ -23,9 +23,9 @@ export default function SiteMapPage() {
       <section className="v-wrap v-sec" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "32px" }}>
         {GROUPS.map(([g, links]) => (
           <nav key={g} aria-label={g}>
-            <h2 style={{ margin: "0 0 12px 0", fontSize: "13px", fontWeight: 600, letterSpacing: "0.12em", color: "#55585C" }}>{g}</h2>
+            <h2 style={{ margin: "0 0 12px 0", fontSize: "13px", fontWeight: 600, letterSpacing: "0.12em", color: "#5A5A5A" }}>{g}</h2>
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "10px" }}>
-              {links.map(([t, h]) => (<li key={h}><a href={h} style={{ fontSize: "16px", color: "#0A0A0B" }}>{t}</a></li>))}
+              {links.map(([t, h]) => (<li key={h}><a href={h} style={{ fontSize: "16px", color: "#111111" }}>{t}</a></li>))}
             </ul>
           </nav>
         ))}

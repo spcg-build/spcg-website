@@ -5,23 +5,23 @@ export default function Team() {
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: "16px" }}>
         <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-            <div style={{ width: "28px", height: "2px", borderRadius: "2px", background: "linear-gradient(90deg, #B5541C, #D9773A)" }}></div>
+            <div style={{ width: "28px", height: "2px", borderRadius: "2px", background: "currentColor" }}></div>
             <h2 style={{ margin: "0", fontSize: "12px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase" }}>{"Our team"}</h2>
           </div>
           <p style={{ margin: "0", fontSize: "52px", fontWeight: "300", letterSpacing: "-0.03em", lineHeight: "1.05" }}>{"The people who run your project."}</p>
         </div>
         <a href="/#leadership" style={{ fontSize: "14px", fontWeight: "600", display: "inline-flex", gap: "8px", alignItems: "center" }}>
           {"Meet the team "}
-          <span aria-hidden="true" style={{ color: "#B5541C" }}>{"→"}</span>
+          <span aria-hidden="true" style={{ color: "#C96A1E" }}>{"→"}</span>
         </a>
       </div>
       <div className="r-leadgrid" style={{ marginTop: "48px", display: "grid", gridTemplateColumns: "2fr 3fr 2fr", gap: "16px", alignItems: "stretch" }}>
-        <div data-block="" style={{ background: "#FFFFFF", border: "1px solid #E4E5E6", borderRadius: "10px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
+        <div data-block="" style={{ background: "#FFFFFF", border: "1px solid #E5E5E5", borderRadius: "10px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-            <span style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#0A0A0B" }}>
+            <span style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#111111" }}>
               {"Leadership"}
             </span>
-            <span style={{ fontSize: "13px", color: "#45484C" }}>{"Construction, finance and business strategy"}</span>
+            <span style={{ fontSize: "13px", color: "#5A5A5A" }}>{"Construction, finance and business strategy"}</span>
           </div>
           <div className="r-people" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "16px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
@@ -29,8 +29,8 @@ export default function Team() {
                 <img src="/images/team/anthony-lauro-v5.jpg" alt="Anthony Lauro" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 50%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Anthony Lauro"}<a className="r-li" href="https://www.linkedin.com/in/anthony-lauro-569aab3b4/" target="_blank" rel="noopener noreferrer" aria-label="Anthony Lauro on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"VP, Construction"}</span>
+                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#111111" }}>{"Anthony Lauro"}<a className="r-li" href="https://www.linkedin.com/in/anthony-lauro-569aab3b4/" target="_blank" rel="noopener noreferrer" aria-label="Anthony Lauro on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#5A5A5A" }}>{"VP, Construction"}</span>
               </span>
               <details className="r-bio">
                 <summary>{"Read bio"}</summary>
@@ -42,8 +42,8 @@ export default function Team() {
                 <img src="/images/team/justin-diaz-v5.jpg" alt="Justin Diaz" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 50%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Justin Diaz"}<a className="r-li" href="https://www.linkedin.com/in/justin-m-diaz-8a859167/" target="_blank" rel="noopener noreferrer" aria-label="Justin Diaz on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"VP, Finance & Business Strategy"}</span>
+                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#111111" }}>{"Justin Diaz"}<a className="r-li" href="https://www.linkedin.com/in/justin-m-diaz-8a859167/" target="_blank" rel="noopener noreferrer" aria-label="Justin Diaz on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#5A5A5A" }}>{"VP, Finance & Business Strategy"}</span>
               </span>
               <details className="r-bio">
                 <summary>{"Read bio"}</summary>
@@ -52,12 +52,12 @@ export default function Team() {
             </div>
           </div>
         </div>
-        <div data-block="" style={{ background: "#FFFFFF", border: "1px solid #E4E5E6", borderRadius: "10px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
+        <div data-block="" style={{ background: "#FFFFFF", border: "1px solid #E5E5E5", borderRadius: "10px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-            <span style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#0A0A0B" }}>
+            <span style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#111111" }}>
               {"Preconstruction & operations"}
             </span>
-            <span style={{ fontSize: "13px", color: "#45484C" }}>{"Estimating, field operations and project management"}</span>
+            <span style={{ fontSize: "13px", color: "#5A5A5A" }}>{"Estimating, field operations and project management"}</span>
           </div>
           <div className="r-people" style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: "16px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
@@ -65,8 +65,8 @@ export default function Team() {
                 <img src="/images/team/tom-gilchrist-v5.jpg" alt="Tom Gilchrist" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 50%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Tom Gilchrist"}<a className="r-li" href="https://www.linkedin.com/in/tom-gilchrist-774b0836/" target="_blank" rel="noopener noreferrer" aria-label="Tom Gilchrist on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"Preconstruction · Senior Estimator"}</span>
+                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#111111" }}>{"Tom Gilchrist"}<a className="r-li" href="https://www.linkedin.com/in/tom-gilchrist-774b0836/" target="_blank" rel="noopener noreferrer" aria-label="Tom Gilchrist on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#5A5A5A" }}>{"Preconstruction · Senior Estimator"}</span>
               </span>
               <details className="r-bio">
                 <summary>{"Read bio"}</summary>
@@ -78,8 +78,8 @@ export default function Team() {
                 <img src="/images/team/bobby-smith-v6.jpg" alt="Bobby Smith" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Bobby Smith"}<a className="r-li" href="https://www.linkedin.com/in/bobby-smith-88b86951/" target="_blank" rel="noopener noreferrer" aria-label="Bobby Smith on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"Field Operations & Safety · Senior Superintendent"}</span>
+                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#111111" }}>{"Bobby Smith"}<a className="r-li" href="https://www.linkedin.com/in/bobby-smith-88b86951/" target="_blank" rel="noopener noreferrer" aria-label="Bobby Smith on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#5A5A5A" }}>{"Field Operations & Safety · Senior Superintendent"}</span>
               </span>
               <details className="r-bio">
                 <summary>{"Read bio"}</summary>
@@ -91,8 +91,8 @@ export default function Team() {
                 <img src="/images/team/kyle-thompson-orig.jpg" alt="Kyle Thompson" loading="lazy" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" }} />
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Kyle Thompson"}<a className="r-li" href="https://www.linkedin.com/in/kyle-thompson-950b53131/" target="_blank" rel="noopener noreferrer" aria-label="Kyle Thompson on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"Project Management"}</span>
+                <span className="r-name" style={{ fontSize: "16.5px", fontWeight: "600", color: "#111111" }}>{"Kyle Thompson"}<a className="r-li" href="https://www.linkedin.com/in/kyle-thompson-950b53131/" target="_blank" rel="noopener noreferrer" aria-label="Kyle Thompson on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#5A5A5A" }}>{"Project Management"}</span>
               </span>
               <details className="r-bio">
                 <summary>{"Read bio"}</summary>
@@ -101,30 +101,30 @@ export default function Team() {
             </div>
           </div>
         </div>
-        <div data-block="" style={{ background: "#FFFFFF", border: "1px solid #E4E5E6", borderRadius: "10px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
+        <div data-block="" style={{ background: "#FFFFFF", border: "1px solid #E5E5E5", borderRadius: "10px", padding: "26px 24px 28px 24px", display: "flex", flexDirection: "column", gap: "22px", boxSizing: "border-box", minWidth: "0" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-            <span style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#0A0A0B" }}>
+            <span style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "11px", fontWeight: "600", letterSpacing: "0.16em", textTransform: "uppercase", color: "#111111" }}>
               {"Business development"}
             </span>
-            <span style={{ fontSize: "13px", color: "#45484C" }}>{"Your first call for a new project"}</span>
+            <span style={{ fontSize: "13px", color: "#5A5A5A" }}>{"Your first call for a new project"}</span>
           </div>
           <div className="r-people" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "16px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
               <div className="cx-steel" data-photo="SR" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "4px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
-                <span style={{ fontSize: "44px", fontWeight: "300", background: "linear-gradient(180deg, #FFFFFF 15%, #C9CBCE 60%, #8E9195 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"SR"}</span>
+                <span style={{ fontSize: "44px", fontWeight: "300", color: "#FFFFFF" }}>{"SR"}</span>
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Sarah Rineer"}</span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"Business Development Executive"}</span>
+                <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#111111" }}>{"Sarah Rineer"}</span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#5A5A5A" }}>{"Business Development Executive"}</span>
               </span>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", minWidth: "0" }}>
               <div className="cx-steel" data-photo="KP" style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "4px", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,0.18)" }}>
-                <span style={{ fontSize: "44px", fontWeight: "300", background: "linear-gradient(180deg, #FFFFFF 15%, #C9CBCE 60%, #8E9195 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>{"KP"}</span>
+                <span style={{ fontSize: "44px", fontWeight: "300", color: "#FFFFFF" }}>{"KP"}</span>
               </div>
               <span style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
-                <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#0A0A0B" }}>{"Karen Powell"}</span>
-                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#45484C" }}>{"Project Development Executive"}</span>
+                <span style={{ fontSize: "16.5px", fontWeight: "600", color: "#111111" }}>{"Karen Powell"}</span>
+                <span style={{ fontSize: "12.5px", lineHeight: "1.45", color: "#5A5A5A" }}>{"Project Development Executive"}</span>
               </span>
             </div>
           </div>

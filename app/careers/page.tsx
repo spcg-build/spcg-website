@@ -22,7 +22,7 @@ export default function CareersPage() {
     <main className="v-page">
       <section className="cx-hero v-hero">
         <div className="v-wrap v-hero-in">
-          <span className="v-eyebrow" style={{ color: "#ECEDEE" }}>
+          <span className="v-eyebrow" style={{ color: "#FFFFFF" }}>
             <span className="v-dot"></span>
             {"Careers"}
           </span>

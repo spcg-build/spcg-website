@@ -5,16 +5,16 @@ export const metadata: Metadata = {
   description: "SP Construction Group's commitment to an accessible website, and how to tell us about a barrier.",
 };
 
-const h3 = { margin: "36px 0 10px 0", fontSize: "20px", fontWeight: 600, color: "#0A0A0B" } as const;
-const p = { margin: "0 0 14px 0", fontSize: "16px", lineHeight: 1.7, color: "#2B2D30" } as const;
-const li = { margin: "0 0 8px 0", fontSize: "16px", lineHeight: 1.65, color: "#2B2D30" } as const;
+const h3 = { margin: "36px 0 10px 0", fontSize: "20px", fontWeight: 600, color: "#111111" } as const;
+const p = { margin: "0 0 14px 0", fontSize: "16px", lineHeight: 1.7, color: "#2E2E2E" } as const;
+const li = { margin: "0 0 8px 0", fontSize: "16px", lineHeight: 1.65, color: "#2E2E2E" } as const;
 
 export default function AccessibilityPage() {
   return (
     <main className="v-page">
       <section className="cx-hero v-hero">
         <div className="v-wrap v-hero-in">
-          <span className="v-eyebrow" style={{ color: "#ECEDEE" }}>
+          <span className="v-eyebrow" style={{ color: "#FFFFFF" }}>
             <span className="v-dot"></span>
             {"Last updated November 2026"}
           </span>
@@ -37,9 +37,9 @@ export default function AccessibilityPage() {
         <h2 style={h3}>{"Tell us about a barrier"}</h2>
         <p style={p}>
           {"If any part of this site is hard to use, or you need information in another format, email "}
-          <a href="mailto:bids@spconstructiongroup.com" style={{ color: "#B5541C" }}>{"Bids@SPConstructionGroup.com"}</a>
+          <a href="mailto:bids@spconstructiongroup.com" style={{ color: "#C96A1E" }}>{"Bids@SPConstructionGroup.com"}</a>
           {" or call "}
-          <a href="tel:+14433000338" style={{ color: "#B5541C" }}>{"(443) 300-0338"}</a>
+          <a href="tel:+14433000338" style={{ color: "#C96A1E" }}>{"(443) 300-0338"}</a>
           {". Tell us the page and what happened, and we'll respond within two business days."}
         </p>
       </section>
