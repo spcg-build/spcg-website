@@ -696,3 +696,10 @@ footer{background:#161616!important;background-image:none!important}
 @media (max-width:640px){.r-trust-creds{grid-template-columns:1fr}}
 .v-hero-photo img{object-position:50% 25%}
 .v-hero-photo img{object-position:60% 8%}
+/* Inner-page hero photo: softer, wider blend into the dark panel */
+@media (min-width:1101px){.v-hero-photo{width:62%}.v-hero-photo::after{background:linear-gradient(90deg,#161616 0%,rgba(22,22,22,.92) 14%,rgba(22,22,22,.6) 34%,rgba(22,22,22,.22) 58%,rgba(22,22,22,.05) 80%),linear-gradient(0deg,rgba(22,22,22,.55) 0%,rgba(22,22,22,0) 30%)}}
+@media (min-width:1101px){
+.v-hero-photo::after{background:linear-gradient(0deg,rgba(22,22,22,.5) 0%,rgba(22,22,22,0) 28%)!important}
+.v-hero-photo img{-webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.25) 16%,rgba(0,0,0,.7) 38%,#000 62%);mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.25) 16%,rgba(0,0,0,.7) 38%,#000 62%)}}
+.v-page .v-hero-photo img[src*="subs-hoco"]{object-position:50% 62%}
+@media (min-width:1101px){.v-hero-photo::after{background:linear-gradient(180deg,rgba(22,22,22,.75) 0%,rgba(22,22,22,0) 18%),linear-gradient(0deg,rgba(22,22,22,.5) 0%,rgba(22,22,22,0) 28%)!important}}
