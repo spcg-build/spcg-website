@@ -275,17 +275,17 @@ export default function SubcontractorsPage() {
             <p className="v-h2" style={{ color: "#ffffff", marginTop: "14px" }}>{"Predictable payment, straight to your account."}</p>
             <div className="v-pay">
               <div className="v-paystep">
-                <span className="v-paywhen">{"BY THE [25TH]"}</span>
+                <span className="v-paywhen">{"By the 15th"}</span>
                 <span className="v-card-t" style={{ color: "#fff" }}>{"Submit your pay app"}</span>
                 <span className="v-card-d" style={{ color: "#C9C9C9" }}>{"With a conditional lien waiver and a current COI."}</span>
               </div>
               <div className="v-paystep">
-                <span className="v-paywhen">{"WITHIN [5] DAYS"}</span>
+                <span className="v-paywhen">{"Within [5] days"}</span>
                 <span className="v-card-t" style={{ color: "#fff" }}>{"PM review"}</span>
                 <span className="v-card-d" style={{ color: "#C9C9C9" }}>{"Percent complete confirmed against the field."}</span>
               </div>
               <div className="v-paystep">
-                <span className="v-paywhen">{"[NET X]"}</span>
+                <span className="v-paywhen">{"[Net X]"}</span>
                 <span className="v-card-t" style={{ color: "#fff" }}>{"Paid by ACH"}</span>
                 <span className="v-card-d" style={{ color: "#C9C9C9" }}>{"Direct deposit with a remittance email."}</span>
               </div>
