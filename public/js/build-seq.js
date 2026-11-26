@@ -1,5 +1,6 @@
 // Hero film: blueprint -> turnover. Desktop: scrubbed by scroll while the hero is pinned. Mobile: plays once, holds on the finished frame.
 (function(){var sec=document.querySelector('.r-ht');if(!sec)return;var v=sec.querySelector('.r-bs-v'),li=[].slice.call(sec.querySelectorAll('.r-bs-steps li'));if(!v)return;
+if(innerWidth<=1100&&v.currentSrc&&v.currentSrc.indexOf('build-mobile')<0){v.src='/images/hero-film/build-mobile.mp4';v.load();}
 var reduce=matchMedia("(prefers-reduced-motion: reduce)").matches,marks=[0,.15,.33,.62];
 function lab(p){var c=0;marks.forEach(function(m,i){if(p>=m)c=i});li.forEach(function(l,i){l.classList.toggle('is-on',i===c);l.classList.toggle('is-past',i<c)})}
 function pinned(){return innerWidth>1100&&sec.dataset.active==='all'&&!reduce}

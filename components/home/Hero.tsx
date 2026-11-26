@@ -25,8 +25,8 @@ export default function Hero() {
         <div className="r-ht-stage">
           <div className="r-bs" role="img" aria-label="Film: a blueprint of a medical office suite builds itself, from framing and rough-in to the finished, lit space">
             <video className="r-bs-v" muted playsInline preload="auto" poster="/images/hero-film/poster.jpg">
+              <source src="/images/hero-film/build-mobile.mp4" type="video/mp4" media="(max-width: 1100px)" />
               <source src="/images/hero-film/build.mp4" type="video/mp4" />
-              <source src="/images/hero-film/build.webm" type="video/webm" />
             </video>
           </div>
           <ol className="r-bs-steps" aria-hidden="true">

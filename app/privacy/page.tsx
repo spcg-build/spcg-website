@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/privacy/' },
   title: "Privacy & Cookies",
   description: "How SP Construction Group handles information collected on this website, including cookies.",
 };
