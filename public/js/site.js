@@ -59,11 +59,17 @@ var pv=document.getElementById('prev'),nx=document.getElementById('next');
 if(pv)pv.addEventListener('click',function(){step(-1)});if(nx)nx.addEventListener('click',function(){step(1)});
 function prog(){if(!s||!bar)return;var m=s.scrollWidth-s.clientWidth;var p=m>0?s.scrollLeft/m:1;bar.style.width=(18+p*82)+'%';}
 if(s){s.addEventListener('scroll',prog,{passive:true});prog();
- var down=false,sx=0,sl=0,moved=false;
- s.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;down=true;moved=false;sx=e.clientX;sl=s.scrollLeft;s.style.scrollSnapType='none';s.style.cursor='grabbing';});
- addEventListener('pointermove',function(e){if(!down)return;var dx=e.clientX-sx;if(Math.abs(dx)>4)moved=true;s.scrollLeft=sl-dx;});
- addEventListener('pointerup',function(){if(!down)return;down=false;s.style.cursor='';s.style.scrollSnapType='x mandatory';});
- s.addEventListener('click',function(e){if(moved){e.preventDefault();moved=false;}},true);
+ // mouse drag with momentum; touch uses native scrolling (gentle proximity snap)
+ var down=false,sx=0,sl=0,moved=false,lx=0,lt=0,vel=0,raf=0;
+ [].forEach.call(s.querySelectorAll('img,a'),function(i){i.draggable=false});s.addEventListener('dragstart',function(e){e.preventDefault()});
+ function cards(){return [].slice.call(s.querySelectorAll('[data-card]')).map(function(c){return c.offsetLeft-parseFloat(getComputedStyle(s).scrollPaddingLeft||0)})}
+ function settle(){var x=s.scrollLeft,best=x,bd=1e9;cards().forEach(function(p){var d=Math.abs(p-x);if(d<bd){bd=d;best=p}});if(bd<140)s.scrollTo({left:best,behavior:reduce?'auto':'smooth'});setTimeout(function(){s.style.scrollSnapType='x proximity'},450);}
+ s.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;cancelAnimationFrame(raf);down=true;moved=false;sx=lx=e.clientX;lt=performance.now();vel=0;sl=s.scrollLeft;s.style.scrollSnapType='none';s.style.scrollBehavior='auto';s.style.cursor='grabbing';});
+ addEventListener('pointermove',function(e){if(!down)return;var dx=e.clientX-sx;if(Math.abs(dx)>4)moved=true;s.scrollLeft=sl-dx;var now=performance.now(),dt=Math.max(1,now-lt);vel=0.8*((e.clientX-lx)/dt)+0.2*vel;lx=e.clientX;lt=now;});
+ addEventListener('pointerup',function(){if(!down)return;down=false;s.style.cursor='';s.style.scrollBehavior='';
+  var v=-vel*12;if(reduce||Math.abs(v)<2){settle();return}
+  (function glide(){s.scrollLeft+=v;v*=0.93;if(Math.abs(v)>0.6)raf=requestAnimationFrame(glide);else settle();})();});
+ s.addEventListener('click',function(e){if(moved){e.preventDefault();e.stopPropagation();moved=false;}},true);
  s.style.cursor='grab';
 }
 if(reduce||!('IntersectionObserver' in window))return;

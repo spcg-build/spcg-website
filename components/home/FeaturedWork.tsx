@@ -20,7 +20,7 @@ export default function FeaturedWork() {
           <button type="button" id="next" aria-label="Next projects" style={{ cursor: "pointer", fontFamily: "inherit", border: "0", width: "52px", height: "52px", borderRadius: "999px", background: "#161616", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "18px", color: "#ffffff" }}>{"→"}</button>
         </div>
       </div>
-      <div className="r-strip hs" style={{ marginTop: "44px", overflowX: "auto", scrollSnapType: "x mandatory", scrollPaddingLeft: "120px", padding: "0 120px 20px 120px", display: "flex", gap: "20px", alignItems: "flex-end" }}>
+      <div className="r-strip hs" style={{ marginTop: "44px", overflowX: "auto", scrollSnapType: "x proximity", scrollPaddingLeft: "120px", padding: "0 120px 20px 120px", display: "flex", gap: "20px", alignItems: "flex-end" }}>
         <a href="/#work" className="lift" data-card="" style={{ scrollSnapAlign: "start", position: "relative", flex: "0 0 660px", height: "540px", borderRadius: "4px", overflow: "hidden", display: "block" }}>
           <img src="/images/projects/aspen-surgery.jpg" alt="Aspen River Veterinary Clinic surgery suite" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
           <div aria-hidden="true" style={{ position: "absolute", inset: "0", background: "linear-gradient(180deg, rgba(22,22,22,0) 45%, rgba(22,22,22,0.88) 100%)" }}></div>
