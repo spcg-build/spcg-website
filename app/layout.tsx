@@ -15,12 +15,16 @@ export const metadata: Metadata = {
   },
   description:
     'Commercial general contractor for healthcare, office, retail and hospitality buildouts and renovations across Maryland, DC, Virginia, North Carolina, Boston and Florida.',
+  alternates: { canonical: '/' },
   robots: noindex ? { index: false, follow: false } : undefined,
   openGraph: {
     title: 'SP Construction Group',
     description: 'Building What Matters.',
     images: ['/images/hero-lobby.jpg'],
+    type: 'website',
+    siteName: 'SP Construction Group',
   },
+  twitter: { card: 'summary_large_image' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -33,6 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@500&display=swap"
           rel="stylesheet"
         />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({   "@context": "https://schema.org",   "@type": "GeneralContractor",   "name": "SP Construction Group",   "alternateName": "SPCG",   "url": "https://www.spconstructiongroup.com/",   "logo": "https://www.spconstructiongroup.com/icon.png",   "image": "https://www.spconstructiongroup.com/images/hero-lobby.jpg",   "description": "Commercial general contractor for healthcare, office, retail, restaurant and multifamily buildouts and renovations.",   "telephone": "+1-443-300-0338",   "email": "bids@spconstructiongroup.com",   "slogan": "Building What Matters",   "areaServed": ["Maryland", "Washington, DC", "Virginia", "North Carolina", "Massachusetts", "Florida"],   "knowsAbout": ["Tenant improvements", "Interior buildouts", "Renovations", "Healthcare construction", "Exterior improvements"],   "sameAs": ["https://www.linkedin.com/company/sp-construction-group/"] }) }} />
       </head>
       <body>
         <div id="top"></div>

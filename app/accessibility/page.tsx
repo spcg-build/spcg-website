@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/accessibility/' },
   title: "Accessibility",
   description: "SP Construction Group's commitment to an accessible website, and how to tell us about a barrier.",
 };

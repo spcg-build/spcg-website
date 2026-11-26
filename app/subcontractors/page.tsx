@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { FORMS } from '@/content/site';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/subcontractors/' },
   title: "Subcontractors",
   description: "Prequalify with SP Construction Group and get invited to bid on commercial projects.",
 };

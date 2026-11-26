@@ -3,6 +3,7 @@ import { FORMS } from '@/content/site';
 import { JOBS } from '@/content/jobs';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/careers/' },
   title: "Careers",
   description: "Careers at SP Construction Group. Available and upcoming roles in project management, field operations, preconstruction and finance, in Central Florida and across the East Coast.",
 };

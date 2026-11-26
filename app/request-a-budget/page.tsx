@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { FORMS } from '@/content/site';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/request-a-budget/' },
   title: "Request a budget",
   description: "Send your project details and get a budget from SP Construction Group.",
 };

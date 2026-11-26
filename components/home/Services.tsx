@@ -130,7 +130,7 @@ export default function Services() {
         {SERVICES.map(([t, d, img, key], i) => {
           const inner = (
             <>
-              <img src={img} alt="" loading="lazy" className="r-svc-img" />
+              <img src={img} alt={`${t} by SP Construction Group`} loading="lazy" className="r-svc-img" />
               <span className="r-svc-n">{String(i + 1).padStart(2, "0")}</span>
               <span className="r-svc-t">{t}</span>
               <span className="r-svc-d">{d}</span>
@@ -158,7 +158,7 @@ export default function Services() {
                 {p.photos.length > 1 ? (
                   <div className="r-proj-thumbs">
                     {p.photos.map(([src, alt], j) => (
-                      <button key={src} type="button" className="r-proj-th" data-src={src} data-alt={alt} aria-pressed={j === 0 ? "true" : "false"}>
+                      <button key={src} type="button" className="r-proj-th" data-src={src} data-alt={alt} aria-label={`Show photo: ${alt}`} aria-pressed={j === 0 ? "true" : "false"}>
                         <img src={src} alt="" loading="lazy" />
                       </button>
                     ))}
